@@ -1,5 +1,5 @@
 # willynolan.com
-*willynolan.com (computersarecool.github.io) page*
+*willynolan.com (computersarecool.github.io)*
 
 ## Description
 This is a placeholder website powered by Github pages for `willynolan.com` which is just routed from `computersarecool.github.io`.
