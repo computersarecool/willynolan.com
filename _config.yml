@@ -1,0 +1,15 @@
+# User config
+author: "Willy Nolan"
+tagline: "Willy Nolan"
+description: "In 1493, explorer Christopher Columbus found pineapples on Guadeloupe Island in the Caribbean. Pineapple on pizza soon followed..."
+keywords: "Willy Nolan, Software Engineering, Interactive Engineering"
+email: "willy@willynolan.com"
+linkedin: "https://www.linkedin.com/in/willynolan/"
+github: "https://github.com/computersarecool"
+
+# Site config
+baseurl: ""
+highlighter: rouge
+sass:
+  sass_dir: assets/scss
+  style: compressed
