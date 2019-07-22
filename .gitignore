@@ -79,5 +79,4 @@ _site/
 
 # Extra
 .idea/
-*.png
 assets/images/projects/*
