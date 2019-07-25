@@ -1,4 +1,4 @@
-# jekyll
+## jekyll
 _site/
 .sass-cache/
 .jekyll-cache/
@@ -17,10 +17,10 @@ _site/
 /test/version_tmp/
 /tmp/
 
-# Used by dotenv library to load environment variables.
+## Used by dotenv library to load environment variables.
 # .env
 
-# Ignore Byebug command history file.
+# #Ignore Byebug command history file.
 .byebug_history
 
 ## Specific to RubyMotion:
@@ -77,6 +77,6 @@ _site/
 *.sql
 *.sqlite.idea
 
-# Extra
+# Specific to this project
 .idea/
-assets/images/projects/*
+assets/images/projects/yellowpineapple*
