@@ -1,5 +1,5 @@
 ---
-layout: project_new
+layout: project_image_and_vimeo
 permalink: /:title/
 category: projects
 
@@ -21,7 +21,7 @@ images:
 
 videos:
   - video:
-    id: "AtB_biEtQDQ"
+    id: "350044732"
 ---
 <p>
 I added my contribution to the hacked Power Glove phenomenon.
