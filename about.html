@@ -15,23 +15,7 @@
 		<section class="intro">
 			<div class="container">
 				<h2>About me</h2>
-				<p>{{ site.description }}</p>
-			</div>
-		</section>
-		<section class="projects">
-			<div class="container">
-				<ul class="projects-list">
-					{% for item in site.categories.projects reversed %}
-						<li>
-							<a href="{{ item.url | prepend: site.baseurl }}">
-								<div class="img-wrapper">
-									<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
-								</div>
-								<h3 class="project-caption">{{ item.project.title }}</h3>
-							</a>
-						</li>
-					{% endfor %}
-				</ul>
+				<p>{{ site.about }}</p>
 			</div>
 		</section>
 	</main>
