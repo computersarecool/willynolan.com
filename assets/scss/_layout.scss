@@ -13,8 +13,8 @@
 
 .logo {
 	float: left;
-	font-size: 1.8rem;
-	font-weight: 600;
+	font-size: 2.4rem;
+	font-weight: 900;
 	margin: 0;
 	line-height: 1;
 }
@@ -223,7 +223,8 @@
 	}
 
 	li {
-		margin-bottom: 0rem;
+	    border: 2px solid $color-hue-1;
+		margin-bottom: -1px;
 
 		&:last-child {
 			margin-bottom: 0;
