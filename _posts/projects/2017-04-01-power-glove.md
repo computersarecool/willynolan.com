@@ -9,14 +9,15 @@ meta:
 project:
   title: "Power Glove"
   url: "https://willynolan.com/power-glove"
-  logo: "/assets/images/projects/power-glove/logo.gif"
+  logo: "/assets/media/projects/power-glove/logo.webm"
+  logo_backup: "/assets/media/projects/power-glove/logo.mp4"
 
 images:
   - image:
-    url: "/assets/images/projects/power-glove/first.png"
+    url: "/assets/media/projects/power-glove/first.png"
     alt: "The Power Glove hardware"
   - image:
-    url: "/assets/images/projects/power-glove/second.png"
+    url: "/assets/media/projects/power-glove/second.png"
     alt: "The Power Glove PCB and circuit layout"
 
 videos:

@@ -90,7 +90,7 @@
 		display: block;
 
 		&:hover {
-			.img-wrapper {
+			.vid-wrapper {
 				&:before {
 					opacity: 1;
 				}
@@ -101,7 +101,7 @@
 		}
 	}
 
-	.img-wrapper {
+	.vid-wrapper {
 		position: relative;
 
 		&:before {
