@@ -9,14 +9,15 @@ meta:
 project:
   title: "Blade Runner Controller"
   url: "https://willynolan.com/blade-runner"
-  logo: "/assets/images/projects/blade-runner/logo.gif"
+  logo: "/assets/media/projects/blade-runner/logo.webm"
+  logo_backup: "/assets/media/projects/blade-runner/logo.mp4"
 
 images:
   - image:
-    url: "/assets/images/projects/blade-runner/first.png"
+    url: "/assets/media/projects/blade-runner/first.png"
     alt: "The Blade Runner controller"
   - image:
-    url: "/assets/images/projects/blade-runner/second.png"
+    url: "/assets/media/projects/blade-runner/second.png"
     alt: "One Blade Runner performance controller"
 
 videos:
