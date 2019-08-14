@@ -31,10 +31,9 @@ to the computer.  Clearly this was an untenable situation!
 </p>
 
 <p>
-So, for some reason I started to look at video game controllers, and specifically the Power Glove as a way to control my 
-DJ sets. Today there are many modified versions of the Power Glove controlling a variety of things, but, back in 2011, I
-could only find two examples. The most influential version was from 
-<a href="http://biphenyl.org/blog/2009/04/03/the-power-glove-20th-anniversary-edition">biphenyl</a>. The issue with 
+For some reason I started to look at video game controllers as a solution, and specifically the Power Glove. 
+Today there are many modified versions of the Power Glove controlling a variety of things but back in 2011 I could only find two examples. 
+The most influential version was from <a href="http://biphenyl.org/blog/2009/04/03/the-power-glove-20th-anniversary-edition">biphenyl</a>. The issue with 
 this version was that most of the buttons on the panel did not work after the modification. The other example was from 
 Yueda Ben-Atar who used an adapter cable to convert the Power Glove to USB. The issue was this version was that the 
 positional data would not work and Power Glove still had to be tethered to a computer.
