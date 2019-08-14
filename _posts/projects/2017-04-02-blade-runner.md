@@ -25,15 +25,15 @@ videos:
     id: "258138643"
 ---
 <p>
-The last Obscura Digital Holiday party was one of the most visually amazing events I have ever witnessed.  The entire company teamed up to cover the space from floor to ceiling with Blade Runner themed visuals.
+The last Obscura Digital Holiday party was one of the most visually impressive events I have ever witnessed.  The entire company teamed up to cover Obscura's Pier 70 warehouse from floor to ceiling with Blade Runner themed visuals.
 </p>
 
 <p>
 At the time there was a lot of equipment moving around the warehouse and so I convinced management to let me turn an old 
 -- but large -- touchscreen into an audio/visual/laser controller. After that I convinced my colleague 
-<a href="http://www.michaelwalczyk.com/">Mike Walczyk</a> to help me with the concept and the result was this.
+<a href="http://www.michaelwalczyk.com/">Mike Walczyk</a> to help me with the concept and this project was the result.
 </p>
 
 <p>
-The featured video is worth watching in its entirety, but this project appears about 1:35 into the video.
+The featured video is worth watching in its entirety - this project appears about 1:35.
 </p>
