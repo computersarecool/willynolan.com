@@ -25,7 +25,8 @@ videos:
     id: "258138643"
 ---
 <p>
-The last Obscura Digital Holiday party was one of the most visually impressive events I have ever witnessed.  The entire company teamed up to cover Obscura's Pier 70 warehouse from floor to ceiling with Blade Runner themed visuals.
+The last Obscura Digital Holiday party was one of the most visually impressive events I have ever witnessed.  The entire 
+company teamed up to cover Obscura's Pier 70 warehouse from floor to ceiling with Blade Runner themed visuals.
 </p>
 
 <p>

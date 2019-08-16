@@ -23,12 +23,12 @@
 				<aside>
 					<ul>
 						{% for image in page.images %}
-						<li>
+						<li class="featured">
 							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
 						</li>
 						{% endfor %}
 						{% for video in page.videos%}
-						<li>
+						<li class="featured">
 							<div class="video-container">
 							{% include vimeo-player.html id=video.id %}
 							</div>
