@@ -34,13 +34,13 @@ to the computer.  Clearly this was an untenable situation!
 For some reason I started to look at video game controllers as a solution, and specifically the Power Glove. 
 Today there are many modified versions of the Power Glove controlling a variety of things but back in 2011 I could only find two examples. 
 The most influential version was from <a href="http://biphenyl.org/blog/2009/04/03/the-power-glove-20th-anniversary-edition">biphenyl</a>. The issue with 
-this version was that most of the buttons on the panel did not work after the modification. The other example was from 
+this was that most of the buttons on the panel did not work after the modification. The other example was from 
 Yueda Ben-Atar who used an adapter cable to convert the Power Glove to USB. The issue was this version was that the 
 positional data would not work and Power Glove still had to be tethered to a computer.
 </p>
 
 <p>
-In order to combine the strengths of each of these versions I needed to fabricate my own PCB that would have the same 
+In order to combine the strengths of each of these hacked gloves I needed to fabricate my own PCB that would have the same 
 form factor as the original Power Glove circuit board. You can see the finished circuit diagram and final board design 
 in the second feature image here. Once this was complete, adding a bluetooth module, accelerometer (for positional data) 
 and using the Power Glove’s built-in bend sensors was a straightforward process.
