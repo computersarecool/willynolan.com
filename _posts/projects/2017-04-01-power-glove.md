@@ -4,11 +4,12 @@ permalink: /:title/
 category: projects
 
 meta:
-  keywords: "Power Glove, Project"
+  keywords: "Power Glove, Project, Hardware"
 
 project:
   title: "Power Glove"
   url: "https://willynolan.com/power-glove"
+  logo_type: "video"
   logo: "/assets/media/projects/power-glove/logo.webm"
   logo_backup: "/assets/media/projects/power-glove/logo.mp4"
 
