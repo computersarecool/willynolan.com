@@ -24,12 +24,19 @@
 					{% for item in site.categories.projects reversed %}
 						<li>
 							<a href="{{ item.url | prepend: site.baseurl }}">
+
+								{% if item.project.logo_type == "video" %}
 								<div class="vid-wrapper">
 									<video loop muted autoplay playsinline title="{{ item.project.title }}">
 									  <source src="{{ item.project.logo | prepend: site.baseurl }}" type="video/webm">
 									  <source src="{{ item.project.logo_backup | prepend: site.baseurl }}" type="video/mp4">
 									</video>
 								</div>
+								{% else %}
+								<div class="img-wrapper">
+									<img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
+								</div>
+								{% endif %}
 								<h3 class="project-caption">{{ item.project.title }}</h3>
 							</a>
 						</li>

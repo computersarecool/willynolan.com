@@ -4,11 +4,12 @@ permalink: /:title/
 category: projects
 
 meta:
-  keywords: "Blade Runner, Project"
+  keywords: "Blade Runner, Project, GUI, Software"
 
 project:
   title: "Blade Runner Controller"
   url: "https://willynolan.com/blade-runner"
+  logo_type: "video"
   logo: "/assets/media/projects/blade-runner/logo.webm"
   logo_backup: "/assets/media/projects/blade-runner/logo.mp4"
 
