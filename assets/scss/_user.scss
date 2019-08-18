@@ -54,3 +54,12 @@ nav li {
 video {
     display: block;
 }
+
+.intro.about {
+	@media (min-width: $breakpoint-medium) {
+		p {
+			font-size: 2rem;
+			max-width: 66.66666%;
+		}
+	}
+}
