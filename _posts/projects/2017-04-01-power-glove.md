@@ -43,11 +43,11 @@ positional data would not work and Power Glove still had to be tethered to a com
 <p>
 In order to combine the strengths of each of these hacked gloves I needed to fabricate my own PCB that would have the same 
 form factor as the original Power Glove circuit board. You can see the finished circuit diagram and final board design 
-in the second feature image here. Once this was complete, adding a bluetooth module, accelerometer (for positional data) 
+in the second featured image. Once this was complete, adding a bluetooth module, accelerometer (for positional data) 
 and using the Power Glove’s built-in bend sensors was a straightforward process.
 </p>
 
 <p>
-In the featured video you can see an early proof of concept video.  Eventually I used this as a DJ controller and after 
+The featured video shows an early proof of concept.  Eventually I used this as a DJ controller and after 
 a few shows was interviewed for the documentary <a href="https://thepowerofglove.com/">The Power of Glove</a>.
 </p>

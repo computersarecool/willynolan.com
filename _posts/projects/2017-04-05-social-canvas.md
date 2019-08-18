@@ -4,19 +4,19 @@ permalink: /:title/
 category: projects
 
 meta:
-  keywords: "MGM Cotai Stadium, Emoji, Social Canvas, WeChat, Project, GUI, Software"
+  keywords: "MGM Cotai Stadium, Emoji, Social Canvas, WeChat, Project, Software"
 
 project:
-  title: "AT&T Stadium"
+  title: "Social Canvas"
   url: "https://willynolan.com/social-canvas"
   logo_type: "video"
-  logo: "/assets/media/projects/social-canvas/logo.png"
+  logo: "/assets/media/projects/social-canvas/logo.webm"
+  logo_backup: "/assets/media/projects/social-canvas/logo.mp4"
 
 images:
   - image:
-    url: "/assets/media/projects/att-stadium/first.png"
-    alt: "ATT Stadium UI Mockup"
-
+    url: "/assets/media/projects/social-canvas/first.png"
+    alt: "Social Canvas Layout"
 
 videos:
   - video:
@@ -25,16 +25,16 @@ videos:
     id: "354168138"
 ---
 <p>
-There are many screens at AT&T Stadium. There are two rows of "ribbon" screens surrounding the stadium bowl, the
-"Diamond Vision" 💎 and the "AT&T LiveFX" board. Usually different content plays on all the various
-screens but in certain situations immersive content plays across all the screens in the stadium.
+Social Canvas is probably the world's largest multiplayer game installation.  It functions like most tile-matching video
+games except on a much, much larger scale.
 </p>
 
 <p>
-The challenge was to create a user interface that was recognizable enough that stadium personel would feel
-comfortable enough to takeover all the screens in the stadium instantaneously. 
+Visitors to MGM Cotai can quickly join the game by scanning a QR code and submit entries by sending messages to a 
+dedicated WeChat channel. 
 </p>
 
 <p>
-https://www.linkedin.com/in/mcrocksteady
+MGM's write up is <a href="https://www.mgm.mo/en/cotai/art/art-tour/collaboration/social-canvas">here</a>. The featured
+videos show an overview of the project and a demo of the project in action.
 </p>
