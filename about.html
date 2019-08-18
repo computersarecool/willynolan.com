@@ -12,10 +12,12 @@
 <body>
 	{% include header.html %}
 	<main class="content">
-		<section class="intro">
+		<section class="intro about">
 			<div class="container">
 				<h2>About me</h2>
-				<p>{{ site.about }}</p>
+				{% for item in site.about %}
+					<p>{{ item }}</p>
+				{% endfor %}
 			</div>
 		</section>
 	</main>
