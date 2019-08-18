@@ -1,11 +1,11 @@
 <header class="header">
 	<div class="container">
 		<h1 class="logo">
-			<a title="{{ site.author }}" href="{{ site.baseurl | append: "/" }}">{{ site.author }}</a>
+			<span>{{ site.author }}</span>
 		</h1>
 		<nav>
 			<ul>
-				<li><a href="{{ site.baseurl }}">Work</a></li>
+				<li><a href="{{ site.baseurl | append: "/" }}">Work</a></li>
 				<!--<li><a href="{{ site.baseurl | append: "/research.html" }}">Research</a></li>-->
 				<li><a href="{{ site.baseurl | append: "/about.html" }}">About</a></li>
 			</ul>
