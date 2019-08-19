@@ -1,16 +1,13 @@
-/* Fonts
- ****************************************************************/
+/* Fonts */
 
 $font-default: 'Red Hat Display', sans-serif;
 $font-lekton: 'Lekton', $font-default;
 
-/* Colors
- ****************************************************************/
-
+/* Colors */
 $color-white: #fff;
 $color-black: #000;
 $color-silver-chalice: #828282;
-$color-alabaster: #fafafa;
+$color-alabaster: #e1e1e1;
 $color-tango: #f46f25;
 $color-white-sand: #f6f6f6;
 
@@ -27,9 +24,7 @@ $color-hue-10: #2b0a29;
 
 $colo-hue-background: #1c152c;
 
-/* Breakpoint
- ****************************************************************/
-
+/* Breakpoint */
 $breakpoint-xsmall: 400px;
 $breakpoint-small: 550px;
 $breakpoint-medium: 750px;
