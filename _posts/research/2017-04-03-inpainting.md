@@ -10,20 +10,18 @@ project:
   title: "Inpainting"
   url: "https://willynolan.com/Inpainting"
   logo_type: "video"
-  logo: "/assets/media/research/respectrable/logo.webm"
-  logo_backup: "/assets/media/research/respectrable/logo.mp4"
+  logo: "/assets/media/research/inpainting/logo.webm"
+  logo_backup: "/assets/media/research/inpainting/logo.mp4"
 
 images:
   - image:
-    url: "/assets/media/research/respectrable/first.png"
+    url: "/assets/media/research/inpainting/first.png"
     alt: "The Live Object Model"
   - image:
-    url: "/assets/media/research/respectrable/second.png"
+    url: "/assets/media/research/inpainting/second.png"
     alt: "Respectrable"
 
 videos:
-  - video:
-    id: "354581391"
 ---
 <p>
 Living in the Mission district I frequently see a lot of tourists, a lot of graffiti and a lot of litter. One day I grew
