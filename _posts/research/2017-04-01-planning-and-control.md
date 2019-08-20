@@ -58,8 +58,8 @@ The rules are as follows:
 </p>
 
 <p>
-The challenge is that sometimes package locations are not integers.  This research and my project solved this through 
-discretization of the provided warehouse file and precise calculation of the robot heading.
+The challenge is that package locations do not fall on integers.  This research and my project solved this through 
+discretization of the provided warehouse layout file and precise calculation of the robot heading.
 </p>
 
 <p>

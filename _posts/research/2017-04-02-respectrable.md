@@ -28,14 +28,16 @@ videos:
 
     
 <p>
-The first point is to create a system where any property of a Live set can be changed by sending an Open Sound Control (OSC) message to the Ableton Live API. 
+The Live Object Model (LOM) is a bit of a maze but provides complete access to the Ableton Live API.  There is a 
+learning curve to figuring out how the object hierarchy functions but, once figured out, each and every property of a 
+Live set is configurable with code.
 </p>
 
 <p>
-The second point is that any change made to a Live set sends an OSC notification.
-In this way a Live set can control -- or be controlled by -- anything that uses OSC.
+The repeated necessity of a scriptable, real-time audio engine, and specifically one that could be used wirelessly 
+through <a href="http://opensoundcontrol.org/introduction-osc"> Open Sound Control</a> (OSC) led to the creation of Respectrable.
 </p>
 
 <p>
-Respectrable is a Max for Live device that facilitates this.
+Respectrable is a Max for Live device that facilitates easily accessing the Live Object Model through Javascript or Max objects.
 </p>
