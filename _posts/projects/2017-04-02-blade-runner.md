@@ -31,11 +31,11 @@ company teamed up to cover Obscura's Pier 70 warehouse from floor to ceiling wit
 </p>
 
 <p>
-At the time there was a lot of equipment moving around the warehouse and so I convinced management to let me turn an old 
+At the time there was a lot of equipment moving around the warehouse so I convinced management to let me turn an old 
 -- but large -- touchscreen into an audio/visual/laser controller. After that I convinced my colleague 
 <a href="http://www.michaelwalczyk.com/">Mike Walczyk</a> to help me with the concept and this project was the result.
 </p>
 
 <p>
-The featured video is worth watching in its entirety - this project appears about 1:35.
+The featured video is worth watching in its entirety - this project appears at 1:35.
 </p>
