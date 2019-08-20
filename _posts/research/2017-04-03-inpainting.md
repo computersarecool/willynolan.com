@@ -24,14 +24,14 @@ images:
 videos:
 ---
 <p>
-Living in the Mission district I frequently see a lot of tourists, a lot of graffiti and a lot of litter. One day I grew
-concerned - what if all of the pictures the tourists had accidentally contained graffiti or litter?
+Living in the Mission district I frequently see a lot of tourists, a lot of graffiti and a lot of litter. One day I 
+grew concerned - what if all of the pictures the tourists take accidentally contained graffiti or litter?
 </p>
 
 <p>
-This concern led me to explore inpaiting - the process of reconstructing regions of am image. The tool I made allows for
- a user to indicate the region of a photograph to be replaced and then uses exemplar-based texture synthesis to fill in 
- the region.
+This concern led me to explore inpainting - the process of reconstructing regions of am image. The tool I made allows 
+for a user to indicate the region of a photograph to be replaced and then uses exemplar-based texture synthesis to fill 
+in the region.
 </p>    
     
 <p>
