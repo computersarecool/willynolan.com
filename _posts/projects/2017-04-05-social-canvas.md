@@ -35,6 +35,10 @@ dedicated WeChat channel.
 </p>
 
 <p>
+These entries are then displayed in “The Spectacle”, MGM’s term for the world’s largest area of permanent indoor LED screens that makes up their lobby and casino entrance.
+</p>
+
+<p>
 MGM's write up is <a href="https://www.mgm.mo/en/cotai/art/art-tour/collaboration/social-canvas">here</a>. The featured
 videos show an overview of the project and a demo of the project in action.
 </p>
