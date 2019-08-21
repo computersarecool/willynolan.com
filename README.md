@@ -1,14 +1,13 @@
-# willynolan.com
-*[willynolan.com](willynolan.com)*
+# computersarecool.github.io
+*Also known as willynolan.com*
 
 ## Description
-This is a placeholder website powered by Github pages for [willynolan.com](willynolan.com).
+This repo contains my personal web page. It is built to run on [Jekyll](https://jekyllrb.com/)
 
-## Functionality
-- Mainly this just shows a full screen image.
+## Project Structure
+- This is the same as any other Jekyll project
 
 ### License
+:copyright: Willy Nolan 2019
 
-:copyright: Willy Nolan 2018
-
-[MIT](https://opensource.org/licenses/MIT)
+[MIT License](LICENSE.txt)
