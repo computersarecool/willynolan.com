@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+  <head>
+    <title>MathJax TeX Test Page</title>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({ TeX: { extensions: ["autobold.js", "AMSsymbols.js"] } });
+    </script>
+
+    <script type="text/javascript"
+	src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
+  <style>
+    body {
+      font-family: "Computer Modern Sans", sans-serif;
+    }
+  </style>
+
+    <!-- for screen display  -->
+    <style>
+      body { margin: 10px; } 
+      pre { margin: 10px 0px 10px 40px; }
+    </style>
+
+    <!-- for printing -->
+    <style media="print">
+      body { font-family: "Times New Roman", Times, serif; font-size: 12pt; } 
+      code,pre { font-family: "Courier New", Courier, monospace; font-size: 9pt; }
+      a { text-decoration: underline; color: #0000ff; }
+    </style>
+  </head>
+
+<body>
+  <p>
+    To conveniently use Latex for mathematics in web pages, a nice tool seems to be
+    <a href="http://www.mathjax.org">MathJax</a>.  (I found it supported by APS, the
+    <em>American Physical Society</em>.) Here is the briefest, while sufficient, intro to it.
+  </p>
+
+<p>
+  A one&ndash;line JavaScript call is needed in the preamble, which loads the program
+  from their web site. Then, one simply types latex where math is wanted, along with
+  HTML (for example \( e^{\boldsymbol{i} \, (\beta+\pi)} \) here), using latex's usual
+  math&ndash;mode delimiters. The exponent above is entered, in the middle of HTML code,by
+  <pre>
+    ... (for example \( e^{\bm{i} \, (\beta+\pi)} \) here) ...
+  </pre>
+<p>
+  With MathJax present this <em>is</em> recognized as a chunk of mathematics to process,
+like it would be in a latex document, and is handled as such. Then it is displayed by
+HTML-CSS or MathML (so that it scales well etc) &mdash; these are <em>not</em> images.
+One can right-click on an equation and adjust some properties, copy source, etc. To get
+a nice and quick start, see their
+<a href="http://www.mathjax.org/docs/1.1/start.html">documentation</a>.
+Here is an example copied from that page:
+</p>
+
+<p style="margin: 20px 0px 20px 40px; ">
+When $a \ne 0$, there are two solutions to \( ax^2 + bx + c = 0 \) and they are
+$$
+x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
+$$
+</p>
+
+<p>
+This example is produced by:
+<pre>
+When $a \ne 0$, there are two solutions to \( ax^2 + bx + c = 0 \) and they are
+$$
+x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
+$$
+</pre>
+
+<p>
+There are some things to watch out for, like (single) dollar signs, &ldquo;&lt;&rdquo;
+signs, etc, since both HTML and Latex are processed, one after another (in this order).
+For this example (using &#36; for inline&ndash;math delimiters) one does need another
+JavaScript segment in the preamble, see below.
+
+<p>
+If you look at the HTML source of this page, you will find three short JavaScript
+entries in the preamble. The <em>last</em> one calls the program from MathJax site,
+and this apparently should be last.  This is all that must be called, and one can do
+full math. (The program can be installed locally instead.)
+</p>
+
+<p>
+The other JavaScript segments are for MathJax configuration. The first one allows use
+of dollar signs to delimit inline math, along with (default) <code>\( ... \)</code>.
+The second one loads Tex extensions, here one that will add
+<code>\boldsymbol{...}</code> automatically around math that happens to be within bold
+HTML, and one that enables use of AMS symbols.  Extensions can also be included directly
+in the script that calls MathJax, and this is how AMS&ndash;math is enabled in this page.
+See documentation, in particular for
+<a href="http://www.mathjax.org/docs/1.1/tex.html#tex-support">Tex/Latex support.</a>
+</p>
+
+<p> For nice examples, go to a
+<a href="http://www.mathjax.org/demos/tex-samples/"> MathJax demo page</a>.
+(Right-click on equations, choose "Show source;" it's full latex.)
+
+<!--
+<p>
+Here's a little &lsquo;bigger&rsquo; example:
+\begin{equation}
+H_n(t) =
+\ \frac{1}{2\pi i} \left[ - \frac{a}{2}  \right]^n
+\oint_{|z|=r<1} \frac{1}{z^{t+1}}
+\left[ \frac{\widehat{g}(z) - \sqrt{3}\, z^2}{z} \right]^n
+\frac{dz}{1-\widehat{g}(z)}.
+\end{equation}
+</p>
+-->
+
+</body>
+
+</html>
