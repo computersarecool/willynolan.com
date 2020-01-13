@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <title>MathJax TeX Test Page</title>
     <script type="text/x-mathjax-config">
@@ -24,13 +24,14 @@
     <!-- for screen display  -->
     <style>
       body { margin: 10px; } 
-      pre { margin: 10px 0px 10px 40px; }
+      pre { margin: 10px 0 10px 40px; }
     </style>
 
     <!-- for printing -->
     <style media="print">
-      body { font-family: "Times New Roman", Times, serif; font-size: 12pt; } 
-      code,pre { font-family: "Courier New", Courier, monospace; font-size: 9pt; }
+      @page { size: auto;  margin: 0; }
+      body { font-family: "Computer Modern Sans", Times, serif; font-size: 12pt; }
+      code, pre { font-family: "Courier New", Courier, monospace; font-size: 9pt; }
       a { text-decoration: underline; color: #0000ff; }
     </style>
   </head>
@@ -60,7 +61,7 @@ a nice and quick start, see their
 Here is an example copied from that page:
 </p>
 
-<p style="margin: 20px 0px 20px 40px; ">
+<p style="margin: 20px 0 20px 40px; ">
 When $a \ne 0$, there are two solutions to \( ax^2 + bx + c = 0 \) and they are
 $$
 x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
@@ -103,19 +104,6 @@ See documentation, in particular for
 <p> For nice examples, go to a
 <a href="http://www.mathjax.org/demos/tex-samples/"> MathJax demo page</a>.
 (Right-click on equations, choose "Show source;" it's full latex.)
-
-<!--
-<p>
-Here's a little &lsquo;bigger&rsquo; example:
-\begin{equation}
-H_n(t) =
-\ \frac{1}{2\pi i} \left[ - \frac{a}{2}  \right]^n
-\oint_{|z|=r<1} \frac{1}{z^{t+1}}
-\left[ \frac{\widehat{g}(z) - \sqrt{3}\, z^2}{z} \right]^n
-\frac{dz}{1-\widehat{g}(z)}.
-\end{equation}
-</p>
--->
 
 </body>
 

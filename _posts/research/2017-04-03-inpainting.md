@@ -29,13 +29,13 @@ grew concerned - what if all of the pictures the tourists take accidentally cont
 </p>
 
 <p>
-This concern led me to explore inpainting - the process of reconstructing regions of am image. The tool I made allows 
+This concern led me to explore inpainting - the process of reconstructing regions of an image. The tool I made allows 
 for a user to indicate the region of a photograph to be replaced and then uses exemplar-based texture synthesis to fill 
 in the region.
 </p>    
     
 <p>
 This project implements the academic paper 
-<a href="https://ieeexplore.ieee.org/abstract/document/1323101/authors#authors">Region Filling and Object Removal by Exemplar-Based Image Inpainting</a>
+<a href="https://ieeexplore.ieee.org/abstract/document/1323101">Region Filling and Object Removal by Exemplar-Based Image Inpainting</a>
 by Criminisi et al.
 </p>
