@@ -33,6 +33,11 @@ This concern led me to explore inpainting - the process of reconstructing region
 for a user to indicate the region of a photograph to be replaced and then uses exemplar-based texture synthesis to fill 
 in the region.
 </p>    
+
+<p>
+Essentially exemplar-based texture synthesis looks at a source region of the photo and finds a patch that is the best 
+candidate to replace a patch in the selected region of the image (or target). 
+</p>  
     
 <p>
 This project implements the academic paper 
