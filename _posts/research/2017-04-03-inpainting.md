@@ -4,7 +4,7 @@ permalink: /:title/
 category: research
 
 meta:
-  keywords: "Inpainting, Image Maniupulation, Research"
+  keywords: "Inpainting, Image Manipulation, Image Processing, Research"
 
 project:
   title: "Inpainting"
@@ -36,7 +36,7 @@ in the region.
 
 <p>
 Essentially exemplar-based texture synthesis looks at a source region of the photo and finds a patch that is the best 
-candidate to replace a patch in the selected region of the image (or target). 
+candidate to replace a patch in the selected (target) region of the image. 
 </p>  
     
 <p>

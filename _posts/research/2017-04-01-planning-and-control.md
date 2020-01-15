@@ -4,7 +4,7 @@ permalink: /:title/
 category: research
 
 meta:
-  keywords: "Planning and Control, Robobtics, Research, Software"
+  keywords: "Planning and Control, Robotics, Research, Software"
 
 project:
   title: "Planning and Control"
