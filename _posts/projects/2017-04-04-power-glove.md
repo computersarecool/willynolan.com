@@ -41,7 +41,7 @@ positional data would not work and Power Glove still had to be tethered to a com
 </p>
 
 <p>
-In order to combine the strengths of each version of these modified gloves I needed to fabricate my own PCB that would have the same 
+In order to combine the strengths of each version of these modified gloves I needed to fabricate my own PCB with the same 
 form factor as the original Power Glove circuit board. The finished circuit diagram and final board design 
 are shown in the second featured image. Once this was complete, adding a bluetooth module, accelerometer (for positional data) 
 and accessing the Power Glove’s built-in bend sensors was a straightforward process.

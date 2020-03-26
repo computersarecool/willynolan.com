@@ -72,4 +72,4 @@ and <a href="http://liquidrescale.wikidot.com/en:tutorial">Gimp</a>.
 <p>
 This project implements the academic paper
 <a href="http://www.faculty.idc.ac.il/arik/SCWeb/imret/imret.pdf">Region Filling and Object Removal by Exemplar-Based Image Inpainting</a>
-by Shai Avidan and Ariel Shamir
+by Shai Avidan and Ariel Shamir.

@@ -16,11 +16,13 @@ project:
 images:
   - image:
     url: "/assets/media/research/inpainting/first.png"
-    alt: "The Live Object Model"
+    alt: "Demonstration of inpaiting on litter"
   - image:
     url: "/assets/media/research/inpainting/second.png"
-    alt: "Respectrable"
-
+    alt: "Demonstration of inpaiting on graffiti"
+  - image:
+    url: "/assets/media/research/inpainting/third.png"
+    alt: "Demonstration of inpainting on a pattern"
 videos:
 ---
 <p>

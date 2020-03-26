@@ -16,7 +16,7 @@ project:
 images:
   - image:
     url: "/assets/media/research/planning-and-control/first.png"
-    alt: "Warehouse representation"
+    alt: "Warehouse representation of map"
 
 videos:
   - video:
