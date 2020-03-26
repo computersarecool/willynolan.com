@@ -17,7 +17,10 @@ images:
   - image:
     url: "/assets/media/research/planning-and-control/first.png"
     alt: "Warehouse representation of map"
-
+  - image:
+    url: "/assets/media/research/planning-and-control/second.png"
+    alt: "Warehouse representation of map with motion plan"
+    
 videos:
   - video:
     id: "354555624"
