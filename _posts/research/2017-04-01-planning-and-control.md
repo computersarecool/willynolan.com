@@ -67,7 +67,9 @@ discretization of the provided warehouse layout file and precise calculation of 
 
 <p>
 A brief overview for picking up and deliver one of two packages for a simple warehouse is shown in the first two
-featured images.
+featured images. The green arrows show where pick up or drop offs take place.
+</p>
 
+<p>
 A video showing the completion of a more complex warehouse layout is also shown.
 </p>
