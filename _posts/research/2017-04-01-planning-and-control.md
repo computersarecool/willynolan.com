@@ -42,8 +42,8 @@ A warehouse layout for the featured image would be given as the following:
 .0#..
 .....
 ..#1.
-....@
-....A
+.....
+A...@
 </pre>
 </p>
 
@@ -63,5 +63,8 @@ discretization of the provided warehouse layout file and precise calculation of 
 </p>
 
 <p>
-A video showing the completion of a more complex warehouse layout is featured.
+A brief overview for picking up and deliver one of two packages for a simple warehouse is shown in the first two
+featured images.
+
+A video showing the completion of a more complex warehouse layout is also shown.
 </p>
