@@ -104,23 +104,23 @@
 	.vid-wrapper {
 		position: relative;
 
-		&:before {
-			content: "View Project";
-			color: $color-white;
-			@extend .h2;
-			font-weight: 800;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			margin-top: -.5rem;
-			margin-left: -4.4rem;
-			opacity: 0;
-			-webkit-transition: all .5s ease-in-out;
-    		transition: all .5s ease-in-out;
-    		-webkit-transition-delay: .25s;
-    		transition-delay: .25s;
-    		z-index: 2;
-		}
+		//&:before {
+		//	content: "View Project";
+		//	color: $color-white;
+		//	@extend .h2;
+		//	font-weight: 800;
+		//	position: absolute;
+		//	top: 50%;
+		//	left: 50%;
+		//	margin-top: -.5rem;
+		//	margin-left: -4.4rem;
+		//	opacity: 0;
+		//	-webkit-transition: all .5s ease-in-out;
+    	//	transition: all .5s ease-in-out;
+    	//	-webkit-transition-delay: .25s;
+    	//	transition-delay: .25s;
+    	//	z-index: 2;
+		//}
 
 		&:after {
 			background: #000;
