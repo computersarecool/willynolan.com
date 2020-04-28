@@ -8,7 +8,7 @@ meta:
 
 project:
   title: "Inpainting"
-  url: "https://willynolan.com/Inpainting"
+  url: "https://willynolan.com/inpainting"
   logo_type: "video"
   logo: "/assets/media/research/inpainting/logo.webm"
   logo_backup: "/assets/media/research/inpainting/logo.mp4"
@@ -16,10 +16,10 @@ project:
 images:
   - image:
     url: "/assets/media/research/inpainting/first.png"
-    alt: "Demonstration of inpaiting on litter"
+    alt: "Demonstration of inpainting on litter"
   - image:
     url: "/assets/media/research/inpainting/second.png"
-    alt: "Demonstration of inpaiting on graffiti"
+    alt: "Demonstration of inpainting on graffiti"
   - image:
     url: "/assets/media/research/inpainting/third.png"
     alt: "Demonstration of inpainting on a pattern"
