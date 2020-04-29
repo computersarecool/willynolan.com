@@ -18,23 +18,38 @@ images:
     url: "/assets/media/research/pyramid-blending/first.png"
     alt: "Demonstration of pyramid blending on the beach and sky"
   - image:
-    url: "/assets/media/research/pyramid-blending/first.png"
+    url: "/assets/media/research/pyramid-blending/second.png"
     alt: "Demonstration of pyramid blending on the beach and sky"
   - image:
-    url: "/assets/media/research/pyramid-blending/first.png"
+    url: "/assets/media/research/pyramid-blending/third.png"
     alt: "Demonstration of pyramid blending on the beach and sky"
 videos:
 ---
 <p>
 Representing an image as a <a href="https://en.wikipedia.org/wiki/Pyramid_(image_processing)"> pyramid </a> has a 
-number of uses in image processing.  The idea is to blur and downsize an image multiple times so there is a stack 
-(or pyramid) of images each at a lower resolution. The resulting pyramid could be used for things such as object 
-recognition at different scales.
+number of uses in image processing.  The general process is to downsize and blur an image multiple times creating a stack 
+(or pyramid) of images each at a lower resolution. The resulting pyramid can be used for things such as object 
+recognition at different scales and certain types of compression.
 </p>
 
 <p>
-In this application the image pyramid is used to create a blended image.  Two images and a mask image are blended at 
-each level of the pyramid.  
+In this application the image pyramid is used to create a blended image.  The smaller and more blurry images in the 
+pyramid serve as a low-pass filtered version of the image. A stack of these forms a Gaussian pyramid.
+The Gaussian pyramid can be used to create a high-pass filtered version of the image called a Laplacian pyramid.
+The formula for a Laplacian pyramid at a level $i$ is given as:
+</p>
+
+<p>
+$$
+\begin{aligned}
+L_{i} = G_{i} - (K * G_{i})
+\end{aligned}
+$$
+</p>
+
+<p>
+Where $K$ is the downsize and blur operator and $G_{i}$ represents an image from the Gaussian pyramid at level $i$.
+Expanding and adding images from the Laplacian pyramid can recreate the original image with no data loss.
 </p>
 
 <p>
