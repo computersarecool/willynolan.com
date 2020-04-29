@@ -8,7 +8,7 @@ meta:
 
 project:
   title: "Seam Carving"
-  url: "https://willynolan.com/Inpainting"
+  url: "https://willynolan.com/seam-carving"
   logo_type: "video"
   logo: "/assets/media/research/seam-carving/logo.webm"
   logo_backup: "/assets/media/research/seam-carving/logo.mp4"

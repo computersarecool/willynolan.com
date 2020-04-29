@@ -1,48 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>{{ site.author }}</title>
-	<meta name="author" content="{{ site.author }}">
-	<meta name="description" content="{{ page.content | strip_html | strip_newlines }}">
-	<meta name="keywords" content="{{ page.meta.keywords }}">
-	{% include head.html %}
+    <title>{{ site.author }}</title>
+    <meta name="author" content="{{ site.author }}">
+    <meta name="description" content="{{ page.content | strip_html | strip_newlines }}">
+    <meta name="keywords" content="{{ page.meta.keywords }}">
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          processEscapes: true
+        }
+      });
+    </script>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    {% include head.html %}
 </head>
 <body>
-	{% include header.html %}
-	<main class="content">
-		<section class="project">
-			<div class="container">
-				<article>
-					<span class="h2">Project Title</span>
-					<h1>
-						<span>{{ page.project.title }}</span>
-					</h1>
-					<span class="h2">Description</span>
-					{{ page.content }}
-				</article>
-				<aside>
-					<ul>
-						{% for image in page.images %}
-						<li class="featured">
-							<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
-						</li>
-						{% endfor %}
-						{% for video in page.videos%}
-						<li class="featured">
-							<div class="video-container">
-							{% include vimeo-player.html id=video.id %}
-							</div>
-						</li>
-						{% endfor %}
-					</ul>
-				</aside>
-			</div>
-		</section>
-	</main>
-	{% include footer.html %}
-	<script src="{{ "/assets/scripts/vendor/jquery-1.12.4.min.js" | prepend: site.baseurl }}"></script>
-	<script src="{{ "/assets/scripts/vendor/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
-	<script src="{{ "/assets/scripts/vendor/sticky-kit.min.js" | prepend: site.baseurl }}"></script>
-	<script src="{{ "/assets/scripts/project.js" | prepend: site.baseurl }}"></script>
+    {% include header.html %}
+    <main class="content">
+        <section class="project">
+            <div class="container">
+                <article>
+                    <span class="h2">Project Title</span>
+                    <h1>
+                        <span>{{ page.project.title }}</span>
+                    </h1>
+                    <span class="h2">Description</span>
+                    {{ page.content }}
+                </article>
+                <aside>
+                    <ul>
+                        {% for image in page.images %}
+                        <li class="featured">
+                            <img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
+                        </li>
+                        {% endfor %}
+                        {% for video in page.videos%}
+                        <li class="featured">
+                            <div class="video-container">
+                            {% include vimeo-player.html id=video.id %}
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </aside>
+            </div>
+        </section>
+    </main>
+    {% include footer.html %}
+    <script src="{{ "/assets/scripts/vendor/jquery-1.12.4.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/scripts/vendor/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/scripts/vendor/sticky-kit.min.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/assets/scripts/project.js" | prepend: site.baseurl }}"></script>
 </body>
 </html>

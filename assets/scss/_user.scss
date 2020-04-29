@@ -32,7 +32,7 @@ nav li {
 
 .project {
     a {
-	    color: $color-hue-7;
+        color: $color-hue-7;
         text-decoration: underline;
     }
 
@@ -56,12 +56,12 @@ video {
 }
 
 .intro.about {
-	@media (min-width: $breakpoint-medium) {
-		p {
-			font-size: 2rem;
-			max-width: 66.66666%;
-		}
-	}
+    @media (min-width: $breakpoint-medium) {
+        p {
+            font-size: 2rem;
+            max-width: 66.66666%;
+        }
+    }
 }
 
 .codeblock {
