@@ -40,7 +40,7 @@ just find home.
 </p>
 
 <p>
-At least, that is what the back story is. 
+At least that is what the back story is. 
 </p>
 
 <p>
@@ -54,5 +54,6 @@ people in the crowd were invited to control the music, visuals and outer space e
 </p>
 
 <p>
-The featured images show concept design and some of the user interface designs for the tablets.
+The featured images show concept design and some of the user interface designs for the tablets and the video shows
+actual footage from the event.
 </p>
