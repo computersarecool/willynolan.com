@@ -32,8 +32,12 @@ company teamed up to cover Obscura's Pier 70 warehouse from floor to ceiling wit
 
 <p>
 At the time there was a lot of equipment moving around the warehouse so I convinced management to let me turn an old 
--- but large -- touchscreen into an audio/visual/laser controller. After that I convinced my colleague 
-<a href="http://www.michaelwalczyk.com/">Mike Walczyk</a> to help me with the concept and this project was the result.
+-- but large -- touchscreen into an audio/visual/laser controller. 
+</p>
+
+<p>
+After that I convinced my colleague <a href="http://www.michaelwalczyk.com/">Mike Walczyk</a> 
+to help me with the concept and this project was the result.
 </p>
 
 <p>
