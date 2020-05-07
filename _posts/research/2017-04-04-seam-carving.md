@@ -34,18 +34,17 @@ images:
     alt: "Image of birds with seams marked for insertion"
   - image:
     url: "/assets/media/research/seam-carving/seventh.png"
-    alt: "Result image of birds"            
-videos:
+    alt: "Result image of birds"
 ---
 <p>
-Cropping an image is typically limited to selecting rectangular portions of an image and removing them.  
-Enlarging an image typically means stretching an image which can result in pixelation.  
-<a href="https://en.wikipedia.org/wiki/Seam_carving">Seam Carving</a>, 
+Cropping an image is typically limited to selecting rectangular portions of an image and removing them.
+Enlarging an image typically means stretching an image which can result in pixelation.
+<a href="https://en.wikipedia.org/wiki/Seam_carving">Seam Carving</a>,
 also known as Liquid Resizing is a technique that removes both of these limitations.
 </p>
 
 <p>
-Seam carving works by finding the low energy seams of the image and then removing vertical or horizontal 
+Seam carving works by finding the low energy seams of the image and then removing vertical or horizontal
 (but not necessarily straight) seams from the image. In this context low energy seams are parts of the image where there
  is not much change, and therefore are unlikely to be noticeable if removed.
 </p>
@@ -56,20 +55,24 @@ These seams are marked with red in the featured images accompanying this post.
 </p>
 
 <p>
-The technique can also be used to increase image size, essentially by working in reverse. The idea is to find the 
-<code>k</code> seams that would have been removed and then insert seams in those locations as they are unlikely to be 
-crucial to the overall image.  In the last series of featured images these seams are marked in green. The color of these 
+The technique can also be used to increase image size, essentially by working in reverse. The idea is to find the
+<code>k</code> seams that would have been removed and then insert seams in those locations as they are unlikely to be
+crucial to the overall image.  In the last series of featured images these seams are marked in green. The color of these
 seams is calculated by averaging the color of pixels on either side of the image.
-This is known as “seam insertion” and its usefulness is one reason “Liquid Resizing” is 
+This is known as “seam insertion” and its usefulness is one reason “Liquid Resizing” is
 perhaps a better name for this algorithm in general.
-<p>
+</p>
 
 <p>
-This technique in implemented in several image editing programs including both 
-<a href="https://helpx.adobe.com/photoshop/using/content-aware-scaling.html">Photoshop </a>
-and <a href="http://liquidrescale.wikidot.com/en:tutorial">Gimp</a>.
+This technique in implemented in several image editing programs including both
+<a href="https://helpx.adobe.com/photoshop/using/content-aware-scaling.html">Photoshop </a> and
+<a href="http://liquidrescale.wikidot.com/en:tutorial">Gimp</a>.
+</p>
 
 <p>
 This project implements the academic paper
-<a href="http://www.faculty.idc.ac.il/arik/SCWeb/imret/imret.pdf">Region Filling and Object Removal by Exemplar-Based Image Inpainting</a>
+<a href="http://www.faculty.idc.ac.il/arik/SCWeb/imret/imret.pdf">
+    Region Filling and Object Removal by Exemplar-Based Image Inpainting
+</a>
 by Shai Avidan and Ariel Shamir.
+</p>

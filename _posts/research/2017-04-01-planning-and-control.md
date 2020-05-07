@@ -34,13 +34,14 @@ The goal of this project was to implement planning and control algorithms to gui
 </p>
 
 <p>
-The warehouse layout is described with an ASCII file where <code>#</code> symbols represent walls, numbers represent packages that 
-need to be retrieved, <code>A</code> represents the starting position, <code>.</code>s represent traversable space and the <code>@</code> symbol represents 
-the dropzone.
+The warehouse layout is described with an ASCII file where <code>#</code> symbols represent walls, numbers represent 
+packages that need to be retrieved, <code>A</code> represents the starting position, <code>.</code>s represent 
+traversable space and the <code>@</code> symbol represents the drop zone.
 </p>
 
 <p>
 A warehouse layout for the featured image would be given as the following:
+</p>
 <pre class="codeblock">
 .0#..
 .....
@@ -48,17 +49,17 @@ A warehouse layout for the featured image would be given as the following:
 .....
 A...@
 </pre>
-</p>
 
 <p>
 The rules are as follows:
+</p>
+
 <ul>
     <li>- Packages must be picked up and dropped off in order</li>
     <li>- The robot cannot come within a certain distance of the walls or the drop off location</li>
     <li>- There are limits on the amount the robot can rotate in each time step</li>
     <li>- More efficient routes are preferred</li>
 </ul>
-</p>
 
 <p>
 The challenge is that packages are located in fractional -- not integer -- locations.  This research and my project solved this through 

@@ -3,7 +3,7 @@
 <head>
     <title>{{ site.author }}</title>
     <meta name="author" content="{{ site.author }}">
-    <meta name="description" content="{{ page.content | strip_html | strip_newlines }}">
+    <meta name="description" content="{{ page.content | strip_html | escape |strip_newlines }}">
     <meta name="keywords" content="{{ page.meta.keywords }}">
     {% include head.html %}
 </head>
@@ -12,9 +12,9 @@
     <main class="content">
         <section class="project simple-project">
             <span class="h2">Project Title</span>
-            <h1>
+            <h3 class="like-h1">
                 <span>{{ page.project.title }}</span>
-            </h1>
+            </h3>
             <span class="h2">Description</span>
             {{ page.content }}
         </section>

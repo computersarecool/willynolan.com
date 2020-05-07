@@ -3,7 +3,7 @@
 <head>
     <title>{{ site.author }}</title>
     <meta name="author" content="{{ site.author }}">
-    <meta name="description" content="{{ page.content | strip_html | strip_newlines }}">
+    <meta name="description" content="{{ page.content | strip_html | escape |strip_newlines }}">
     <meta name="keywords" content="{{ page.meta.keywords }}">
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
@@ -13,19 +13,20 @@
         }
       });
     </script>
-    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
     {% include head.html %}
 </head>
 <body>
     {% include header.html %}
     <main class="content">
         <section class="project">
+            <h2 class="no-display">Project</h2>
             <div class="container">
                 <article>
                     <span class="h2">Project Title</span>
-                    <h1>
+                    <h3 class="like-h1">
                         <span>{{ page.project.title }}</span>
-                    </h1>
+                    </h3>
                     <span class="h2">Description</span>
                     {{ page.content }}
                 </article>
