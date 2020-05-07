@@ -60,8 +60,11 @@ frames.
 
 <p>
 The original publication on which my research is based is:
+</p>
+
 <ul>
     <li>
         <a href="https://dl.acm.org/doi/10.1145/344779.345012">Video Textures</a> by Arno Sch&ouml;dl et al.
     </li>
 </ul>
+

@@ -63,6 +63,8 @@ This technique can be used to avoid a halo effect in images which make blend reg
 
 <p>
 This project implements the following academic papers:
+</p>
+
 <ul>
     <li>
         <a href="https://ieeexplore.ieee.org/document/1095851/authors#authors">The Laplacian Pyramid as a Compact Image Code</a>
