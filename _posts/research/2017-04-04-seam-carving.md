@@ -44,27 +44,32 @@ also known as Liquid Resizing is a technique that removes both of these limitati
 </p>
 
 <p>
-Seam carving works by finding the low energy seams of the image and then removing vertical or horizontal
-(but not necessarily straight) seams from the image. In this context low energy seams are parts of the image where there
- is not much change, and therefore are unlikely to be noticeable if removed.
+Seam carving works by finding the low-energy seams of the image and then removing vertical or horizontal
+(but not necessarily straight) seams from the image. In this context low-energy seams are single-pixel wide parts of the 
+image where there is not much change. Because the seams occur in areas where there is not much change, their removal is 
+less likely to be noticed.
 </p>
 
 <p>
-For this implementation I created a program that uses a Sobel filter to determine low energy seams in the input image.
+For this implementation I created a program that uses a Sobel filter to determine low-energy seams in the input image.
 These seams are marked with red in the featured images accompanying this post.
 </p>
 
 <p>
-The technique can also be used to increase image size, essentially by working in reverse. The idea is to find the
-<code>k</code> seams that would have been removed and then insert seams in those locations as they are unlikely to be
-crucial to the overall image.  In the last series of featured images these seams are marked in green. The color of these
-seams is calculated by averaging the color of pixels on either side of the image.
-This is known as “seam insertion” and its usefulness is one reason “Liquid Resizing” is
-perhaps a better name for this algorithm in general.
+The technique can also be used to increase image size, essentially by working in reverse. The idea is to identify 
+seams that would have been removed and then insert seams in those locations as again, these seems are unlikely to be
+noticed.  
 </p>
 
 <p>
-This technique in implemented in several image editing programs including both
+In the last series of featured images newly added seams are marked in green. The color of the added seams in the final
+image is calculated by averaging the color of pixels on either side of the image.
+This is known as “seam insertion” and its usefulness is one reason “Liquid Resizing” could be a better name for this
+general algorithm.
+</p>
+
+<p>
+This technique has been implemented in several image editing programs including both
 <a href="https://helpx.adobe.com/photoshop/using/content-aware-scaling.html">Photoshop </a> and
 <a href="http://liquidrescale.wikidot.com/en:tutorial">Gimp</a>.
 </p>

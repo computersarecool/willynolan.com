@@ -15,13 +15,13 @@ project:
 ---
 <p>
 Programming networks sockets directly, rather than using an abstraction or library, is a challenging task.
-This holds true in any language that exposes sockets from C and C++ to Python.
+This holds true in any language that exposes sockets from C and C++ to Python and Rust.
 </p>
 
 <p>
 Challenging as though they may be, sockets provide an essential part of most modern computing, particularly interactive
 computing.
-Networked communication is a preferred way to get devices to talk to each other, from microcontrollers and embedded 
+Networked communication is often a preferred way to get devices to talk to each other, from microcontrollers and embedded 
 devices to enterprise servers.
 </p>
 

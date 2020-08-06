@@ -40,7 +40,7 @@ traversable space and the <code>@</code> symbol represents the drop zone.
 </p>
 
 <p>
-A warehouse layout for the featured image would be given as the following:
+A warehouse layout for the featured images would be given as the following:
 </p>
 <pre class="codeblock">
 .0#..
@@ -62,13 +62,14 @@ The rules are as follows:
 </ul>
 
 <p>
-The challenge is that packages are located in fractional -- not integer -- locations.  This research and my project solved this through 
-discretization of the provided warehouse layout file and precise calculation of the robot heading.
+The challenge is that packages are located in fractional -- not integer -- locations. My research 
+solved this through discretization of the provided warehouse layout file and precise calculation of the robot heading.
 </p>
 
 <p>
-A brief overview for picking up and deliver one of two packages for a simple warehouse is shown in the first two
-featured images. The green arrows show where pick up or drop offs take place.
+The two featured images show the layout of a simple warehouse with two packages.
+A brief overview for picking up and delivering one of the packages is shown in the second image. 
+The green arrows show where pick up or drop offs happen.
 </p>
 
 <p>

@@ -29,12 +29,12 @@ videos:
 The evolution of OpenGL basically goes like this:
 Immediate mode -> Modern OpenGL (3.0+) -> 
 <a href="https://www.khronos.org/registry/OpenGL/extensions/EXT/EXT_direct_state_access.txt">Direct State Access</a> -> 
-Vulkan.
+Vulkan. As the APIs have progressed, progressively more control has been given the the programmer.
 </p>
 
 <p>
 Direct State Access provides a nice balance between verbosity and control. 
-In particular, getting rid of the “state-machine” construct makes programming feel much more similar to C++.
+In particular, getting rid of the “state-machine” construct makes interacting with the GPU feel much more similar to native C++.
 </p>
 
 <p>
@@ -49,9 +49,5 @@ programming experience.
 
 <p>
 The featured images show just a few examples of applications made easier with DSA.
-These include tessellation, an example of the Phong Illumincation Model and a basic raytracer.
-</p>
-
-<p>
-There remains more that could be covered.
+These include (in order) tessellation, an example of the Phong Illumincation Model and a realtime raytracer.
 </p>

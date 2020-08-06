@@ -26,7 +26,7 @@ videos:
 ---
 <p>
 Social Canvas is probably the world's largest multiplayer game installation.  It functions like most tile-matching video
-games except on a much, much larger scale.
+games except on a much, much larger scale. It was created in 2018 and installed at the MGM Cotai in Macau. 
 </p>
 
 <p>
@@ -35,7 +35,13 @@ dedicated WeChat channel.
 </p>
 
 <p>
-These entries are then displayed in “The Spectacle”, MGM’s term for the world’s largest area of permanent indoor LED screens that makes up their lobby and casino entrance.
+These entries are then displayed in “The Spectacle”, MGM’s term for the world’s largest area of permanent indoor LED 
+screens that makes up their lobby and casino entrance.
+</p>
+
+<p>
+In addition to the scale of this installation, it is also unique in that it is truly interactive. Guests are allowed 
+to directly participate in the game, creating an shared experience for all.
 </p>
 
 <p>
