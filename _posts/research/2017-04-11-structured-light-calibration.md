@@ -66,7 +66,7 @@ If you project that image directly onto the corner, the image will show obvious 
 
 <p>
 Using structured light, which is essentially the simultaneous projection and photographing of different black and white 
-images, this problem can be fixed.
+images, this problem can be fixed. Example structured light patterns are below.
 </p>
 
 <img class="research-post" src="/assets/media/research/structured-light-calibration/fifth.jpg" alt="Example Room" height="144" width="215">
@@ -84,7 +84,7 @@ At the end of the process this image can look correct.
 <img class="research-post" src="/assets/media/research/structured-light-calibration/fourth.jpg" alt="Final result" height="360" width="640">
 
 <p>
-Our research included a Python implementation as well as a projector/camera simulated.
+Our research included a Python implementation as well as a projector/camera simulator.
 </p>
 
 <p>

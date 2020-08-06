@@ -37,8 +37,8 @@ in the region.
 </p>    
 
 <p>
-Essentially exemplar-based texture synthesis looks at a source region of the photo and finds a patch that is the best 
-candidate to replace a patch in the selected (target) region of the image. 
+At a high level, exemplar-based texture synthesis looks at the input photo and finds a region (the source) 
+that is the best candidate to replace a patch in the selected (target) region of the image. 
 </p>  
     
 <p>

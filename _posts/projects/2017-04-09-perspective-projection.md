@@ -21,7 +21,10 @@ technological and physical challenges of projecting an image onto a surface are 
 
 <p>
 Unfortunately most "projection mapping" projects turn into what are essentially slide shows on buildings.
-In order to make an actually interesting projection project, the concept of <span class="highlight small">perspective</span> 
+</p>
+
+<p>
+In order to make a significantly interesting projection project, the concept of <span class="highlight small">perspective</span> 
 must be addressed.
 </p>
 
@@ -48,8 +51,8 @@ The key is to think and work in 3D.
 </p>
 
 <p>
-What if we wanted to created a 3D scene where the box is actually a see through 
-container with things floating inside it or a solid object with something floating outside it?
+What if we wanted to created a 3D scene where the box is actually a see through container with things floating inside it?
+Or what if we wanted the box to be a solid, reflective object with something floating outside it?
 </p>
 
 <p>
@@ -83,7 +86,7 @@ For our example cube the process goes like this:
 <img class="end-post one-outline" src="/assets/media/projects/perspective-projection/fourth.png" alt="Colored Cube" height="325" width="325">
 
 <p>
-The resulting cube map will look strange on its own, but when reapplied to the object it wall look perspectively correct.  
+The resulting cube map will look strange on its own, but when reapplied to the object it wall look perspective-correct.  
 </p>
 
 <p>
@@ -91,7 +94,7 @@ For example here is the object with a solid green color and the 3D scene (blue s
 <img class="end-post" src="/assets/media/projects/perspective-projection/fifth.png" alt="Colored Cube" height="325" width="325">
 And here is the image with the blue spheres removed but the perspective texture map applied.
 <img class="end-post" src="/assets/media/projects/perspective-projection/sixth.png" alt="Colored Cube" height="325" width="325">
-The only difference is the default lighting that the 3D modeling program applies.
+The only difference is in the first image some default lighting is used by the 3D modeling program.
 </p>
 
 <p>
@@ -100,10 +103,7 @@ can see which parts of the 3D scene were mapped to the cube.
 <img class="end-post" src="/assets/media/projects/perspective-projection/seventh.png" alt="Colored Cube" height="325" width="325">
 </p>
 
-<p>
-This process can be difficult to figure out and tedious to do repeatedly.
-</p>
-
 <p class="last-paragraph">
+This process can be difficult to figure out and tedious to do repeatedly.
 The project I made explored automated ways to texture bake perspective-correct projections in modeling software.
 </p>

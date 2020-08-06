@@ -27,17 +27,28 @@ videos:
     id: "354445100"
 ---
 <p>
-It was basically impossible to work at Obscura Digital and not work on projection mapping at some point. 
-This spur of the moment event at Shantou University provided a memorable surface for architectural mapping.
+It was nearly impossible to work at Obscura Digital and not work on architectural projection mapping at some point. 
+This spur of the moment event at Shantou University in Shantou, Guangdong, China was particularly memorable because of 
+the unique building facade and the compressed production timeline.
 </p>
 
 <p>
-While visiting the university to work on another project, we were asked to do an architectural projection on the newly 
-completed campus medical building. There was only one day to prepare content and create a run of show but the building's
+While visiting the university to work on a different, unrelated projection mapping project, we were asked to do an 
+architectural projection show on the newly completed campus medical building. The spontaneous request came approximately 
+24 hours before the show was supposed to happen (at least that was when I first heard of it).
+</p>
+
+<p>
+There was only one day to prepare content, create the show and align the projectors but the building's
 shape lent itself so well to projection that it was hard to resist.
 </p>
 
 <p>
-There was no official photographer to capture this job but luckily some students at the university were taking a drone 
-photography class nearby and captured much of the event.
+Because of the scheduling constraints there was no official photographer to capture this job and it came close to not 
+being documented at all.
+</p>
+
+<p>
+Luckily some students at the university were taking a drone photography class nearby and captured footage of the event
+which they were happy to share in exchange for a presentation on how to projection map buildings.
 </p>
