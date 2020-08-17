@@ -1,52 +1,22 @@
 ---
 ---
 <!doctype html>
-<html lang="en">
+<html lang="en-US">
     <head>
-        <title>{{ site.title }}</title>
-        <meta name="author" content="{{ site.author }}">
-        <meta name="description" content="{{ site.description }}">
-        <meta name="keywords" content="{{ site.keywords }}">
         {% include head.html %}
     </head>
-    <body>
-        {% include header.html %}
-        <main class="content">
-            <section class="intro">
-                <div class="container">
-                    <h2>My projects</h2>
-                    <p>{{ site.description }}</p>
-                </div>
-            </section>
-            <section class="projects">
-                <div class="container main">
-                    <ul class="projects-list">
-                        {% for item in site.categories.projects reversed %}
-                            <li>
-                                <a href="{{ item.url | prepend: site.baseurl }}">
 
-                                    {% if item.project.logo_type == "video" %}
-                                    <div class="vid-wrapper">
-                                        <video class="logo" loop muted autoplay playsinline title="{{ item.project.title }}">
-                                          <source src="{{ item.project.logo | prepend: site.baseurl }}" type="video/webm">
-                                          <source src="{{ item.project.logo_backup | prepend: site.baseurl }}" type="video/mp4">
-                                        </video>
-                                    </div>
-                                    {% else %}
-                                    <div class="img-wrapper">
-                                        <img src="{{ item.project.logo | prepend: site.baseurl }}" alt="{{ item.project.title }}" />
-                                    </div>
-                                    {% endif %}
-                                    <h3 class="project-caption">{{ item.project.title }}</h3>
-                                </a>
-                            </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </section>
+    <body>
+        <header>
+            {% include header.html %}
+        </header>
+
+        <main>
+            {% include home-main.html %}
         </main>
-        {% include footer.html %}
-        <script src="{{ "/assets/scripts/vendor/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
-        <script src="{{ "/assets/scripts/home.js" | prepend: site.baseurl }}"></script>
+
+        <footer>
+            {% include footer.html %}
+        </footer>
     </body>
 </html>
