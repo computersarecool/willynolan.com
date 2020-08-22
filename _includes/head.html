@@ -4,6 +4,11 @@
         <meta name="author" content="{{ site.author }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="index,follow">
+        <meta property="og:title" content="Willy Nolan's Website" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="{{site.url | append: page.url}}" />
+        <meta property="og:image" content="{{site.url | append: android-chrome-512x512.png}}" />
+        <meta property="og:image:alt" content="A computer graphic triangle. Click to visit willynolan.com" />
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#black">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,4 +17,4 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" href="{{ site.baseurl | append: "/assets/css/style.css" }}">

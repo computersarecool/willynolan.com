@@ -1,3 +1,14 @@
+# Site config
+baseurl: ""
+highlighter: rouge
+sass:
+  sass_dir: assets/scss
+  style: compressed
+
+# development
+host: 0.0.0.0
+port: 4000
+
 # User config
 author: "Willy Nolan"
 
@@ -32,14 +43,3 @@ email: "willy@willynolan.com"
 github: "https://github.com/computersarecool"
 linkedin: "https://www.linkedin.com/in/willynolan/"
 instagram: "https://www.instagram.com/computersarecool/"
-
-# Site config
-baseurl: ""
-highlighter: rouge
-sass:
-  sass_dir: assets/scss
-  style: compressed
-
-# development
-host: 0.0.0.0
-port: 4000
