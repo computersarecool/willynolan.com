@@ -1,56 +1,15 @@
 html {
     box-sizing: border-box;
+    font-size: 18px;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
 }
 
-html {
-    font-size: 62.5%;
-}
-
 body {
-    background: $color-white;
-    color: $color-black;
-    font-family: $font-default;
-    font-size: 1.8em;
-    font-weight: 600;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-h1 {
-    color: $color-black;
-    font-size: 2.7rem;
-    font-weight: 600;
-    line-height: 1;
-    margin: 0;
-}
-
-h2 {
-    color: $color-silver-chalice;
-    display: block;
-    font-family: $font-default;
-    font-size: 1rem;
-    font-weight: 400;
-    letter-spacing: .2rem;
-    line-height: 1;
-    margin: 0 0 1rem;
-    text-transform: uppercase;
-}
-
-h3 {
-    color: $color-black;
-    font-family: $font-default;
-    font-size: 1.8rem;
-    font-weight: 600;
-    line-height: 1;
-    margin: 0;
-}
-
-p {
-    margin: 0 0 1.75em 0;
 }
 
 a {
@@ -68,7 +27,172 @@ img {
     max-width: 100%;
 }
 
-abbr[title] {
-    border-bottom: 1px dotted $color-black;
-    text-decoration: none;
+h2 {
+    font-family: var(--font-default);
+    color: var(--color-silver);
+    display: block;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+// Initial styles
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: var(--font-default);
+    font-size: 1.8em;
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}
+
+header {
+    background: orange;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    text-transform: lowercase;
+}
+
+nav {
+    background: red;
+    grid-column: 1 / -1;
+    grid-row: 8 / -1;
+    font-size: .5em;
+}
+
+// Central grid
+body {
+  padding: 5px;
+}
+
+main {
+    background: #d300ff;
+    grid-column: 1 / -1;
+    grid-row: 2 / 8;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: .15em;
+}
+
+.square-container {
+  position: relative;
+  max-width: 78px;
+}
+
+.square-container-inside {
+  background: yellow;
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.square {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.blue1-container, .black1-container, .black2-container, .red1-container, .black2-container, .yellow1-container {
+  grid-row: 4;
+}
+
+.gray1-container {
+  grid-row: 2;
+}
+
+.gray2-container {
+  grid-row: 5;
+}
+
+.gray1-container, .red1-container, .gray2-container {
+  grid-column: 5;
+}
+
+.blue1-container {
+  grid-column: 2;
+}
+
+.black1-container {
+  grid-column: 3;
+}
+
+.black2-container {
+  grid-column: 7;
+}
+
+.yellow1-container {
+  grid-column: 9;
+}
+
+.blue1 {
+  background: var(--color-blue);
+}
+
+.black1, .black2 {
+  background: var(--color-black);
+}
+
+.gray1, .gray2 {
+  background: var(--color-gray);
+}
+
+.red1 {
+  background: var(--color-red);
+}
+
+.yellow1 {
+  background: var(--color-yellow);
+}
+
+// Navigation
+nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.site-links {
+  text-transform: lowercase;
+  line-height: 2;
+  grid-column: 1/3;
+}
+
+.contact {
+  text-transform: lowercase;
+  grid-column: 3/4;
+  line-height: 1.3;
+}
+
+.callout, .second-callout{
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0;
+}
+
+.second-callout {
+    font-size: 1rem;
+}
+
+// Minimum height
+@media screen and (max-height: 450px) { 
+  main {
+    grid-row: 2 / 7;
+  }
+
+  nav {
+    grid-row: 7 / -1;
+  }
+  
+  .square-container {
+    max-width: 35px;
+  }
+
 }

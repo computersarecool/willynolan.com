@@ -1,27 +1,30 @@
-/* Fonts */
-$font-default: sans-serif;
+:root {
+    // Fonts
+    --font-default: sans-serif;
 
-/* Colors */
-$color-white: #fff;
-$color-black: #000;
-$color-silver-chalice: #828282;
-$color-alabaster: #e1e1e1;
-$color-white-sand: #f6f6f6;
+    // Colors
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gray: gray;
+    --color-blue: blue;
+    --color-red: red;
+    --color-yellow: yellow;
 
-$color-1: #c750ac;
-$color-2: #a93999;
-$color-3: #662272;
-$color-4: #5d206e;
-$color-5: #7e77aa;
-$color-6: #4b8da6;
-$color-7: #7255b1;
-$color-8: #121a72;
-$color-9: #4a1646;
-$color-10: #2b0a29;
+    --color-1: #c750ac;
+    --color-2: #a93999;
+    --color-3: #662272;
+    --color-4: #5d206e;
+    --color-5: #7e77aa;
+    --color-6: #4b8da6;
+    --color-7: #7255b1;
+    --color-8: #121a72;
+    --color-9: #4a1646;
+    --color-10: #2b0a29;
 
-/* Breakpoints */
-$breakpoint-xsmall: 400px;
-$breakpoint-small: 550px;
-$breakpoint-medium: 750px;
-$breakpoint-large: 1000px;
-$breakpoint-xlarge: 1200px;
+    // Breakpoints
+    --breakpoint-xsmall: 400px;
+    --breakpoint-small: 550px;
+    --breakpoint-medium: 750px;
+    --breakpoint-large: 1000px;
+    --breakpoint-xlarge: 1200px;
+}

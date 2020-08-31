@@ -18,6 +18,8 @@ description: "Stylistically inspired by the past, technologically inspired by th
 
 research_description: "Not everything is easily shown visually..."
 
+faviconcolor: "black"
+
 about:
   - "I am a software engineer focused on improving how people interact with and experience technology. This site contains some of the projects I have created while pursuing that goal."
   - "I studied Communication at Portland State University, Journalism at The University of Southern California and Computer Science at Georgia Tech."
