@@ -11,14 +11,10 @@ port: 4000
 
 # User config
 author: "Willy Nolan"
-
 title: "Willy Nolan"
-
-description: "Stylistically inspired by the past, technologically inspired by the future..."
-
-research_description: "Not everything is easily shown visually..."
-
 faviconcolor: "black"
+
+keywords: "Willy Nolan, Software Engineering, Interactive Engineering"
 
 about:
   - "I am a software engineer focused on improving how people interact with and experience technology. This site contains some of the projects I have created while pursuing that goal."
@@ -40,7 +36,7 @@ exhibitions:
   - "Madison Square Garden Science Fair (Las Vegas, USA)"
   - "Madison Square Garden Science Fair (Los Angeles, USA)"
 
-keywords: "Willy Nolan, Software Engineering, Interactive Engineering"
+# Links
 email: "willy@willynolan.com"
 github: "https://github.com/computersarecool"
 linkedin: "https://www.linkedin.com/in/willynolan/"

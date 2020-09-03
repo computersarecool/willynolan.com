@@ -22,7 +22,7 @@ ul {
     list-style-type: none;
 }
 
-img {
+img, video {
     display: block;
     max-width: 100%;
 }
@@ -33,12 +33,10 @@ html, body {
 }
 
 body {
+    padding: 5px;
     font-family: var(--font-default);
     font-size: 1.8em;
     font-weight: 600;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(9, 1fr);
 }
 
 header {
@@ -63,12 +61,14 @@ h2 {
     line-height: 1;
 }
 
-// Central grid design
-body {
-    padding: 5px;
+// Index main
+body.index {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(9, 1fr);
 }
 
-main {
+main.index {
     background: #d300ff;
     grid-column: 1 / -1;
     grid-row: 2 / 8;
@@ -76,7 +76,7 @@ main {
     justify-content: center;
 }
 
-.artwork {
+.content-artwork {
     height: 100%;
     width: 100%;
     max-height: 480px;
@@ -191,7 +191,7 @@ nav {
 
 // Minimum height
 @media screen and (max-height: 450px) {
-    main {
+    main.index {
         grid-row: 2 / 7;
     }
 
@@ -212,8 +212,23 @@ nav {
     }
 }
 
+// Very wide
 @media (orientation: landscape) and (min-width: 550px) {
-    .artwork {
+    .content-artwork {
         max-width: 460px;
     }
+}
+
+
+// Projects page
+.content-list {
+    text-align: center;
+}
+
+video.logo {
+    margin: 0 auto;
+}
+
+.project-caption {
+    font-size: 1rem;
 }
