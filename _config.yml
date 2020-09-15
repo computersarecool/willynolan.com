@@ -1,3 +1,6 @@
+# Content settings
+show_exhibitions: false
+
 # Site config
 baseurl: ""
 highlighter: rouge

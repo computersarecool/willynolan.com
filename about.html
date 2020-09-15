@@ -16,13 +16,19 @@
                 {% for item in site.about %}
                     <p>{{ item }}</p>
                 {% endfor %}
-                <p>
-
-                </p>
             </section>
+
+            {% if site.show_exhibitions %}
+            <section class="exhibitions">
+                <p class="callout exhibitions">Exhibitions</p>
+                {% for item in site.exhibitions %}
+                <p>{{ item }}</p>
+                {% endfor %}
+            </section>
+            {% endif %}
         </main>
 
-        <nav class="projects">
+        <nav>
             {% include navigation.html %}
         </nav>
     </body>
