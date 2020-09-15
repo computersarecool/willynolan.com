@@ -13,7 +13,7 @@
 
         <main class="projects">
             <ul class="list">
-                {% for item in site.categories.research reversed %}
+                {% for item in site.categories.projects reversed %}
                 <li>
                     <a href="{{ item.url | prepend: site.baseurl }}">
                         <h3 class="project-heading">{{ item.project.title }}</h3>

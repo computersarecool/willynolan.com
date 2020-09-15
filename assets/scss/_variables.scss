@@ -6,9 +6,12 @@
     --color-white: #fff;
     --color-black: #000;
     --color-gray: gray;
-    --color-blue: blue;
-    --color-red: red;
-    --color-yellow: yellow;
+    --color-blue: #2e518b;
+    --color-red: #b72033;
+    --color-yellow: #fcb622;
+    --color-bg: #d9dad4;
+    --main-text-color: #000;
+    --main-caption-color: #3e3a3a;
 
     --color-1: #c750ac;
     --color-2: #a93999;
@@ -20,11 +23,4 @@
     --color-8: #121a72;
     --color-9: #4a1646;
     --color-10: #2b0a29;
-
-    // Breakpoints
-    --breakpoint-xsmall: 400px;
-    --breakpoint-small: 550px;
-    --breakpoint-medium: 750px;
-    --breakpoint-large: 1000px;
-    --breakpoint-xlarge: 1200px;
 }

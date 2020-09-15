@@ -1,29 +1,3 @@
-html, body {
-    height: 100%;
-}
-
-body {
-    padding: 5px;
-    font-family: var(--font-default);
-    font-size: 1.8em;
-    font-weight: 600;
-}
-
-header {
-    background: orange;
-    grid-column: 1 / -1;
-    grid-row: 1 / 2;
-    text-transform: lowercase;
-}
-
-nav {
-    background: red;
-    grid-column: 1 / -1;
-    grid-row: 8 / -1;
-    font-size: .5em;
-}
-
-// Index specific styles
 body.index {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -31,7 +5,6 @@ body.index {
 }
 
 main.index {
-    background: #d300ff;
     grid-column: 1 / -1;
     grid-row: 2 / 8;
     display: flex;
@@ -55,7 +28,6 @@ main.index {
 }
 
 .square-container-inside {
-    background: orange;
     content: "";
     display: inline-block;
     position: relative;
@@ -151,7 +123,7 @@ nav {
     font-size: 1rem;
 }
 
-// Minimum height
+// Minimum height (probably in landscape)
 @media screen and (max-height: 450px) {
     main.index {
         grid-row: 2 / 7;
@@ -174,22 +146,9 @@ nav {
     }
 }
 
-// Very wide
+// Very wide aspect ratio
 @media (orientation: landscape) and (min-width: 550px) {
     .content-artwork {
         max-width: 460px;
     }
-}
-
-// Projects page
-.content-list {
-    text-align: center;
-}
-
-video.logo {
-    margin: 0 auto;
-}
-
-.project-caption {
-    font-size: 1rem;
 }
