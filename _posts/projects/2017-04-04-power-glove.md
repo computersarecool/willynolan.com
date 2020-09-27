@@ -10,7 +10,7 @@ project:
   title: "Power Glove"
   url: "https://willynolan.com/power-glove"
   logo_type: "video"
-  logo: "/assets/media/projects/power-glove/logo.webm"
+  logo: "/assets/media/projects/power-glove/preview.webm"
   logo_backup: "/assets/media/projects/power-glove/logo.mp4"
 
 images:

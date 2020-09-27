@@ -10,7 +10,7 @@ project:
   title: "Perspective Projection"
   url: "https://willynolan.com/perspective-projection"
   logo_type: "video"
-  logo: "/assets/media/projects/perspective-projection/logo.webm"
+  logo: "/assets/media/projects/perspective-projection/preview.webm"
   logo_backup: "/assets/media/projects/perspective-projection/logo.mp4"
 ---
 <p>

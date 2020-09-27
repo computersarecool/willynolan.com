@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    {% include head.html %}
+</head>
+
+<body class="index">
+<header>
+    {% include header.html %}
+</header>
+{% if page.category == "index" %}
+{% include main_index.html %}
+{% elsif page.category == "about" %}
+{% include main_about.html %}
+{% endif %}
+<nav class="index">
+    {% include navigation.html %}
+</nav>
+</body>
+</html>

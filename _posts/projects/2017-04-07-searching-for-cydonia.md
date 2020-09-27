@@ -10,7 +10,7 @@ project:
   title: "Searching for Cydonia"
   url: "https://willynolan.com/searching-for-cydonia"
   logo_type: "video"
-  logo: "/assets/media/projects/searching-for-cydonia/logo.webm"
+  logo: "/assets/media/projects/searching-for-cydonia/preview.webm"
   logo_backup: "/assets/media/projects/searching-for-cydonia/logo.mp4"
 
 images:
