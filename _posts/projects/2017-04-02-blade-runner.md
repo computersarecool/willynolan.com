@@ -9,9 +9,9 @@ meta:
 project:
   title: "Blade Runner Controller"
   url: "https://willynolan.com/blade-runner"
-  logo_type: "video"
-  logo: "/assets/media/projects/blade-runner/preview.webm"
-  logo_backup: "/assets/media/projects/blade-runner/logo.mp4"
+  preview: "video"
+  preview_main: "/assets/media/projects/blade-runner/preview.webm"
+  preview_backup: "/assets/media/projects/blade-runner/logo.mp4"
 
 images:
   - image:

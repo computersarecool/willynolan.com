@@ -9,9 +9,9 @@ meta:
 project:
   title: "Architectural Projection"
   url: "https://willynolan.com/architectural-projection"
-  logo_type: "video"
-  logo: "/assets/media/projects/architectural-projection/preview.webm"
-  logo_backup: "/assets/media/projects/architectural-projection/logo.mp4"
+  preview: "video"
+  preview_main: "/assets/media/projects/architectural-projection/preview.webm"
+  preview_backup: "/assets/media/projects/architectural-projection/logo.mp4"
 
 images:
   - image:

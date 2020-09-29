@@ -17,8 +17,8 @@
             <a href="{{ item.url | prepend: site.baseurl }}">
                 <h3 class="project-heading">{{ item.project.title }}</h3>
                 <video loop muted autoplay playsinline disableRemotePlayback title="{{ item.project.title }}">
-                    <source src="{{ item.project.logo | prepend: site.baseurl }}" type="video/webm">
-                    <!--                            <source src="{{ item.project.logo_backup | prepend: site.baseurl }}" type="video/mp4">-->
+                    <source src="{{ item.project.preview_main | prepend: site.baseurl }}" type="video/webm">
+                    <!-- <source src="{{ item.project.preview_backup | prepend: site.baseurl }}" type="video/mp4"> -->
                 </video>
             </a>
         </li>
@@ -29,8 +29,8 @@
             <a href="{{ item.url | prepend: site.baseurl }}">
                 <h3 class="project-heading">{{ item.project.title }}</h3>
                 <video class="logo" loop muted autoplay playsinline disableRemotePlayback title="{{ item.project.title }}">
-                    <source src="{{ item.project.logo | prepend: site.baseurl }}" type="video/webm">
-                    <source src="{{ item.project.logo_backup | prepend: site.baseurl }}" type="video/mp4">
+                    <source src="{{ item.project.preview_main | prepend: site.baseurl }}" type="video/webm">
+                    <!-- <source src="{{ item.project.preview_backup | prepend: site.baseurl }}" type="video/mp4"> -->
                 </video>
             </a>
         </li>

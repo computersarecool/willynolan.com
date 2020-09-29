@@ -9,9 +9,9 @@ meta:
 project:
   title: "AT&T Stadium"
   url: "https://willynolan.com/att-stadium"
-  logo_type: "video"
-  logo: "/assets/media/projects/att-stadium/preview.webm"
-  logo_backup: "/assets/media/projects/att-stadium/logo.mp4"
+  preview: "video"
+  preview_main: "/assets/media/projects/att-stadium/preview.webm"
+  preview_backup: "/assets/media/projects/att-stadium/logo.mp4"
 
 images:
   - image:

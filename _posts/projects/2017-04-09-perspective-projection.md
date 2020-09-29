@@ -9,9 +9,9 @@ meta:
 project:
   title: "Perspective Projection"
   url: "https://willynolan.com/perspective-projection"
-  logo_type: "video"
-  logo: "/assets/media/projects/perspective-projection/preview.webm"
-  logo_backup: "/assets/media/projects/perspective-projection/logo.mp4"
+  preview: "video"
+  preview_main: "/assets/media/projects/perspective-projection/preview.webm"
+  preview_backup: "/assets/media/projects/perspective-projection/logo.mp4"
 ---
 <p>
 Projecting content onto a non-planar surface has many technical elements that can make it tricky. However, once the 

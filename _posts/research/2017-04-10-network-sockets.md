@@ -9,9 +9,9 @@ meta:
 project:
   title: "Sockets"
   url: "https://willynolan.com/sockets"
-  logo_type: "video"
-  logo: "/assets/media/research/sockets/logo.webm"
-  logo_backup: "/assets/media/research/sockets/logo.mp4"
+  preview: "video"
+  preview_main: "/assets/media/research/sockets/preview.webm"
+  preview_backup: "/assets/media/research/sockets/logo.mp4"
 ---
 <p>
 Programming networks sockets directly, rather than using an abstraction or library, is a challenging task.

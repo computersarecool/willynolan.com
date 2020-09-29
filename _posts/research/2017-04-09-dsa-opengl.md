@@ -9,9 +9,9 @@ meta:
 project:
   title: "DSA OpenGL"
   url: "https://willynolan.com/dsa-opengl"
-  logo_type: "video"
-  logo: "/assets/media/research/dsa-opengl/logo.webm"
-  logo_backup: "/assets/media/research/dsa-opengl/logo.mp4"
+  preview: "video"
+  preview_main: "/assets/media/research/dsa-opengl/preview.webm"
+  preview_backup: "/assets/media/research/dsa-opengl/logo.mp4"
 
 images:
   - image:

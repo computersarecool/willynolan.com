@@ -9,9 +9,9 @@ meta:
 project:
   title: "Social Canvas"
   url: "https://willynolan.com/social-canvas"
-  logo_type: "video"
-  logo: "/assets/media/projects/social-canvas/preview.webm"
-  logo_backup: "/assets/media/projects/social-canvas/logo.mp4"
+  preview: "video"
+  preview_main: "/assets/media/projects/social-canvas/preview.webm"
+  preview_backup: "/assets/media/projects/social-canvas/logo.mp4"
 
 images:
   - image:

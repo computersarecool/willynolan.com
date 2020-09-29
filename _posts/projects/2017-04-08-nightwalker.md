@@ -9,9 +9,9 @@ meta:
 project:
   title: "NightWalker"
   url: "https://willynolan.com/nightwalker"
-  logo_type: "video"
-  logo: "/assets/media/projects/nightwalker/preview.webm"
-  logo_backup: "/assets/media/projects/nightwalker/logo.mp4"
+  preview: "video"
+  preview_main: "/assets/media/projects/nightwalker/preview.webm"
+  preview_backup: "/assets/media/projects/nightwalker/logo.mp4"
 
 images:
   - image:

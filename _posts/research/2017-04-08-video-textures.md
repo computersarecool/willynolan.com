@@ -9,9 +9,9 @@ meta:
 project:
   title: "Video Textures"
   url: "https://willynolan.com/video-textures"
-  logo_type: "video"
-  logo: "/assets/media/research/video-textures/logo.webm"
-  logo_backup: "/assets/media/research/video-textures/logo.mp4"
+  preview: "video"
+  preview_main: "/assets/media/research/video-textures/preview.webm"
+  preview_backup: "/assets/media/research/video-textures/logo.mp4"
 
 images:
   - image:

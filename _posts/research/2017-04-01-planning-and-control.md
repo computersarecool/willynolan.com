@@ -9,9 +9,9 @@ meta:
 project:
   title: "Planning and Control"
   url: "https://willynolan.com/planning-and-control"
-  logo_type: "video"
-  logo: "/assets/media/research/planning-and-control/logo.webm"
-  logo_backup: "/assets/media/research/planning-and-control/logo.mp4"
+  preview: "video"
+  preview_main: "/assets/media/research/planning-and-control/preview.webm"
+  preview_backup: "/assets/media/research/planning-and-control/logo.mp4"
 
 images:
   - image:

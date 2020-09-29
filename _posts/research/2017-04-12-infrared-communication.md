@@ -9,9 +9,9 @@ meta:
 project:
   title: "Infrared Communication"
   url: "https://willynolan.com/infrared-communication"
-  logo_type: "video"
-  logo: "/assets/media/research/infrared-communication/logo.webm"
-  logo_backup: "/assets/media/research/infrared-communication/logo.mp4"
+  preview: "video"
+  preview_main: "/assets/media/research/infrared-communication/preview.webm"
+  preview_backup: "/assets/media/research/infrared-communication/logo.mp4"
 ---
 <p>
 Infrared (IR) communication is one of the lowest-cost ways to control electronics.

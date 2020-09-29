@@ -9,9 +9,9 @@ meta:
 project:
   title: "Inpainting"
   url: "https://willynolan.com/inpainting"
-  logo_type: "video"
-  logo: "/assets/media/research/inpainting/logo.webm"
-  logo_backup: "/assets/media/research/inpainting/logo.mp4"
+  preview: "video"
+  preview_main: "/assets/media/research/inpainting/preview.webm"
+  preview_backup: "/assets/media/research/inpainting/logo.mp4"
 
 images:
   - image:

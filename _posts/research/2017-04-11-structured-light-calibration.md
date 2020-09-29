@@ -9,9 +9,9 @@ meta:
 project:
   title: "Structured Light Calibration"
   url: "https://willynolan.com/structured-light-calibration"
-  logo_type: "video"
-  logo: "/assets/media/research/structured-light-calibration/logo.webm"
-  logo_backup: "/assets/media/research/structured-light-calibration/logo.mp4"
+  preview: "video"
+  preview_main: "/assets/media/research/structured-light-calibration/preview.webm"
+  preview_backup: "/assets/media/research/structured-light-calibration/logo.mp4"
 ---
 <p>
 There is a rich body of research surrounding camera calibration.  The process is usually broken up into 

@@ -9,9 +9,9 @@ meta:
 project:
   title: "Seam Carving"
   url: "https://willynolan.com/seam-carving"
-  logo_type: "video"
-  logo: "/assets/media/research/seam-carving/logo.webm"
-  logo_backup: "/assets/media/research/seam-carving/logo.mp4"
+  preview: "video"
+  preview_main: "/assets/media/research/seam-carving/preview.webm"
+  preview_backup: "/assets/media/research/seam-carving/logo.mp4"
 
 images:
   - image:

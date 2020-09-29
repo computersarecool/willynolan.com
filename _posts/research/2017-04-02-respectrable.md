@@ -9,9 +9,9 @@ meta:
 project:
   title: "Respectrable"
   url: "https://willynolan.com/respectrable"
-  logo_type: "video"
-  logo: "/assets/media/research/respectrable/logo.webm"
-  logo_backup: "/assets/media/research/respectrable/logo.mp4"
+  preview: "video"
+  preview_main: "/assets/media/research/respectrable/preview.webm"
+  preview_backup: "/assets/media/research/respectrable/logo.mp4"
 
 images:
   - image:

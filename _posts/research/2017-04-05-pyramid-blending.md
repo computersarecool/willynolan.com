@@ -9,9 +9,9 @@ meta:
 project:
   title: "Pyramid Blending"
   url: "https://willynolan.com/pyramid-blending"
-  logo_type: "video"
-  logo: "/assets/media/research/pyramid-blending/logo.webm"
-  logo_backup: "/assets/media/research/pyramid-blending/logo.mp4"
+  preview: "video"
+  preview_main: "/assets/media/research/pyramid-blending/preview.webm"
+  preview_backup: "/assets/media/research/pyramid-blending/logo.mp4"
 
 images:
   - image:
