@@ -1,19 +1,18 @@
-<main class="content">
-    <section class="project">
+<main class="{{ page.template }}">
+    <article>
         <h2 class="no-display">Project</h2>
-        <div class="container">
-            <article>
-                <span class="h2">Project Title</span>
-                <h3 class="like-h1">
+        <div>
+            <section>
+                <h3>
                     <span>{{ page.project.title }}</span>
                 </h3>
-                <span class="h2">Description</span>
                 {{ page.content }}
-            </article>
-            <aside>
+            </section>
+
+            <section>
                 <ul>
                     {% for image in page.images %}
-                    <li class="featured">
+                    <li>
                         <img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
                     </li>
                     {% endfor %}
@@ -25,7 +24,7 @@
                     </li>
                     {% endfor %}
                 </ul>
-            </aside>
+            </section>
         </div>
-    </section>
+    </article>
 </main>

@@ -2,6 +2,7 @@
 layout: default
 permalink: /:title/
 category: projects
+template: video-post
 
 meta:
   keywords: "China, Projection Mapping, Architectural Projection, Project, Software"

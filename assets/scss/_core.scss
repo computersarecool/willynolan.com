@@ -57,7 +57,7 @@ nav {
 }
 
 main, header, nav {
-    padding: 5px;
+    padding: var(--padding-sides);
 }
 
 main.index {
@@ -66,4 +66,9 @@ main.index {
 
 nav.focus {
     margin-top: 0;
+}
+
+//TODO: More accessible way of doing this?
+.no-display {
+    display: none;
 }
