@@ -1,5 +1,5 @@
 ---
-layout: project_simple
+layout: default
 permalink: /:title/
 category: research
 

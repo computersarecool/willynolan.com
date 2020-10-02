@@ -1,5 +1,5 @@
 ---
-layout: project_image_and_vimeo
+layout: default
 permalink: /:title/
 category: projects
 
@@ -17,7 +17,7 @@ images:
   - image:
     url: "/assets/media/projects/architectural-projection/first.jpg"
     alt: "Shantou Medical Building"
-    
+
   - image:
     url: "/assets/media/projects/architectural-projection/second.jpg"
     alt: "Shantou Medical Building"

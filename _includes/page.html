@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    {% include head.html %}
+</head>
+<body class="{{ page.type }}">
+    <header>
+        {% include header.html %}
+    </header>
+    {% if page.type == "index" %}
+        {% include main-index.html %}
+    {% elsif page.type == "about" %}
+        {% include main-about.html %}
+    {% elsif page.type == "projects" %}
+        {% include main-projects.html %}
+    {% elsif page.type == "research" %}
+        {% include main-projects.html %}
+    {% else %}
+        {% include main-post.html %}
+    {% endif %}
+    <nav class="focus">
+        {% include navigation.html %}
+    </nav>
+</body>
+</html>

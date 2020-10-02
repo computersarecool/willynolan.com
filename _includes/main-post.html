@@ -1,0 +1,31 @@
+<main class="content">
+    <section class="project">
+        <h2 class="no-display">Project</h2>
+        <div class="container">
+            <article>
+                <span class="h2">Project Title</span>
+                <h3 class="like-h1">
+                    <span>{{ page.project.title }}</span>
+                </h3>
+                <span class="h2">Description</span>
+                {{ page.content }}
+            </article>
+            <aside>
+                <ul>
+                    {% for image in page.images %}
+                    <li class="featured">
+                        <img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
+                    </li>
+                    {% endfor %}
+                    {% for video in page.videos%}
+                    <li class="featured">
+                        <div class="video-container">
+                            {% include vimeo-player.html id=video.id %}
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </aside>
+        </div>
+    </section>
+</main>

@@ -1,5 +1,5 @@
 ---
-layout: project_image_and_vimeo
+layout: default
 permalink: /:title/
 category: research
 
