@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    {% include head.html %}
+</head>
+
+<body>
+<header>
+    {% include header.html %}
+</header>
+
+<main class="projects">
+    <ul class="list">
+    {% if page.category == "projects" %}
+        {% for item in site.categories.projects reversed %}
+            {% include post.html %}
+        {% endfor %}
+    {% elsif page.category == "research" %}
+        {% for item in site.categories.research reversed %}
+            {% include post.html %}
+        {% endfor %}
+    {% endif %}
+    </ul>
+</main>
+
+<nav>
+    {% include navigation.html %}
+</nav>
+</body>
+</html>

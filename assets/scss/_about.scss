@@ -1,5 +1,7 @@
 section.about {
     font-size: .6em;
+    padding-left: .5em;
+    padding-right: .5em;
 }
 
 section.exhibitions {
@@ -8,4 +10,8 @@ section.exhibitions {
 
 .callout.exhibitions {
     text-transform: lowercase;
+}
+
+nav.about {
+    margin-top: 0;
 }

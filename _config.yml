@@ -1,6 +1,3 @@
-# Content settings
-show_exhibitions: false
-
 # Site config
 baseurl: ""
 highlighter: rouge
@@ -8,18 +5,19 @@ sass:
   sass_dir: assets/scss
   style: compressed
 
-# development
+# Development
 host: 0.0.0.0
-port: 9000
+port: 9001
 
-# User config
+# Settings
 author: "Willy Nolan"
 title: "Willy Nolan"
 faviconcolor: "black"
 
+show_exhibitions: false
+
 keywords: "Willy Nolan, Software Engineering, Interactive Engineering"
 
-# Content for site pages
 about:
   - "I am a software engineer focused on improving how people interact with and experience technology. This site contains some of the projects I have created while pursuing that goal."
   - "I studied Communication at Portland State University, Journalism at The University of Southern California and Computer Science at Georgia Tech."
@@ -41,7 +39,6 @@ exhibitions:
   - "Madison Square Garden Science Fair (Las Vegas, USA)"
   - "Madison Square Garden Science Fair (Los Angeles, USA)"
 
-# Links
 email: "willy@willynolan.com"
 github: "https://github.com/computersarecool"
 linkedin: "https://www.linkedin.com/in/willynolan/"

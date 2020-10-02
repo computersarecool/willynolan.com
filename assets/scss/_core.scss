@@ -38,7 +38,6 @@ html, body {
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    padding: 5px;
     font-family: var(--font-default);
     font-size: 1.8em;
     font-weight: 600;
@@ -55,4 +54,12 @@ nav {
     grid-column: 1 / -1;
     grid-row: 8 / -1;
     font-size: .5em;
+}
+
+main, header, nav {
+    padding: 5px;
+}
+
+main.index {
+    padding-right: 0;
 }

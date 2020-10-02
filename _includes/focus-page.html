@@ -4,14 +4,14 @@
     {% include head.html %}
 </head>
 
-<body class="index">
+<body class="{{ page.category }}">
 <header>
     {% include header.html %}
 </header>
 {% if page.category == "index" %}
-{% include main-index.html %}
+    {% include main-index.html %}
 {% elsif page.category == "about" %}
-{% include main-about.html %}
+    {% include main-about.html %}
 {% endif %}
 <nav class="index">
     {% include navigation.html %}
