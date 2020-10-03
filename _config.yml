@@ -7,7 +7,7 @@ sass:
 
 # Development
 host: 0.0.0.0
-port: 9003
+port: 9006
 
 # Settings
 author: "Willy Nolan"

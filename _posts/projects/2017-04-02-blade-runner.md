@@ -8,7 +8,6 @@ meta:
 
 project:
   title: "Blade Runner Controller"
-  url: "https://willynolan.com/blade-runner"
   preview: "video"
   preview_main: "/assets/media/projects/blade-runner/preview.webm"
   preview_backup: "/assets/media/projects/blade-runner/logo.mp4"
