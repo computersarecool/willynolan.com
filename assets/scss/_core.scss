@@ -45,27 +45,15 @@ body {
 }
 
 header {
-    grid-column: 1 / -1;
-    grid-row: 1 / 2;
     text-transform: lowercase;
 }
 
 nav {
-    grid-column: 1 / -1;
-    grid-row: 8 / -1;
     font-size: .5em;
 }
 
 main, header, nav {
     padding: var(--padding-sides);
-}
-
-main.index {
-    padding-right: 0;
-}
-
-nav.focus {
-    margin-top: 0;
 }
 
 //TODO: More accessible way of doing this?

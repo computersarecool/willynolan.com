@@ -3,10 +3,14 @@
 <head>
     {% include head.html %}
 </head>
-<body class="{{ page.type }}">
-    <header>
+<body class="{{ page.class }}">
+    <header class="{{ page.class }}">
         {% include header.html %}
     </header>
+    <nav class="{{ page.class }}">
+        {% include nav.html %}
+    </nav>
+    <main class="{{ page.class }}">
     {% if page.type == "index" %}
         {% include main-index.html %}
     {% elsif page.type == "about" %}
@@ -18,8 +22,6 @@
     {% else %}
         {% include main-post.html %}
     {% endif %}
-    <nav class="focus">
-        {% include navigation.html %}
-    </nav>
+    </main>
 </body>
 </html>
