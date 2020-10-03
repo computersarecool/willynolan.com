@@ -34,7 +34,6 @@ contents:
     - "While visiting the university to work on a different, unrelated projection mapping project, we were asked to do an 
     architectural projection show on the newly completed campus medical building. The spontaneous request came approximately 
     24 hours before the show was supposed to happen (at least that was when I first heard of it)."
-    
     - "There was only one day to prepare content, create the show and align the projectors but the building's
     shape lent itself so well to projection that it was hard to resist."
     
@@ -44,17 +43,3 @@ contents:
     - "Luckily some students at the university were taking a drone photography class nearby and captured footage of the event
     which they were happy to share in exchange for a presentation on how to projection map buildings."
 ---
-
-<h3>{{ page.project.title }}</h3>
-
-{% for item in page.contents %}
-<p>{{ item }}</p>
-{% endfor %}
-
-{% for image in page.images %}
-<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
-{% endfor %}
-
-{% for video in page.videos %}
-<iframe src="https://player.vimeo.com/video/{{ video.id }}" width="500" height="281" allowfullscreen></iframe>
-{% endfor %}
