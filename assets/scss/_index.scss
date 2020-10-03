@@ -1,50 +1,5 @@
-body.simple {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto auto auto;
-}
-
-header.simple {
-    grid-column: 1 / -1;
-    grid-row: 1 / 2;
-}
-
-main.simple {
-    grid-column: 1 / -1;
+main.index {
     margin-right: 0;
-}
-
-// Navigation
-nav.simple {
-    grid-column: 1 / -1;
-    grid-row-end: -1;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: end;
-    text-transform: lowercase;
-}
-
-.site-links {
-    grid-column: 1 / 2;
-    line-height: 1.2;
-}
-
-.contact-links {
-    grid-column: 3 / 4;
-    line-height: 1.65;
-}
-
-.callout, .second-callout {
-    font-weight: 600;
-    margin: 0;
-}
-
-.callout {
-    font-size: 2rem;
-}
-
-.second-callout {
-    font-size: 1.1rem;
 }
 
 // Index page graphic
