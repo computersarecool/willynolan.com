@@ -7,26 +7,18 @@ main.index {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(7, 1fr);
+    max-width: 460px;
 }
 
 .square-container {
-    position: relative;
-    max-width: 78px;
+    width: 100%;
 }
 
 .square-container-inside {
     content: "";
     display: inline-block;
-    position: relative;
     width: 100%;
     padding-top: 100%;
-}
-
-.square {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
 }
 
 .blue1-container, .black1-container, .black2-container, .red1-container, .black2-container, .yellow1-container {
@@ -46,6 +38,7 @@ main.index {
 }
 
 .blue1-container {
+    justify-self: end;
     grid-column: 2;
 }
 
@@ -58,6 +51,7 @@ main.index {
 }
 
 .yellow1-container {
+    justify-self: end;
     grid-column: 9;
 }
 
@@ -79,34 +73,4 @@ main.index {
 
 .yellow1-container > div {
     background: var(--color-yellow);
-}
-
-// Minimum height (probably in landscape)
-@media screen and (max-height: 450px) {
-    main.simple {
-        grid-row: 2 / 7;
-    }
-
-    nav.simple {
-        grid-row: 7 / -1;
-    }
-    .site-links {
-        line-height: 1.5;
-    }
-
-    .square-container {
-        width: 100%;
-        max-width: 35px;
-    }
-
-    .blue1-container {
-        justify-self: end;
-    }
-}
-
-// Very wide aspect ratio
-@media (orientation: landscape) and (min-width: 550px) {
-    .content-artwork {
-        max-width: 460px;
-    }
 }
