@@ -53,7 +53,8 @@ nav {
 }
 
 main, header, nav {
-    padding: var(--padding-sides);
+    margin-left: var(--padding-sides);
+    margin-right: var(--padding-sides);
 }
 
 //TODO: More accessible way of doing this?
