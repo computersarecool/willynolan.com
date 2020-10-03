@@ -44,3 +44,17 @@ contents:
     - "Luckily some students at the university were taking a drone photography class nearby and captured footage of the event
     which they were happy to share in exchange for a presentation on how to projection map buildings."
 ---
+
+<h3>{{ page.project.title }}</h3>
+
+{% for item in page.contents %}
+<p>{{ item }}</p>
+{% endfor %}
+
+{% for image in page.images %}
+<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
+{% endfor %}
+
+{% for video in page.videos %}
+<iframe src="https://player.vimeo.com/video/{{ video.id }}" width="500" height="281" allowfullscreen></iframe>
+{% endfor %}
