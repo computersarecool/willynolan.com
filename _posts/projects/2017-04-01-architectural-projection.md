@@ -20,7 +20,7 @@ images:
 
   - image:
     url: "/assets/media/projects/architectural-projection/second.jpg"
-    alt: "Shantou Medical Building without projection"
+    alt: "Shantou University medical building without projection"
 
 videos:
   - video:

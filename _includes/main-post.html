@@ -1,13 +1,15 @@
-<h3>{{ page.project.title }}</h3>
+<h3 class="{{ page.class}}}">{{ page.project.title }}</h3>
 
 {% for item in page.contents %}
-<p>{{ item }}</p>
+<p class="{{ page.class}}}">{{ item }}</p>
 {% endfor %}
 
 {% for image in page.images %}
-<img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
+<img class="{{ page.class}}}" src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
 {% endfor %}
 
 {% for video in page.videos %}
-<iframe src="https://player.vimeo.com/video/{{ video.id }}" width="500" height="281" allowfullscreen></iframe>
+<div class="video-wrapper">
+    <iframe class="{{ page.class}}}" src="https://player.vimeo.com/video/{{ video.id }}" width="500" height="281" allowfullscreen frameborder="0"></iframe>
+</div>
 {% endfor %}
