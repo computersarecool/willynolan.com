@@ -36,6 +36,7 @@ html, body {
 }
 
 body {
+    max-width: $max-body;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: var(--font-default);
@@ -110,7 +111,12 @@ nav {
     height: 100%;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: $first-bp) {
+    body {
+        width: 80%;
+        margin: 0 auto;
+    }
+
     header {
         grid-column: 2 / -1;
     }
@@ -129,20 +135,5 @@ nav {
 
     .second-callout {
         font-size: 1.5rem;
-    }
-}
-
-@media only screen and (min-width: 1400px) {
-    body {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .callout {
-        font-size: 3.1rem;
-    }
-
-    .second-callout {
-        font-size: 1.8rem;
     }
 }

@@ -1,3 +1,9 @@
+// Breakpoints
+$smallest-bp: 740px;
+$first-bp: 1100px;
+$category-first-bp: 1300px;
+$max-body: 2000px;
+
 :root {
     // Fonts
     --font-default: sans-serif;
@@ -12,17 +18,6 @@
     --color-bg: #d9dad4;
     --main-text-color: #000;
     --main-caption-color: #000;
-
-    --color-1: #c750ac;
-    --color-2: #a93999;
-    --color-3: #662272;
-    --color-4: #5d206e;
-    --color-5: #7e77aa;
-    --color-6: #4b8da6;
-    --color-7: #7255b1;
-    --color-8: #121a72;
-    --color-9: #4a1646;
-    --color-10: #2b0a29;
 
     --padding-sides: 5px;
     --main-font-size-small: 1rem;
