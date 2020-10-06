@@ -16,7 +16,7 @@ project:
 images:
   - image:
     url: "/assets/media/projects/architectural-projection/first.jpg"
-    alt: "Shantou University medical building with Projection"
+    alt: "Shantou University medical building with projection"
 
   - image:
     url: "/assets/media/projects/architectural-projection/second.jpg"

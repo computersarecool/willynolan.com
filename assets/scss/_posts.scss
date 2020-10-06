@@ -2,6 +2,19 @@ main.video-post {
     display: grid;
 }
 
+h3.post {
+    border-bottom: 1px solid black;
+    text-align: right;
+    margin-top: 1.5em;
+    text-transform: lowercase;
+    font-size: 1.25rem;
+}
+
+p.post {
+    margin-top: .75em;
+    margin-bottom: .75em;
+}
+
 main.video-post img:nth-of-type(1) {
     grid-row: 2;
 }
