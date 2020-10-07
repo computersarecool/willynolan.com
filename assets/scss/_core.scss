@@ -45,7 +45,7 @@ body {
     background-color: var(--color-bg);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: 1fr auto 6fr;
 }
 
 header {
@@ -81,7 +81,7 @@ nav {
 
 .contact-links {
     grid-column: 3;
-    line-height: 1.65;
+    line-height: 1.64;
 }
 
 .callout, .second-callout {
