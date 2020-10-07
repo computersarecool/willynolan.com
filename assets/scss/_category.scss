@@ -11,13 +11,13 @@ ul.list {
 }
 
 li.post {
-    padding-top: 100%;
     position: relative;
+    padding-top: calc(100% - 4px); // Double the border
+    border: 2px solid black;
 }
 
 a.post {
-    display: block;
-    background: red;
+    display: flex;
     position: absolute;
     top: 0;
     left: 0;
@@ -25,17 +25,30 @@ a.post {
     height: 100%;
 }
 
-.project-heading {
+h3.project-heading {
     font-size: 1.25rem;
     text-transform: lowercase;
     text-align: center;
-    margin-bottom: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
     color: var(--main-caption-color);
+    background: black;
+}
+
+span.project-heading {
+    color: white;
+}
+
+span.project-heading:nth-child(2) {
+    color: blue;
 }
 
 video.preview {
     margin: 0 auto;
 }
+
+
 
 @media only screen and (min-width: $first-bp) {
     body {
