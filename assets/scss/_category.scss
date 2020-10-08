@@ -12,8 +12,8 @@ ul.list {
 
 li.post {
     position: relative;
-    padding-top: calc(100% - 4px); // Double the border
-    border: 2px solid black;
+    padding-top: calc(100% - 4px); // This needs to be 2x the border
+    border: 2px solid;
 }
 
 a.post {
@@ -47,25 +47,33 @@ span.project-heading:nth-child(2) {
 video.preview {
     margin: 0 auto;
 }
+@media only screen and (min-width: $smallest-bp) {
+    main.projects {
+        margin-top: 2em;
+    }
 
+    header.projects, .site-links.projects {
+        grid-column-start: 2;
+    }
 
+    header.projects {
+        grid-column-end: 4;
+    }
+}
 
 @media only screen and (min-width: $first-bp) {
-    body {
-        width: initial;
-    }
-
-    .site-links.projects {
-        grid-column: 1;
-    }
-
     .project-heading {
         font-size: 1.5rem;
     }
 }
 
-@media only screen and (min-width: $category-first-bp) {
-    .header.projects, .site-links.projects {
-        grid-column: 2;
+@media only screen and (min-width: $category-bp1) {
+    header.projects, .site-links.projects {
+        grid-column-start: 1;
+        justify-self: end;
+    }
+
+    header.projects {
+        grid-column-end: 2;
     }
 }

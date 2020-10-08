@@ -1,19 +1,22 @@
 main.about {
-    align-self: center;
-    font-size: .6em;
+    font-size: 1.1rem;
 }
 
 section.exhibitions {
-    font-size: .45em;
+    margin-top: 2em;
 }
 
 .callout.exhibitions {
     text-transform: lowercase;
 }
 
+section.exhibitions > p {
+    font-size: .95rem;
+}
+
 @media only screen and (min-width: $first-bp) {
     main.about {
         grid-column: 2 / -2;
-        font-size: 1em;
+        font-size: 1.5rem;
     }
 }

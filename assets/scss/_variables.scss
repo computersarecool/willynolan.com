@@ -1,8 +1,11 @@
+$max-body: 2000px;
+
 // Breakpoints
 $smallest-bp: 740px;
 $first-bp: 1100px;
-$category-first-bp: 1300px;
-$max-body: 2000px;
+
+$category-bp1: 1370px;
+$category-third-bp: 1300px;
 
 :root {
     // Fonts
@@ -19,7 +22,7 @@ $max-body: 2000px;
     --main-text-color: #000;
     --main-caption-color: #000;
 
-    --padding-sides: 5px;
+    --margin-sides: 5px;
     --main-font-size-small: 1rem;
     --project-grid-min: 280px;
     --project-grid-max: 525px;
