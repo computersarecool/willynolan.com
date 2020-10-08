@@ -10,7 +10,7 @@ h3.post {
     text-align: right;
     margin-top: 1.5em;
     text-transform: lowercase;
-    font-size: var(--font-post-main);
+    font-size: var(--post-headline);
 }
 
 p.post {
@@ -30,6 +30,14 @@ main.video-post .video-wrapper:nth-of-type(1) {
     grid-row: 7;
 }
 
+section > ul.video-post {
+    list-style-type: disc;
+}
+
+ul.video-post > li {
+    margin-top: .6em;
+}
+
 @media only screen and (min-width: $first-bp) {
     header.post, .site-links.post {
         grid-column-start: 1;
@@ -40,10 +48,10 @@ main.video-post .video-wrapper:nth-of-type(1) {
     main.video-post {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
-        font-size: var(--font-post-main);
+        font-size: var(--main-font-size-medium);
     }
 
-    p.post {
+    p.video-post {
         margin-top: .05em;
         margin-bottom: 0;
     }

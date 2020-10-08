@@ -13,7 +13,7 @@ $post-bp1: 1023px;
 :root {
     // Fonts
     --font-default: sans-serif;
-    --font-post-main: 1.5rem;
+
 
     // Colors
     --color-white: #fff;
@@ -25,11 +25,15 @@ $post-bp1: 1023px;
     --color-bg: #d9dad4;
     --main-text-color: #000;
     --main-caption-color: #000;
+    --heading-main-color: white;
+    --heading-highlight-color: blue;
+    --link-highlight-color: blue;
 
     --nav-margin: 1.5em;
     --margin-sides: 5px;
     --main-font-size-small: 1rem;
     --main-font-size-medium: 1.4rem;
-    --project-grid-min: 280px;
-    --project-grid-max: 525px;
+    --post-headline: 1.6rem;
+    --projects-grid-min: 280px;
+    --projects-grid-min: 525px;
 }

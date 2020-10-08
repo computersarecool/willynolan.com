@@ -1,7 +1,16 @@
-<h3 class="{{ page.class }} post">{{ page.project.title }}</h3>
+<h3 class="{{ page.class }}">{{ page.project.title }}</h3>
 
-{% for item in page.contents %}
-<p class="{{ page.class }} post">{{ item }}</p>
+{% for section in page.sections %}
+<section class="{{ page.class }}">
+    <p class="{{ page.class }}">{{ section.text }}</p>
+    {% if section.ul %}
+    <ul class="{{ page.class }}">
+        {% for item in section.ul %}
+        <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</section>
 {% endfor %}
 
 {% for image in page.images %}

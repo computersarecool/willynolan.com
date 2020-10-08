@@ -5,7 +5,7 @@ nav.projects {
 ul.list {
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(var(--project-grid-min), var(--project-grid-max)));
+    grid-template-columns: repeat(auto-fit, minmax(var(--projects-grid-min), var(--projects-grid-min)));
     grid-gap: 2em;
     justify-content: center;
 }
@@ -37,11 +37,11 @@ h3.project-heading {
 }
 
 span.project-heading {
-    color: white;
+    color: var(--heading-main-color);
 }
 
 span.project-heading:nth-child(2) {
-    color: blue;
+    color: var(--heading-highlight-color);
 }
 
 video.preview {

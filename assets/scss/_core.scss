@@ -12,9 +12,14 @@ a {
     color: var(--main-text-color);
 }
 
+.link-highlight {
+    color: var(--link-highlight-color);
+}
+
 ul {
     margin: 0;
     padding: 0;
+    list-style-position: inside;
     list-style-type: none;
 }
 
