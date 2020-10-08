@@ -1,5 +1,5 @@
 nav.projects {
-    margin-top: 1.5em;
+    margin-top: var(--nav-margin);
 }
 
 ul.list {
@@ -47,6 +47,7 @@ span.project-heading:nth-child(2) {
 video.preview {
     margin: 0 auto;
 }
+
 @media only screen and (min-width: $smallest-bp) {
     main.projects {
         margin-top: 2em;

@@ -1,15 +1,19 @@
-$max-body: 2000px;
+$max-body-width: 1800px;
 
 // Breakpoints
 $smallest-bp: 740px;
-$first-bp: 1100px;
+$first-bp: 1023px;
+$second-bp: 1370px;
 
 $category-bp1: 1370px;
-$category-third-bp: 1300px;
+$category-bp2: 1300px;
+
+$post-bp1: 1023px;
 
 :root {
     // Fonts
     --font-default: sans-serif;
+    --font-post-main: 1.5rem;
 
     // Colors
     --color-white: #fff;
@@ -22,8 +26,10 @@ $category-third-bp: 1300px;
     --main-text-color: #000;
     --main-caption-color: #000;
 
+    --nav-margin: 1.5em;
     --margin-sides: 5px;
     --main-font-size-small: 1rem;
+    --main-font-size-medium: 1.4rem;
     --project-grid-min: 280px;
     --project-grid-max: 525px;
 }

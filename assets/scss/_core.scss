@@ -39,7 +39,7 @@ html, body {
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    max-width: $max-body;
+    max-width: $max-body-width;
     font-family: var(--font-default);
     font-size: 1.8em;
     font-weight: 600;
@@ -126,6 +126,10 @@ nav {
         margin-bottom: 1.8rem;
     }
 
+    .contact-links {
+        grid-column: 4;
+    }
+
     .site-links {
         grid-column: 2;
     }
@@ -136,5 +140,11 @@ nav {
 
     .second-callout {
         font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: $second-bp) {
+    .contact-links {
+        grid-column: 3;
     }
 }
