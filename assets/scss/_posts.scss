@@ -23,6 +23,10 @@ p.post > a {
     color: var(--link-highlight-color);
 }
 
+p.post + p.post {
+    margin-top: 1em;
+}
+
 main.video-post img:nth-of-type(1) {
     grid-row: 2;
 }
@@ -35,7 +39,7 @@ main.video-post .video-wrapper:nth-of-type(1) {
     grid-row: 7;
 }
 
-section > ul.video-post {
+section > ul.post {
     list-style-type: disc;
 }
 
@@ -65,7 +69,12 @@ ul.video-post > li {
         grid-column: 1 / -1;
     }
 
+    // There will either be two videos or two images
     main.video-post img:nth-of-type(2) {
+        grid-row: 3;
+        grid-column-start: 2;
+    }
+    main.video-post .video-wrapper:nth-of-type(2) {
         grid-row: 3;
         grid-column-start: 2;
     }

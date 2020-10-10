@@ -10,13 +10,13 @@ ul.list {
     justify-content: center;
 }
 
-li.post {
+li.preview {
     position: relative;
     padding-top: calc(100% - 4px); // This needs to be 2x the border
     border: 2px solid;
 }
 
-a.post {
+a.preview {
     display: flex;
     position: absolute;
     top: 0;
@@ -25,7 +25,7 @@ a.post {
     height: 100%;
 }
 
-h3.project-heading {
+h3.preview-heading {
     font-size: 1.25rem;
     text-transform: lowercase;
     text-align: center;
@@ -36,11 +36,11 @@ h3.project-heading {
     background: black;
 }
 
-span.project-heading {
+span.preview-heading {
     color: var(--heading-main-color);
 }
 
-span.project-heading:nth-child(2) {
+span.preview-heading:nth-child(2) {
     color: var(--heading-highlight-color);
 }
 
@@ -63,7 +63,7 @@ video.preview {
 }
 
 @media only screen and (min-width: $first-bp) {
-    .project-heading {
+    .preview-heading {
         font-size: 1.5rem;
     }
 }

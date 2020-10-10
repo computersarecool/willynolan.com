@@ -14,14 +14,11 @@ project:
   preview_backup: "/assets/media/research/pyramid-blending/logo.mp4"
 
 images:
-  - image:
-    url: "/assets/media/research/pyramid-blending/first.png"
+  - url: "/assets/media/research/pyramid-blending/first.png"
     alt: "Demonstration of pyramid blending on the beach and sky"
-  - image:
-    url: "/assets/media/research/pyramid-blending/second.png"
+  - url: "/assets/media/research/pyramid-blending/second.png"
     alt: "Demonstration of pyramid blending on the beach and sky"
-  - image:
-    url: "/assets/media/research/pyramid-blending/third.png"
+  - url: "/assets/media/research/pyramid-blending/third.png"
     alt: "Demonstration of pyramid blending on the beach and sky"
 videos:
 ---

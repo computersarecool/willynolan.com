@@ -14,14 +14,11 @@ project:
   preview_backup: "/assets/media/research/inpainting/logo.mp4"
 
 images:
-  - image:
-    url: "/assets/media/research/inpainting/first.png"
+  - url: "/assets/media/research/inpainting/first.png"
     alt: "Demonstration of inpainting on litter"
-  - image:
-    url: "/assets/media/research/inpainting/second.png"
+  - url: "/assets/media/research/inpainting/second.png"
     alt: "Demonstration of inpainting on graffiti"
-  - image:
-    url: "/assets/media/research/inpainting/third.png"
+  - url: "/assets/media/research/inpainting/third.png"
     alt: "Demonstration of inpainting on a pattern"
 videos:
 ---

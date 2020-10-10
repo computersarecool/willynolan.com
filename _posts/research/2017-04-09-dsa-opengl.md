@@ -14,14 +14,11 @@ project:
   preview_backup: "/assets/media/research/dsa-opengl/logo.mp4"
 
 images:
-  - image:
-    url: "/assets/media/research/dsa-opengl/first.png"
+  - url: "/assets/media/research/dsa-opengl/first.png"
     alt: "Example tessellation shader"
-  - image:
-    url: "/assets/media/research/dsa-opengl/second.png"
+  - url: "/assets/media/research/dsa-opengl/second.png"
     alt: "Phong Lighting Model"
-  - image:
-    url: "/assets/media/research/dsa-opengl/third.png"
+  - url: "/assets/media/research/dsa-opengl/third.png"
     alt: "Real time raytracer"
 videos:
 ---

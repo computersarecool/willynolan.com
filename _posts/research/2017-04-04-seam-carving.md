@@ -14,26 +14,19 @@ project:
   preview_backup: "/assets/media/research/seam-carving/logo.mp4"
 
 images:
-  - image:
-    url: "/assets/media/research/seam-carving/first.png"
+  - url: "/assets/media/research/seam-carving/first.png"
     alt: "Original image of two airplanes"
-  - image:
-    url: "/assets/media/research/seam-carving/second.png"
+  - url: "/assets/media/research/seam-carving/second.png"
     alt: "Original image of two airplanes with seams marked for removal"
-  - image:
-    url: "/assets/media/research/seam-carving/third.png"
+  - url: "/assets/media/research/seam-carving/third.png"
     alt: "Result image of two airplanes with seams removed"
-  - image:
-    url: "/assets/media/research/seam-carving/fourth.png"
+  - url: "/assets/media/research/seam-carving/fourth.png"
     alt: "Image of motorcycle in all three stages of seam carving"
-  - image:
-    url: "/assets/media/research/seam-carving/fifth.png"
+  - url: "/assets/media/research/seam-carving/fifth.png"
     alt: "Image of birds"
-  - image:
-    url: "/assets/media/research/seam-carving/sixth.png"
+  - url: "/assets/media/research/seam-carving/sixth.png"
     alt: "Image of birds with seams marked for insertion"
-  - image:
-    url: "/assets/media/research/seam-carving/seventh.png"
+  - url: "/assets/media/research/seam-carving/seventh.png"
     alt: "Result image of birds"
 ---
 <p>

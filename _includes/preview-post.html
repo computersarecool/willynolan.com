@@ -1,14 +1,14 @@
-<li class="post">
-    <a href="{{ item.url | prepend: site.baseurl }}" class="post">
+<li class="preview">
+    <a href="{{ item.url | prepend: site.baseurl }}" class="preview">
         <video loop muted autoplay playsinline disableRemotePlayback title="{{ item.project.title }}" class="preview">
             <source src="{{ item.project.preview_main | prepend: site.baseurl }}" type="video/webm">
             <!-- <source src="{{ item.project.preview_backup | prepend: site.baseurl }}" type="video/mp4"> -->
         </video>
 
         {% assign aboutWords = item.project.title | split:' ' %}
-        <h3 class="project-heading">
+        <h3 class="preview-heading">
         {% for h in aboutWords %}
-            <span class="project-heading">{{ h }}</span>
+            <span class="preview-heading">{{ h }}</span>
         {% endfor %}
         </h3>
     </a>

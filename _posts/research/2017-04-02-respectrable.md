@@ -14,16 +14,13 @@ project:
   preview_backup: "/assets/media/research/respectrable/logo.mp4"
 
 images:
-  - image:
-    url: "/assets/media/research/respectrable/first.png"
+  - url: "/assets/media/research/respectrable/first.png"
     alt: "The Live Object Model"
-  - image:
-    url: "/assets/media/research/respectrable/second.png"
+  - url: "/assets/media/research/respectrable/second.png"
     alt: "Respectrable"
 
 videos:
-  - video:
-    id: "354581391"
+  - id: "354581391"
 ---
 <p>
 Although most people who use Ableton Live probably use it to make music, it was also one of the first Digital Audio 

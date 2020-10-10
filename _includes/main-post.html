@@ -2,14 +2,21 @@
 
 {% for section in page.sections %}
 <section class="{{ page.class }}">
-    <p class="{{ page.class }}">{{ section.text }}</p>
-    {% if section.ul %}
-    <ul class="{{ page.class }}">
-        {% for item in section.ul %}
-        <li>{{ item }}</li>
-        {% endfor %}
-    </ul>
-    {% endif %}
+    {% for element in section.content %}
+        {% if element.p %}
+            <p class="{{ page.class }}">{{ element.p }}</p>
+        {% elsif element.raw %}
+            {{ element.raw }}
+        {% elsif element.bq %}
+            <blockquote class="{{ page.class }}">{{ element.bq }}</blockquote>
+        {% elsif element.ul %}
+        <ul class="{{ page.class }}">
+            {% for li in element.ul %}
+                <li class="{{ page.class }}">{{ li }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    {% endfor %}
 </section>
 {% endfor %}
 

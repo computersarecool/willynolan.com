@@ -14,11 +14,9 @@ project:
   preview_backup: "/assets/media/research/video-textures/logo.mp4"
 
 images:
-  - image:
-    url: "/assets/media/research/video-textures/first.png"
+  - url: "/assets/media/research/video-textures/first.png"
     alt: "video-textures image created from a radiance map"
-  - image:
-    url: "/assets/media/research/video-textures/second.png"
+  - url: "/assets/media/research/video-textures/second.png"
     alt: "Image acquisition pipeline and false color image of radiance map"
 videos:
 ---
