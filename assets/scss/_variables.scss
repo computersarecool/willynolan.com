@@ -1,19 +1,20 @@
-$max-body-width: 1800px;
-
 // Breakpoints
 $smallest-bp: 740px;
 $first-bp: 1023px;
 $second-bp: 1370px;
 
-$category-bp1: 1370px;
-$category-bp2: 1300px;
-
-$post-bp1: 1023px;
-
 :root {
+    --nav-margin: 1.5em;
+    --margin-sides: 5px;
+    --main-font-size-small: 1rem;
+    --main-font-size-medium: 1.4rem;
+    --post-headline: 1.6rem;
+    --projects-grid-min: 525px;
+    --max-body-width: 1800px;
+    --max-graphic-width: 700px;
+
     // Fonts
     --font-default: sans-serif;
-
 
     // Colors
     --color-white: #fff;
@@ -22,18 +23,10 @@ $post-bp1: 1023px;
     --color-blue: #2e518b;
     --color-red: #b72033;
     --color-yellow: #fcb622;
-    --color-bg: #d9dad4;
+    --color-main-bg: #d9dad4;
     --main-text-color: #000;
     --main-caption-color: #000;
     --heading-main-color: white;
     --heading-highlight-color: blue;
     --link-highlight-color: blue;
-
-    --nav-margin: 1.5em;
-    --margin-sides: 5px;
-    --main-font-size-small: 1rem;
-    --main-font-size-medium: 1.4rem;
-    --post-headline: 1.6rem;
-    --projects-grid-min: 280px;
-    --projects-grid-min: 525px;
 }

@@ -68,7 +68,7 @@ video.preview {
     }
 }
 
-@media only screen and (min-width: $category-bp1) {
+@media only screen and (min-width: $second-bp) {
     header.projects, .site-links.projects {
         grid-column-start: 1;
         justify-self: end;

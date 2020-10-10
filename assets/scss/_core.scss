@@ -44,11 +44,11 @@ html, body {
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    max-width: $max-body-width;
+    max-width: var(--max-body-width);
     font-family: var(--font-default);
     font-size: 1.8em;
     font-weight: 600;
-    background-color: var(--color-bg);
+    background-color: var(--color-main-bg);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr auto 6fr;

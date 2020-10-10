@@ -1,7 +1,8 @@
 ---
-layout: default
 permalink: /:title/
 category: projects
+layout: default
+class: "post video-post"
 
 meta:
   keywords: "Power Glove, Project, Hardware"

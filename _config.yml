@@ -7,7 +7,7 @@ sass:
 
 # Development
 host: 0.0.0.0
-port: 9007
+port: 9000
 
 # Settings
 author: "Willy Nolan"
@@ -15,6 +15,17 @@ title: "Willy Nolan"
 faviconcolor: "black"
 
 show_exhibitions: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: /:title/
+      category: projects
+      layout: default
+      class: "post video-post"
 
 keywords: "Willy Nolan, Software Engineering, Interactive Engineering"
 

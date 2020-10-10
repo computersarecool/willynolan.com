@@ -1,9 +1,4 @@
 ---
-permalink: /:title/
-category: projects
-layout: default
-class: "post video-post"
-
 meta:
   keywords: "Projection Mapping, Architectural Projection, Project, Software, China"
 

@@ -1,9 +1,4 @@
 ---
-permalink: /:title/
-category: projects
-layout: default
-class: "post video-post"
-
 meta:
   keywords: "Blade Runner, Project, GUI, Software"
 
