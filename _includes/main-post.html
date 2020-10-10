@@ -2,7 +2,7 @@
 
 {% for section in page.sections %}
 <section class="{{ page.class }}">
-    {% for element in section.content %}
+    {% for element in section %}
         {% if element.p %}
             <p class="{{ page.class }}">{{ element.p }}</p>
         {% elsif element.raw %}
@@ -10,22 +10,24 @@
         {% elsif element.bq %}
             <blockquote class="{{ page.class }}">{{ element.bq }}</blockquote>
         {% elsif element.ul %}
-        <ul class="{{ page.class }}">
+            <ul class="{{ page.class }}">
             {% for li in element.ul %}
                 <li class="{{ page.class }}">{{ li }}</li>
             {% endfor %}
-        </ul>
+            </ul>
         {% endif %}
     {% endfor %}
 </section>
 {% endfor %}
 
-{% for image in page.images %}
-<img class="{{ page.class }}" src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
-{% endfor %}
-
-{% for video in page.videos %}
-<div class="video-wrapper">
-    <iframe class="{{ page.class }}" src="https://player.vimeo.com/video/{{ video.id }}" width="500" height="281" allowfullscreen frameborder="0"></iframe>
-</div>
+{% for element in page.media %}
+    {% if element.type == "image" %}
+    <div class="{{ page.class }} featured">
+        <img class="{{ page.class }}" src="{{ element.url | prepend: site.baseurl }}" alt="{{ element.alt }}" />
+    </div>
+    {% elsif element.type == "video" %}
+    <div class="{{ page.class }} featured video-wrapper">
+        <iframe class="{{ page.class }}" src="https://player.vimeo.com/video/{{ element.id }}" width="500" height="281" allowfullscreen frameborder="0"></iframe>
+    </div>
+    {% endif %}
 {% endfor %}

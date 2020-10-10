@@ -13,12 +13,15 @@ project:
   preview_main: "/assets/media/research/inpainting/preview.webm"
   preview_backup: "/assets/media/research/inpainting/logo.mp4"
 
-images:
-  - url: "/assets/media/research/inpainting/first.png"
+media:
+  - type: image
+    url: "/assets/media/research/inpainting/first.png"
     alt: "Demonstration of inpainting on litter"
-  - url: "/assets/media/research/inpainting/second.png"
+  - type: image
+    url: "/assets/media/research/inpainting/second.png"
     alt: "Demonstration of inpainting on graffiti"
-  - url: "/assets/media/research/inpainting/third.png"
+  - type: image
+    url: "/assets/media/research/inpainting/third.png"
     alt: "Demonstration of inpainting on a pattern"
 videos:
 ---

@@ -40,6 +40,10 @@ h2 {
     white-space: nowrap;
 }
 
+li > p {
+    display: inline;
+}
+
 // Page layout
 html, body {
     height: 100%;

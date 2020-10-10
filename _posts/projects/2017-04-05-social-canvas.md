@@ -8,29 +8,31 @@ project:
   preview_main: "/assets/media/projects/social-canvas/preview.webm"
   preview_backup: "/assets/media/projects/social-canvas/logo.mp4"
 
-images:
-  - url: "/assets/media/projects/social-canvas/first.png"
+media:
+  - type: image
+    url: "/assets/media/projects/social-canvas/first.png"
     alt: "Social Canvas Layout"
 
-videos:
-  - id: "354169578"
+  - type: video
+    id: "354169578"
 
-  - id: "354168138"
+  - type: video
+    id: "354168138"
 
 sections:
-    - content:
-        - p: "Social Canvas is probably the world's largest multiplayer game installation.  It functions like most 
-            tile-matching video games except on a much, much larger scale. It was created in 2018 and installed at the MGM 
-            Cotai in Macau."
+  -
+    - p: "Social Canvas is probably the world's largest multiplayer game installation.  It functions like most 
+        tile-matching video games except on a much, much larger scale. It was created in 2018 and installed at the MGM 
+        Cotai in Macau."
 
-    - content:
-        - p: 'Visitors to MGM Cotai can quickly join the game by scanning a QR code and submit entries by sending 
-            messages to a dedicated WeChat channel. These entries are then displayed in “The Spectacle”, MGM’s term for the
-            world’s largest area of permanent indoor LED screens that makes up their lobby and casino entrance.'
+  -
+    - p: 'Visitors to MGM Cotai can quickly join the game by scanning a QR code and submit entries by sending 
+        messages to a dedicated WeChat channel. These entries are then displayed in “The Spectacle”, MGM’s term for the
+        world’s largest area of permanent indoor LED screens that makes up their lobby and casino entrance.'
 
-    - content:
-        - p: 'In addition to the scale of this installation it is also unique in that it is truly interactive. Guests are 
-            allowed to directly participate in the game, creating an shared experience for all. MGM''s write up is 
-            <a href="https://www.mgm.mo/en/cotai/art/art-tour/collaboration/social-canvas">here</a>. 
-            The featured videos show an overview of the project and a demo of the project in action.'
+  -
+    - p: 'In addition to the scale of this installation it is also unique in that it is truly interactive. Guests are 
+        allowed to directly participate in the game, creating an shared experience for all. MGM''s write up is 
+        <a href="https://www.mgm.mo/en/cotai/art/art-tour/collaboration/social-canvas">here</a>. 
+        The featured videos show an overview of the project and a demo of the project in action.'
 ---

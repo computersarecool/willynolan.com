@@ -10,25 +10,25 @@ project:
   preview_main: "/assets/media/research/planning-and-control/preview.webm"
   preview_backup: "/assets/media/research/planning-and-control/logo.mp4"
 
-images:
-  - url: "/assets/media/research/planning-and-control/first.png"
+media:
+  - type: image
+    url: "/assets/media/research/planning-and-control/first.png"
     alt: "Warehouse representation of map"
-    
-  - url: "/assets/media/research/planning-and-control/second.png"
+  - type: image
+    url: "/assets/media/research/planning-and-control/second.png"
     alt: "Warehouse representation of map with motion plan"
-    
-videos:
-  - id: "354555624"
+  - type: video
+    id: "354555624"
 
 sections:  
-    - content:
+  -
         - p: "The goal of this project was to implement planning and control algorithms to guide a simulated robot 
             through a warehouse."
         - p: 'The warehouse layout is described with an ASCII file where <code>#</code> symbols represent walls, numbers 
             represent packages that need to be retrieved, <code>A</code> represents the starting position, 
             <code>.</code>s represent traversable space and the <code>@</code> symbol represents the drop zone.'
 
-    - content:
+  -
         - p: 'A warehouse layout for the featured images would be given as the following:'
         - p: '<pre>
             .0#..
@@ -43,7 +43,7 @@ sections:
             - 'There are limits on the amount the robot can rotate in each time step'
             - 'More efficient routes are preferred'
 
-    - content:
+  -
         - p: 'The challenge is that packages are located in fractional -- not integer -- locations. My research 
             solved this through discretization of the provided warehouse layout file and precise calculation of the 
             robot heading.'

@@ -13,10 +13,12 @@ project:
   preview_main: "/assets/media/research/video-textures/preview.webm"
   preview_backup: "/assets/media/research/video-textures/logo.mp4"
 
-images:
-  - url: "/assets/media/research/video-textures/first.png"
+media:
+  - type: image
+    url: "/assets/media/research/video-textures/first.png"
     alt: "video-textures image created from a radiance map"
-  - url: "/assets/media/research/video-textures/second.png"
+  - type: image
+    url: "/assets/media/research/video-textures/second.png"
     alt: "Image acquisition pipeline and false color image of radiance map"
 videos:
 ---
