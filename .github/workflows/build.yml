@@ -15,4 +15,3 @@ jobs:
 
       - name: Build
         uses: jerryjvl/jekyll-build-action@v1
-
