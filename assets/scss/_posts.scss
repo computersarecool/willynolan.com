@@ -1,9 +1,5 @@
-main.video-post {
-    display: grid;
-}
-
 nav.post {
-    margin-top: var(--nav-margin);
+    margin-top: var(--margin-nav);
 }
 
 h3.post {
@@ -11,11 +7,11 @@ h3.post {
     text-align: right;
     margin-top: 1.5em;
     text-transform: lowercase;
-    font-size: var(--post-headline);
+    font-size: var(--font-size-post-headline);
 }
 
 section.post a {
-    color: var(--link-highlight-color);
+    color: var(--color-link-highlight);
 }
 
 p.post + p.post {
@@ -28,6 +24,10 @@ section > ul.post {
 
 ul.video-post > li {
     margin-top: .6em;
+}
+
+main.video-post {
+    display: grid;
 }
 
 main.video-post div.featured:nth-of-type(1) {
@@ -43,29 +43,29 @@ main.video-post div.featured:nth-of-type(3) {
 }
 
 @media only screen and (min-width: $first-bp) {
+    header.post {
+        grid-column-start: 1;
+    }
+
     section.post {
         margin-top: 0;
         margin-bottom: 0;
     }
 
-    header.post, .site-links.post {
-        grid-column-start: 1;
+    p.post {
+        margin-top: 0;
     }
 }
 
-@media only screen and (min-width: $first-bp) {
+@media only screen and (min-width: $second-bp) {
     main.video-post {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
-        font-size: var(--main-font-size-medium);
+        font-size: var(--font-size-main-medium);
     }
 
     h3.video-post {
         grid-column: 1 / -1;
-    }
-
-    P.post {
-        margin-top: 0;
     }
 
     main.video-post div.featured:nth-of-type(1) {

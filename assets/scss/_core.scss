@@ -9,11 +9,11 @@ html {
 
 a {
     text-decoration: none;
-    color: var(--main-text-color);
+    color: var(--color-main-text);
 }
 
 .link-highlight {
-    color: var(--link-highlight-color);
+    color: var(--color-link-highlight);
 }
 
 ul {
@@ -26,14 +26,6 @@ ul {
 img, video {
     display: block;
     max-width: 100%;
-}
-
-h2 {
-    font-family: var(--font-default);
-    color: var(--color-silver);
-    display: block;
-    font-size: 1rem;
-    line-height: 1;
 }
 
 .nobr {
@@ -50,12 +42,11 @@ html, body {
 }
 
 body {
+    min-height: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     max-width: var(--max-body-width);
-    font-family: var(--font-default);
-    font-size: 1.8em;
-    font-weight: 600;
+    font-family: var(--font-default-family);
     background-color: var(--color-main-bg);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -65,24 +56,22 @@ body {
 header, main, nav {
     margin-left: var(--margin-sides);
     margin-right: var(--margin-sides);
+    grid-column: 1 / -1;
 }
 
 header {
-    grid-column: 1 / -1;
     grid-row: 1 / 2;
     text-transform: lowercase;
 }
 
 main {
-    grid-column: 1 / -1;
-    font-size: var(--main-font-size-small);
+    font-size: var(--font-size-main-small);
 }
 
 nav {
-    grid-column: 1 / -1;
     grid-row-end: -1;
-    font-size: .9rem;
     text-transform: lowercase;
+    margin-top: var(--margin-nav);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: end;
@@ -126,25 +115,23 @@ nav {
 }
 
 @media only screen and (min-width: $first-bp) {
-    body {
-        width: 80%;
-        margin: 0 auto;
-    }
-
     header {
         grid-column: 2 / -1;
     }
 
     nav {
-        margin-bottom: 1.8rem;
-    }
-
-    .contact-links {
-        grid-column: 4;
+        margin-bottom: .75em;
     }
 
     .site-links {
         grid-column: 2;
+    }
+}
+
+@media only screen and (min-width: $second-bp) {
+    body {
+        width: 95%;
+        margin: 0 auto;
     }
 
     .callout {
@@ -153,11 +140,5 @@ nav {
 
     .second-callout {
         font-size: 1.5rem;
-    }
-}
-
-@media only screen and (min-width: $second-bp) {
-    .contact-links {
-        grid-column: 3;
     }
 }
