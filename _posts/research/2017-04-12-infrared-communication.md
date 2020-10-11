@@ -9,7 +9,7 @@ project:
   title: "Infrared Communication"
   preview: "video"
   preview_main: "/assets/media/research/infrared-communication/preview.webm"
-  preview_backup: "/assets/media/research/infrared-communication/logo.mp4"
+  preview_backup: "/assets/media/research/infrared-communication/preview.mp4"
 
 sections:
   -

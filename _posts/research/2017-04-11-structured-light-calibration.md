@@ -9,7 +9,7 @@ project:
   title: "Structured Light Calibration"
   preview: "video"
   preview_main: "/assets/media/research/structured-light-calibration/preview.webm"
-  preview_backup: "/assets/media/research/structured-light-calibration/logo.mp4"
+  preview_backup: "/assets/media/research/structured-light-calibration/preview.mp4"
 
 mathjax: true
 

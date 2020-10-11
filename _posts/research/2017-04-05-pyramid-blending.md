@@ -8,7 +8,7 @@ project:
   title: "Pyramid Blending"
   preview: "video"
   preview_main: "/assets/media/research/pyramid-blending/preview.webm"
-  preview_backup: "/assets/media/research/pyramid-blending/logo.mp4"
+  preview_backup: "/assets/media/research/pyramid-blending/preview.mp4"
 
 mathjax: true
 

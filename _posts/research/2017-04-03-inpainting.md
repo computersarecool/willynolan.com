@@ -8,7 +8,7 @@ project:
   title: "Inpainting"
   preview: "video"
   preview_main: "/assets/media/research/inpainting/preview.webm"
-  preview_backup: "/assets/media/research/inpainting/logo.mp4"
+  preview_backup: "/assets/media/research/inpainting/preview.mp4"
 
 media:
   - type: image

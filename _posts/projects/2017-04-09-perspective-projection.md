@@ -6,7 +6,7 @@ project:
   title: "Perspective Projection"
   preview: "video"
   preview_main: "/assets/media/projects/perspective-projection/preview.webm"
-  preview_backup: "/assets/media/projects/perspective-projection/logo.mp4"
+  preview_backup: "/assets/media/projects/perspective-projection/preview.mp4"
 
 media:
   - type: image

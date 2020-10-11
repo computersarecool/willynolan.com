@@ -6,7 +6,7 @@ project:
   title: "Power Glove"
   preview: "video"
   preview_main: "/assets/media/projects/power-glove/preview.webm"
-  preview_backup: "/assets/media/projects/power-glove/logo.mp4"
+  preview_backup: "/assets/media/projects/power-glove/preview.mp4"
 
 media:
   - type: image

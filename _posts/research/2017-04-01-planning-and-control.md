@@ -8,7 +8,7 @@ project:
   title: "Planning and Control"
   preview: "video"
   preview_main: "/assets/media/research/planning-and-control/preview.webm"
-  preview_backup: "/assets/media/research/planning-and-control/logo.mp4"
+  preview_backup: "/assets/media/research/planning-and-control/preview.mp4"
 
 media:
   - type: image

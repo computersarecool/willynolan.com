@@ -6,7 +6,7 @@ project:
   title: "Searching for Cydonia"
   preview: "video"
   preview_main: "/assets/media/projects/searching-for-cydonia/preview.webm"
-  preview_backup: "/assets/media/projects/searching-for-cydonia/logo.mp4"
+  preview_backup: "/assets/media/projects/searching-for-cydonia/preview.mp4"
 
 media:
   - type: image

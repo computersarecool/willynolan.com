@@ -6,7 +6,7 @@ project:
   title: "Architectural Projection"
   preview: "video"
   preview_main: "/assets/media/projects/architectural-projection/preview.webm"
-  preview_backup: "/assets/media/projects/architectural-projection/logo.mp4"
+  preview_backup: "/assets/media/projects/architectural-projection/preview.mp4"
 
 media:
   - type: image

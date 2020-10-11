@@ -8,7 +8,7 @@ project:
   title: "Video Textures"
   preview: "video"
   preview_main: "/assets/media/research/video-textures/preview.webm"
-  preview_backup: "/assets/media/research/video-textures/logo.mp4"
+  preview_backup: "/assets/media/research/video-textures/preview.mp4"
 
 mathjax: true
 

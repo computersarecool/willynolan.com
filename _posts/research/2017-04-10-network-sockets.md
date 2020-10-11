@@ -9,7 +9,7 @@ project:
   title: "Sockets"
   preview: "video"
   preview_main: "/assets/media/research/sockets/preview.webm"
-  preview_backup: "/assets/media/research/sockets/logo.mp4"
+  preview_backup: "/assets/media/research/sockets/preview.mp4"
 
 sections:
   -

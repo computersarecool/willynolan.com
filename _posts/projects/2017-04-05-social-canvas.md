@@ -6,7 +6,7 @@ project:
   title: "Social Canvas"
   preview: "video"
   preview_main: "/assets/media/projects/social-canvas/preview.webm"
-  preview_backup: "/assets/media/projects/social-canvas/logo.mp4"
+  preview_backup: "/assets/media/projects/social-canvas/preview.mp4"
 
 media:
   - type: image

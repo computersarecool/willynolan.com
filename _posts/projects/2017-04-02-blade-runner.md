@@ -6,7 +6,7 @@ project:
   title: "Blade Runner Controller"
   preview: "video"
   preview_main: "/assets/media/projects/blade-runner/preview.webm"
-  preview_backup: "/assets/media/projects/blade-runner/logo.mp4"
+  preview_backup: "/assets/media/projects/blade-runner/preview.mp4"
 
 media:
   - type: image

@@ -8,7 +8,7 @@ project:
   title: "Seam Carving"
   preview: "video"
   preview_main: "/assets/media/research/seam-carving/preview.webm"
-  preview_backup: "/assets/media/research/seam-carving/logo.mp4"
+  preview_backup: "/assets/media/research/seam-carving/preview.mp4"
 
 media:
   - type: image
