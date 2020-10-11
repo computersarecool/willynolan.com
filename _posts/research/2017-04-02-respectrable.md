@@ -30,8 +30,10 @@ performance abilities of any DAW."
 
   -
     - p: "Live officially supports programmatic access to every knob, button and and slider through the Live Object 
-Model (LOM). With this much access the (LOM) is a bit of a maze but this is expected because of the number of 
-parameters available in Live.  There is a learning curve to figuring out how the object hierarchy works but, 
+Model (LOM). The LOM can be a bit of a maze but this is expected because of the large number of 
+parameters available in Live."
+
+    - p: "There is a learning curve to figuring out how the object hierarchy works but, 
 once figured out, each and every property of a Live set is reachable programmatically."
 
     - p: 'The repeated necessity of a scriptable, real-time audio engine, and specifically one that could be used 

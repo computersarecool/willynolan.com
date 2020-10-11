@@ -29,7 +29,7 @@ and there were multiple live performances, including this one."
   -
     - p: 'At the time there was a lot of equipment moving around the warehouse so I convinced management to let me turn
 an old but large touchscreen into an audio/visual/laser controller. After that I convinced my colleague 
-<a href="http://www.michaelwalczyk.com/" class="nobr">Mike Walczyk</a> to help me with the concept and this project was
+<a href="http://www.michaelwalczyk.com/" class="nobreak">Mike Walczyk</a> to help me with the concept and this project was
 the result.'
 
   -

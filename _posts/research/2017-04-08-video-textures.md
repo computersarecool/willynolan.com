@@ -29,11 +29,10 @@ infinitely long video from a fixed-length input video, saving data the process."
     - p: "The concept is similar to a seamlessly looping video except, in the case of video textures, playback jumps around between similar 
 frames providing infinite iterations."
 
-  -
     - p: "The process of creating a video texture starts with a video volume which is essentially a stack of the input video frames.
 The root mean square deviation between every frame against every other frame and itself is computed and stored in
 a transition matrix. The closer the similarity metric is to zero, the more similar the two frames are."
-  
+
     - p: 'Then a transition difference matrix is determined by looking at the two frames ahead and behind.  This is because
 even though two frames may be very similar, the content before or after may not be which would cause problems. Values
 in the transition difference matrix are calculated as:

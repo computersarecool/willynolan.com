@@ -27,7 +27,7 @@
     </div>
     {% elsif element.type == "video" %}
     <div class="{{ page.class }} featured video-wrapper">
-        <iframe class="{{ page.class }}" src="https://player.vimeo.com/video/{{ element.id }}" width="500" height="281" allowfullscreen frameborder="0"></iframe>
+        <iframe class="{{ page.class }}" src="https://player.vimeo.com/video/{{ element.id }}" allowfullscreen frameborder="0"></iframe>
     </div>
     {% endif %}
 {% endfor %}

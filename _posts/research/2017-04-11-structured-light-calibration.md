@@ -1,5 +1,6 @@
 ---
 category: research
+class: "post single-col"
 
 meta:
   keywords: "Structured Light, Geometric Camera Calibration, Projector Calibration, Projection Mapping"
@@ -26,6 +27,7 @@ to go in a real, 3D environment".'
 
   -
     - p: 'There are many strategies for performing camera calibration, but using structured light is a popular one.'
+
     - p: 'It is built into both the <a href="https://madmapper.com">MadMapper</a> and <a href="https://www.disguise.one/en/">
 disguise</a> software programs.'
 

@@ -34,12 +34,15 @@ represent packages that need to be retrieved, <code>A</code> represents the star
   -
     - p: 'A warehouse layout for the featured images would be given as the following:'
 
-    - p: '<pre>
-        .0#..
-        .....
-        ..#1.
-        .....
-        A...@</pre>'
+    - raw: "
+<pre class='code-diagram margin-center'>
+.0#..\n
+.....\n
+..#1.\n
+.....\n
+A...@
+</pre>
+"
 
     - p: 'The rules are as follows:'
 

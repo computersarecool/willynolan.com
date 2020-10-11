@@ -28,12 +28,42 @@ img, video {
     max-width: 100%;
 }
 
-.nobr {
+.nobreak {
     white-space: nowrap;
+}
+.margin-center {
+    margin: 0 auto;
+}
+
+blockquote {
+    background: var(--color-background-accent);
+    font-style: italic;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+blockquote > p {
+    margin: 0;
 }
 
 li > p {
     display: inline;
+}
+
+code {
+    background: var(--color-background-accent);
+    font-family: monospace;
+}
+
+.code-diagram {
+    background: var(--color-background-accent);
+    width: 30%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+figcaption {
+    font-size: var(--font-size-main-small);
 }
 
 // Page layout

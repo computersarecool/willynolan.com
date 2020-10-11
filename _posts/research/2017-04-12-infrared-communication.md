@@ -1,5 +1,6 @@
 ---
 category: research
+class: "post single-col"
 
 meta:
   keywords: "Structured Light, Geometric Camera Calibration, Projector Calibration, Projection Mapping"

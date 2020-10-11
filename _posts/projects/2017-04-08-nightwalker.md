@@ -24,7 +24,7 @@ sections:
   -
     - bq: '<p>NightWalker is a colorful clothing line that explores the future while paying homage to the past</p>'
 
-  - p: "During the search for an early development job the above slogan, along with the promise of a cutting edge
+    - p: "During the search for an early development job the above slogan, along with the promise of a cutting edge
 approach to development and clothing production, was eye-catching."
 
   -
@@ -39,5 +39,5 @@ experience gained in creating an truly interactive web app was invaluable."
     - p: 'When mobile visitors reached the site, instead of having to drag or scroll to see all the colors 
 (or "flavors" as they were known) of pants, they could simply rotate their phones to see each of the eight options.'
 
-    - raw: '<img src="/assets/media/projects/nightwalker/symbol_logo.png" alt="NightWalker logo" height="76" width="200">'
+    - raw: '<img src="/assets/media/projects/nightwalker/symbol_logo.png" alt="NightWalker logo" height="76" width="200" class="margin-center">'
 ---

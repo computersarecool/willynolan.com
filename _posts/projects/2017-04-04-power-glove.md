@@ -33,8 +33,9 @@ find two examples.'
   -
     - p: 'The most influential version was from 
 <a href="http://biphenyl.org/blog/2009/04/03/the-power-glove-20th-anniversary-edition">biphenyl</a>. The issue 
-with this was that most of the buttons on the panel did not work after the required modification. The other 
-example was from Yueda Ben-Atar who used an adapter cable to convert the Power Glove to work over USB. The issue 
+with this was that most of the buttons on the panel did not work after the required modification.'
+
+    - p: 'The other version I found came from Yueda Ben-Atar who used an adapter cable to convert the Power Glove to work over USB. The issue 
 was this version was that the positional data would not work and Power Glove still had to be tethered to a computer.'
 
   -
@@ -43,7 +44,8 @@ fabricate my own printed circuit board (PCB) with the same form factor as the or
 
     - p: 'The finished circuit diagram and final board design are shown in the second featured image. Once this was 
 complete, adding a bluetooth module, accelerometer (for positional data) and accessing the Power Glove’s 
-built-in bend sensors was a straightforward process. The featured video shows an early proof of concept. 
-Eventually I used this as a DJ controller and after a few shows was interviewed for the documentary 
-<a href="https://thepowerofglove.com/">The Power of Glove</a>.'
+built-in bend sensors was a straightforward process.'
+
+    - p: 'The featured video shows an early proof of concept. Eventually I used this as a DJ controller and after a 
+few shows was interviewed for the documentary <a href="https://thepowerofglove.com/" class="nobreak">The Power of Glove</a>.'
 ---

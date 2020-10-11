@@ -1,5 +1,6 @@
 ---
 category: research
+class: "post single-col"
 
 meta:
   keywords: "Sockets, Networking, Berkeley Sockets"
@@ -24,7 +25,7 @@ since <a href="https://en.wikipedia.org/wiki/Berkeley_sockets"> Berkeley Sockets
 Even today modern operating systems implement some version of the Berkeley socket interface.'
 
   -
-    - p: 'To explore sockets further I created an application in C++ that allows as user to interactively:'
+    - p: 'To explore sockets further I created an application in C++ that allows a user to interactively:'
 
     - ul:
       - <p>Create a TCP or UDP
@@ -33,7 +34,6 @@ Even today modern operating systems implement some version of the Berkeley socke
 
       - <p>Specify the port to send data to or to listen on
 
-  -
     - p: 'The result was a greater appreciation for sockets and for the libraries and programs that make them easier to use.'
 
     - p: 'Much of the code was adapted from:'

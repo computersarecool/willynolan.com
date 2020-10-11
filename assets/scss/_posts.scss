@@ -1,5 +1,6 @@
-nav.post {
-    margin-top: var(--margin-nav);
+main.post {
+    display: grid;
+    font-size: var(--font-size-main-medium);
 }
 
 h3.post {
@@ -8,6 +9,11 @@ h3.post {
     margin-top: 1.5em;
     text-transform: lowercase;
     font-size: var(--font-size-post-headline);
+}
+
+img.post, section.post > img, figure > img {
+    width: 100%;
+    height: auto;
 }
 
 section.post a {
@@ -22,12 +28,18 @@ section > ul.post {
     list-style-type: disc;
 }
 
-ul.video-post > li {
-    margin-top: .6em;
+ul.post > li:last-child {
+    margin-bottom: .6em;
 }
 
-main.video-post {
-    display: grid;
+// Post specific styles
+main.single-col {
+    grid-template-columns: 1fr;
+}
+
+section.single-col > img {
+    margin: 0 auto;
+    width: 40%;
 }
 
 main.video-post div.featured:nth-of-type(1) {
@@ -40,6 +52,10 @@ main.video-post div.featured:nth-of-type(2) {
 
 main.video-post div.featured:nth-of-type(3) {
     grid-row: 7;
+}
+
+ul.video-post > li {
+    margin-top: .6em;
 }
 
 @media only screen and (min-width: $first-bp) {
@@ -61,7 +77,6 @@ main.video-post div.featured:nth-of-type(3) {
     main.video-post {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
-        font-size: var(--font-size-main-medium);
     }
 
     h3.video-post {
@@ -81,5 +96,10 @@ main.video-post div.featured:nth-of-type(3) {
     main.video-post div.featured:nth-of-type(3) {
         grid-row: 4;
         grid-column: 1;
+    }
+
+    main.video-post div.featured:nth-of-type(4) {
+        grid-row: 5;
+        grid-column: 2;
     }
 }
