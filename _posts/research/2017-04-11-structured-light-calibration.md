@@ -10,6 +10,8 @@ project:
   preview_main: "/assets/media/research/structured-light-calibration/preview.webm"
   preview_backup: "/assets/media/research/structured-light-calibration/logo.mp4"
 
+mathjax: true
+
 sections:
   -
     - p: 'There is a rich body of research surrounding camera calibration.  The process is usually broken up into 

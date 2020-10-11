@@ -10,6 +10,8 @@ project:
   preview_main: "/assets/media/research/pyramid-blending/preview.webm"
   preview_backup: "/assets/media/research/pyramid-blending/logo.mp4"
 
+mathjax: true
+
 media:
   - type: image
     url: "/assets/media/research/pyramid-blending/first.png"

@@ -10,6 +10,8 @@ project:
   preview_main: "/assets/media/research/video-textures/preview.webm"
   preview_backup: "/assets/media/research/video-textures/logo.mp4"
 
+mathjax: true
+
 media:
   - type: image
     url: "/assets/media/research/video-textures/first.png"
