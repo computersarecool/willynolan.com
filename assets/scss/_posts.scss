@@ -3,6 +3,10 @@ main.post {
     font-size: var(--font-size-main-medium);
 }
 
+nav.post {
+    margin-top: var(--margin-nav);
+}
+
 h3.post {
     border-bottom: 1px solid black;
     text-align: right;
@@ -14,6 +18,10 @@ h3.post {
 img.post, section.post > img, figure > img {
     width: 100%;
     height: auto;
+}
+
+section p {
+    margin-top: 0;
 }
 
 section.post a {
@@ -28,7 +36,7 @@ section > ul.post {
     list-style-type: disc;
 }
 
-ul.post > li:last-child {
+section ul.post > li:last-child {
     margin-bottom: .6em;
 }
 
@@ -54,7 +62,7 @@ main.video-post div.featured:nth-of-type(3) {
     grid-row: 7;
 }
 
-ul.video-post > li {
+section ul.video-post > li {
     margin-top: .6em;
 }
 

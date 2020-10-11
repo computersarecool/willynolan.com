@@ -101,7 +101,6 @@ main {
 nav {
     grid-row-end: -1;
     text-transform: lowercase;
-    margin-top: var(--margin-nav);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: end;
