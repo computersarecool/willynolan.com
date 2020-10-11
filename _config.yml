@@ -12,7 +12,7 @@ port: 9000
 # Settings
 author: "Willy Nolan"
 title: "Willy Nolan"
-faviconcolor: "black"
+faviconcolor: "#2cdad7"
 
 show_exhibitions: false
 
