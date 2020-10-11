@@ -4,3 +4,4 @@ script:
 branches:
  only:
    - master
+   - development
