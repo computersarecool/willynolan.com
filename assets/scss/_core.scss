@@ -75,10 +75,12 @@ html, body {
 }
 
 body {
+    width: var(--body-width);
+    max-width: var(--max-body-width);
+    margin: 0 auto;
     min-height: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    max-width: var(--max-body-width);
     font-family: var(--font-default-family);
     background-color: var(--color-main-bg);
     display: grid;
@@ -161,11 +163,6 @@ nav {
 }
 
 @media only screen and (min-width: $second-bp) {
-    body {
-        width: 95%;
-        margin: 0 auto;
-    }
-
     .callout {
         font-size: 2.7rem;
     }

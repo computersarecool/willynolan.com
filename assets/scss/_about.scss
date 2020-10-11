@@ -11,7 +11,7 @@ section.exhibitions {
 }
 
 section.exhibitions > p {
-    font-size: .95rem;
+    font-size: var(--font-size-main-small);
 }
 
 @media only screen and (min-width: $first-bp) {
@@ -24,6 +24,6 @@ section.exhibitions > p {
     main.about {
         grid-column: 2 / -2;
         margin-right: 0;
-        font-size: 1.5rem;
+        font-size: var(--font-size-main-medium);
     }
 }

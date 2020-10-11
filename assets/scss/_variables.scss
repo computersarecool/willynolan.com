@@ -8,10 +8,11 @@ $second-bp: 1023px;
     --font-size-main-small: 1rem;
     --font-size-main-medium: 1.4rem;
     --font-size-post-headline: 1.6rem;
-    --projects-grid-min: 320px;
-    --projects-grid-max: 1fr;
+    --projects-grid-min-small: 300px;
+    --projects-grid-min-big: 420px;
     --max-body-width: 1700px;
     --max-graphic-width: 700px;
+    --body-width: 95%;
 
     // Fonts
     --font-default-family: sans-serif;
