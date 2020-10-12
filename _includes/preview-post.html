@@ -6,10 +6,10 @@
         </video>
 
         {% assign aboutWords = item.project.title | split:' ' %}
-        <h3 class="preview-heading">
+        <h2 class="preview-heading">
         {% for h in aboutWords %}
             <span class="preview-heading">{{ h }}</span>
         {% endfor %}
-        </h3>
+        </h2>
     </a>
 </li>

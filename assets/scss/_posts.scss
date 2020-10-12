@@ -7,7 +7,7 @@ nav.post {
     margin-top: var(--margin-nav);
 }
 
-h3.post {
+h2.post {
     border-bottom: 1px solid black;
     text-align: right;
     margin-top: 1.5em;
@@ -87,7 +87,7 @@ section ul.video-post > li {
         grid-gap: 10px;
     }
 
-    h3.video-post {
+    h2.video-post {
         grid-column: 1 / -1;
     }
 
