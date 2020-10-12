@@ -4,12 +4,11 @@
             <source src="{{ item.project.preview_main | prepend: site.baseurl }}" type="video/webm">
             <source src="{{ item.project.preview_backup | prepend: site.baseurl }}" type="video/mp4">
         </video>
-
-        {% assign aboutWords = item.project.title | split:' ' %}
+        {%- assign aboutWords = item.project.title | split:' ' %}
         <h2 class="preview-heading">
-        {% for h in aboutWords %}
+        {%- for h in aboutWords %}
             <span class="preview-heading">{{ h }}</span>
-        {% endfor %}
+        {%- endfor %}
         </h2>
     </a>
 </li>

@@ -11,17 +11,17 @@
     {% include nav.html %}
 </nav>
 <main class="{{ page.class }}">
-    {% if page.type == "index" %}
+    {% if page.type == "index" -%}
         {% include main-index.html %}
-    {% elsif page.type == "about" %}
+    {%- elsif page.type == "about" -%}
         {% include main-about.html %}
-    {% elsif page.type == "projects" %}
+    {%- elsif page.type == "projects" -%}
         {% include main-projects.html %}
-    {% elsif page.type == "research" %}
+    {%- elsif page.type == "research" -%}
         {% include main-projects.html %}
-    {% else %}
+    {%- else -%}
         {% include main-post.html %}
-    {% endif %}
+    {%- endif %}
 </main>
 </body>
 </html>

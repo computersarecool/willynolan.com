@@ -1,33 +1,31 @@
 <h2 class="{{ page.class }}">{{ page.project.title }}</h2>
-
-{% for section in page.sections %}
-<section class="{{ page.class }}">
-    {% for element in section %}
-        {% if element.p %}
+{%- for section in page.sections %}
+    <section class="{{ page.class }}">
+        {%- for element in section %}
+            {%- if element.p %}
             <p class="{{ page.class }}">{{ element.p }}</p>
-        {% elsif element.raw %}
+            {%- elsif element.raw %}
             {{ element.raw }}
-        {% elsif element.bq %}
+            {%- elsif element.bq %}
             <blockquote class="{{ page.class }}">{{ element.bq }}</blockquote>
-        {% elsif element.ul %}
+            {%- elsif element.ul %}
             <ul class="{{ page.class }}">
-            {% for li in element.ul %}
+                {%- for li in element.ul %}
                 <li class="{{ page.class }}">{{ li }}</li>
-            {% endfor %}
+                {%- endfor %}
             </ul>
-        {% endif %}
-    {% endfor %}
-</section>
-{% endfor %}
-
-{% for element in page.media %}
-    {% if element.type == "image" %}
+            {%- endif %}
+        {%- endfor %}
+    </section>
+{%- endfor %}
+{%- for element in page.media %}
+    {%- if element.type == "image" %}
     <div class="{{ page.class }} featured">
         <img class="{{ page.class }}" src="{{ element.url | prepend: site.baseurl }}" alt="{{ element.alt }}" />
     </div>
-    {% elsif element.type == "video" %}
+    {%- elsif element.type == "video" %}
     <div class="{{ page.class }} featured video-wrapper">
         <iframe title="Featured Video" class="{{ page.class }}" src="https://player.vimeo.com/video/{{ element.id }}" allowfullscreen frameborder="0"></iframe>
     </div>
-    {% endif %}
-{% endfor %}
+    {%- endif %}
+{%- endfor %}

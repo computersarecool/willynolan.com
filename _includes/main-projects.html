@@ -1,12 +1,11 @@
 <ul class="list">
-{% if page.type == "projects" %}
-    {% for item in site.categories.projects reversed %}
+{%- if page.type == "projects" -%}
+    {%- for item in site.categories.projects reversed %}
         {% include preview-post.html %}
-    {% endfor %}
-{% elsif page.type == "research" %}
-    {% for item in site.categories.research reversed %}
-        {% include preview-post.html %}
-    {% endfor %}
-{% endif %}
+    {%- endfor %}
+{%- elsif page.type == "research" %}
+    {%- for item in site.categories.research reversed %}
+        {%- include preview-post.html %}
+    {%- endfor %}
+{%- endif %}
 </ul>
-

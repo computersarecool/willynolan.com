@@ -1,14 +1,13 @@
 <section class="{{ page.class }}">
-    {% for item in site.about %}
+    {%- for item in site.about %}
     <p>{{ item }}</p>
-    {% endfor %}
+    {%- endfor %}
 </section>
-
-{% if site.show_exhibitions %}
+{%- if site.show_exhibitions %}
 <section class="exhibitions">
     <h3 class="callout exhibitions">Exhibitions & Installations</h3>
-    {% for item in site.exhibitions %}
+    {%- for item in site.exhibitions %}
     <p>{{ item }}</p>
-    {% endfor %}
+    {%- endfor %}
 </section>
-{% endif %}
+{%- endif -%}
