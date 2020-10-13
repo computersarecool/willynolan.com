@@ -2,8 +2,9 @@ body.index {
     width: 100%;
 }
 
-main.index {
-    margin-right: 0;
+nav.index, header.index {
+    width: var(--body-width);
+    justify-self: center;
 }
 
 // Index page graphic

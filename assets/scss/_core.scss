@@ -83,10 +83,10 @@ html {
 }
 
 body {
+    min-height: 100%;
     width: var(--body-width);
     max-width: var(--max-body-width);
-    margin: auto var(--margin-sides);
-    min-height: 100%;
+    margin: 0 auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: var(--font-default-family);
@@ -157,10 +157,6 @@ nav {
 @media only screen and (min-width: $first-bp) {
     header {
         grid-column: 2 / -1;
-    }
-
-    nav {
-        margin-bottom: .75em;
     }
 
     .site-links {
