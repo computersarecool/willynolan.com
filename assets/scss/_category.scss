@@ -22,7 +22,7 @@ a.preview {
 }
 
 h2.preview-heading {
-    font-size: 1.25rem;
+    font-size: var(--font-size-heading-small);
     text-transform: lowercase;
     text-align: center;
     margin: 0;

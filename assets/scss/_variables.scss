@@ -3,8 +3,10 @@ $first-bp: 775px;
 $second-bp: 1023px;
 
 :root {
+    --font-size-main-smallest: .7rem;
     --font-size-main-small: 1rem;
     --font-size-main-medium: 1.4rem;
+    --font-size-heading-small: 1.25rem;
     --font-size-post-headline: 1.6rem;
     --projects-grid-min-small: 300px;
     --projects-grid-min-big: 420px;

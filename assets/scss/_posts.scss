@@ -1,6 +1,5 @@
 main.post {
     display: grid;
-    font-size: var(--font-size-main-medium);
 }
 
 h2.post {
@@ -14,6 +13,28 @@ h2.post {
 img.post, section.post > img, figure > img {
     width: 100%;
     height: auto;
+    margin-bottom: 1em;
+}
+
+figure.figimg {
+    width: 80%;
+    margin: 0 auto;
+}
+
+figure.post > figcaption {
+    font-size: var(--font-size-main-smallest);
+}
+
+figure.acknowledge {
+    margin: 10px;
+}
+
+figure.acknowledge > figcaption {
+    font-size: var(--font-size-main-small);
+}
+
+figure.acknowledge > ul > li {
+    font-size: var(--font-size-main-small)
 }
 
 section.post > img.inpost {
@@ -36,8 +57,8 @@ section > ul.post {
     list-style-type: disc;
 }
 
-section ul.post > li:last-child {
-    margin-bottom: .6em;
+section ul.post > li {
+    margin-bottom: .5em;
 }
 
 // Post specific styles
@@ -74,6 +95,14 @@ section ul.video-post > li {
     section.post {
         margin-top: 0;
         margin-bottom: 0;
+    }
+
+    figure.figimg {
+        max-width: 50%;
+    }
+
+    figure.figimg > figcaption {
+        font-size: var(--font-size-main-small);
     }
 
     p.post {

@@ -20,7 +20,7 @@ Additionally, a Raspberry Pi is one of the cheapest ways to explore electronics.
 <a href="https://learn.adafruit.com/using-an-ir-remote-with-a-raspberry-pi-media-center/lirc"> LIRC</a> which 
 stands for Linux Infrared Remote Control.'
 
-    - p: 'However, for anybody that wants to interact with infrared communication directly (e.g. in a Python program)
+    - p: 'However, for anybody that wants to interact with infrared communication directly (e.g. in a Python program),
 there are not many options.'
 
   -
@@ -47,14 +47,14 @@ NEC Infrared Transmission Protocol</a>.'
 
       - The 8-bit logical inverse of the command
 
-      - A final end burst
+      - An end burst
 
-    - p: 'So an example command would look like: <img alt="NEC IR frame" src="https://www.sbprojects.net/knowledge/ir/nectrain.png">'
-
-  -
-    - p: 'This image shows the command <code>16</code> sent to the address <code>59</code> (both in hex).
+    - figimg:
+        - '<img alt="NEC IR frame" src="https://www.sbprojects.net/knowledge/ir/nectrain.png">'
+      figcaptionp: 'This image shows the command <code>16</code> sent to the address <code>59</code> (both in hex).
 Mapping the bits to the actual command can be tricky as they are sent in binary, with the least significant bit first.'
 
+  -
     - p: 'The logical inverse of the address and command is sent with each frame for error correction purposes.'
 
     - p: 'There are also other messages that can be transmitted for repeat buttons or if the controller is operating with the
@@ -62,12 +62,15 @@ Mapping the bits to the actual command can be tricky as they are sent in binary,
 
     - p: 'As an IR remote only flashes light, a logical question would be, how are the flashes interpreted as numbers?'
 
-    - p: 'IR communication uses 38khz modulation and the length of time in a burst determines which binary digit is being
-sent. Graphically this looks like:
-<img class="research-post" alt="IR modulation" src="https://www.sbprojects.net/knowledge/ir/necmodulation.png">
-Where the longer spaces between pulses indicate a 1 and shorter spaces indicate a 0.'
+    - p: 'IR communication uses 38khz modulation and the duration of a burst determines which binary digit is being
+sent.'
 
-    - p: 'Because the command and address inverses are sent with each frame, each message should take the same amount of time to transmit.'
+    - figimg:
+        - '<img alt="IR modulation" src="https://www.sbprojects.net/knowledge/ir/necmodulation.png">'
+      figcaptionp: 'This image visualizes the modulation. The longer spaces between pulses indicate a 1, the shorter spaces 
+indicate a 0.'
+
+    - p: 'Since the command and address inverses are sent with each frame, each message takes the same amount of time to transmit.'
 
     - p: 'The protocol itself is very straightforward.  The most challenging aspect was dealing with the timing tolerances
       from both the remotes and and from the Raspberry pi.'
@@ -88,7 +91,7 @@ library which is available on PyPi.'
     - p: 'It is fully tested and well commented and a good place for someone interested in
 using IR communication with a Raspberry Pi or just interested in exploring the protocol more.'
 
-    - figul:
-        - '<a href="https://www.sbprojects.net/knowledge/ir/index.php">SB-Projects</a> (great resource for this topic)'
-      figcaption: "All images and video in accompanying this post are courtesy of:"
+    - raw: '<small><p>All images and video in this post are courtesy of 
+<a href="https://www.sbprojects.net/knowledge/ir/index.php">SB-Projects</a> (great resource for this topic)</p><small>'
+
 ---

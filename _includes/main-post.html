@@ -16,6 +16,11 @@
             <li class="{{ page.class }}">{{ li }}</li>
             {%- endfor %}
         </ul>
+        {%- elsif element.figimg %}
+        <figure class="{{ page.class }} figimg margin-center">
+            {{ element.figimg }}
+            <figcaption><p>{{ element.figcaptionp }}</p></figcaption>
+        </figure>
         {%- elsif element.figul %}
         <figure class="{{ page.class }} acknowledge">
             <figcaption>{{element.figcaption}}</figcaption>
