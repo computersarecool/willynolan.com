@@ -33,11 +33,12 @@ With little enterprise experience I jumped into MongoDB, Express, Angular and No
 Amazon Web Services."
 
     - p: "Although the clothing line quickly transitioned to using existing online marketplace solutions, the 
-experience gained in creating an truly interactive web app was invaluable."
+experience gained in creating a truly interactive web app was invaluable."
 
   -
     - p: 'When mobile visitors reached the site, instead of having to drag or scroll to see all the colors 
 (or "flavors" as they were known) of pants, they could simply rotate their phones to see each of the eight options.'
 
-    - raw: '<img src="/assets/media/projects/nightwalker/symbol_logo.png" alt="NightWalker logo" height="76" width="200" class="margin-center">'
+    - raw: '<img src="/assets/media/projects/nightwalker/symbol_logo.png" alt="NightWalker logo" height="76" width="200" 
+class="margin-center inpost">'
 ---

@@ -32,7 +32,7 @@ represent packages that need to be retrieved, <code>A</code> represents the star
 <code>.</code>s represent traversable space and the <code>@</code> symbol represents the drop zone.'
 
   -
-    - p: 'A warehouse layout for the featured images would be given as the following:'
+    - p: 'A warehouse layout for the featured images would be defined like so:'
 
     - raw: "
 <pre class='code-diagram margin-center'>
@@ -61,7 +61,7 @@ solved this through discretization of the provided warehouse layout file and pre
 
     - p: 'The two featured images show the layout of a simple warehouse with two packages. A brief overview for 
 picking up and delivering one of the packages is shown in the second image. The green arrows show where pick up
-or drop offs happen.'
+or drop offs took place.'
 
-    - p: 'A video showing the completion of a more complex warehouse layout is also shown.'
+    - p: 'The featured video shows the completion of a more complex warehouse layout.'
 ---

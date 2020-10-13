@@ -34,14 +34,14 @@ blending projectors, supplying power, tuning the playback system etc.) it really
     - p: "The resulting UV map for a cube typically looks like a cross because that is what you would get if you cut
 the seams of a box and unwrapped the object."
 
-    - p: "This map alone is enough to create some animation, but it would be quite challenging to create any 
+    - p: "This map alone is enough to create some content but it would be quite challenging to create any 
 movement. If, for example, text were supposed to scroll from the yellow square to the magenta square (which 
 would make sense from the camera's viewpoint) it would have to make an illogical jump on the cube map."
 
     - p: "The key is to think and work in 3D."
 
     - p: "What if we wanted to created a 3D scene where the box is actually a see through container with things 
-floating inside it? Or what if we wanted the box to be a solid, reflective object with something floating 
+floating inside it? Or what if we wanted the box to appear as a solid, reflective object with something floating 
 outside it?"
 
     - p: "For that we would need to create a perspective projection."

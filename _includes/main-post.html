@@ -1,23 +1,35 @@
-<h2 class="{{ page.class }}">{{ page.project.title }}</h2>
+<main class="{{ page.class }}">
+    <h2 class="{{ page.class }}">{{ page.project.title }}</h2>
+
 {%- for section in page.sections %}
     <section class="{{ page.class }}">
-        {%- for element in section %}
-            {%- if element.p %}
-            <p class="{{ page.class }}">{{ element.p }}</p>
-            {%- elsif element.raw %}
-            {{ element.raw }}
-            {%- elsif element.bq %}
-            <blockquote class="{{ page.class }}">{{ element.bq }}</blockquote>
-            {%- elsif element.ul %}
+    {%- for element in section %}
+        {%- if element.p %}
+        <p class="{{ page.class }}">{{ element.p }}</p>
+        {%- elsif element.raw %}
+        {{ element.raw }}
+        {%- elsif element.bq %}
+        <blockquote class="{{ page.class }}">{{ element.bq }}</blockquote>
+        {%- elsif element.ul %}
+        <ul class="{{ page.class }}">
+            {%- for li in element.ul %}
+            <li class="{{ page.class }}">{{ li }}</li>
+            {%- endfor %}
+        </ul>
+        {%- elsif element.figul %}
+        <figure class="{{ page.class }} acknowledge">
+            <figcaption>{{element.figcaption}}</figcaption>
             <ul class="{{ page.class }}">
-                {%- for li in element.ul %}
+                {%- for li in element.figul %}
                 <li class="{{ page.class }}">{{ li }}</li>
                 {%- endfor %}
             </ul>
-            {%- endif %}
-        {%- endfor %}
+        </figure>
+        {%- endif %}
+    {%- endfor %}
     </section>
 {%- endfor %}
+
 {%- for element in page.media %}
     {%- if element.type == "image" %}
     <div class="{{ page.class }} featured">
@@ -29,3 +41,4 @@
     </div>
     {%- endif %}
 {%- endfor %}
+</main>

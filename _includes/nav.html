@@ -1,11 +1,13 @@
-<ul class="site-links">
-    <li><a class="callout" href="{{ site.baseurl | append: "/projects.html" }}">Projects</a></li>
-    <li><a class="callout" href="{{ site.baseurl | append: "/research.html" }}">Research</a></li>
-    <li><a class="callout" href="{{ site.baseurl | append: "/about.html" }}">About</a></li>
-</ul>
-<ul class="contact-links">
-    <li><a class="second-callout" title="email" href="mailto:{{ site.email }}">Email</a></li>
-    <li><a class="second-callout" title="Github" href="{{ site.github }}" target="_blank" rel="noopener">GitHub</a></li>
-    <li><a class="second-callout" title="LinkedIn" href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></li>
-    <li><a class="second-callout" title="Instagram" href="{{ site.instagram }}" target="_blank" rel="noopener">Instagram</a></li>
-</ul>
+<nav class="{{ page.class }}">
+    <ul class="site-links">
+        <li><a class="callout" href="{{ site.baseurl | append: "/projects.html" }}">Projects</a></li>
+        <li><a class="callout" href="{{ site.baseurl | append: "/research.html" }}">Research</a></li>
+        <li><a class="callout" href="{{ site.baseurl | append: "/about.html" }}">About</a></li>
+    </ul>
+    <ul class="contact-links">
+        <li><a class="second-callout" title="email" href="mailto:{{ site.email }}">Email</a></li>
+        <li><a class="second-callout" title="Github" href="{{ site.github }}" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a class="second-callout" title="LinkedIn" href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a class="second-callout" title="Instagram" href="{{ site.instagram }}" target="_blank" rel="noopener">Instagram</a></li>
+    </ul>
+</nav>

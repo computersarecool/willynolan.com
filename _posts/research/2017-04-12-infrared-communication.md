@@ -60,8 +60,9 @@ Mapping the bits to the actual command can be tricky as they are sent in binary,
     - p: 'There are also other messages that can be transmitted for repeat buttons or if the controller is operating with the
 "extended" NEC protocol (which doesn''t use the logical inverse of the address).'
 
-    - p: 'As an IR remote only flashes light, a logical question would be, how are the flashes interpreted as numbers?
-IR communication uses 38khz modulation and the length of time in a burst determines which binary digit is being
+    - p: 'As an IR remote only flashes light, a logical question would be, how are the flashes interpreted as numbers?'
+
+    - p: 'IR communication uses 38khz modulation and the length of time in a burst determines which binary digit is being
 sent. Graphically this looks like:
 <img class="research-post" alt="IR modulation" src="https://www.sbprojects.net/knowledge/ir/necmodulation.png">
 Where the longer spaces between pulses indicate a 1 and shorter spaces indicate a 0.'
@@ -82,9 +83,12 @@ Where the longer spaces between pulses indicate a 1 and shorter spaces indicate 
 
   -
     - p: 'The end result of this exploration was the <a href="https://pypi.org/project/irreceiver/">irreceiver</a> Python
-library which is available on PyPi. It is fully tested and well commented and a good place for someone interested in
+library which is available on PyPi.'
+
+    - p: 'It is fully tested and well commented and a good place for someone interested in
 using IR communication with a Raspberry Pi or just interested in exploring the protocol more.'
 
-    - raw: '<small> All images and video in accompanying this post are courtesy of <a href="https://www.sbprojects.net/knowledge/ir/index.php">SB-Projects</a> 
-which is a great resource for this topic. </small>'
+    - figul:
+        - '<a href="https://www.sbprojects.net/knowledge/ir/index.php">SB-Projects</a> (great resource for this topic)'
+      figcaption: "All images and video in accompanying this post are courtesy of:"
 ---

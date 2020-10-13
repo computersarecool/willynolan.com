@@ -21,14 +21,14 @@ sections:
     - p: 'Projectors can essentially be thought of the inverse of a camera.  Instead of projecting a scene onto an 
 image plane, they project an image plane onto an environment.'
 
-    - p: 'Due to this similarity, projector calibration is also a topic of interest in the interactive computer graphics field.
-In a projection mapping context, usually what is meant by "projector calibration" is "putting content where it supposed 
+    - p: 'Due to this similarity, projector calibration is also a topic of interest in the interactive computer graphics field.'
+
+    - p: 'In a projection mapping context, usually what is meant by "projector calibration" is "putting content where it supposed 
 to go in a real, 3D environment".'
 
   -
-    - p: 'There are many strategies for performing camera calibration, but using structured light is a popular one.'
-
-    - p: 'It is built into both the <a href="https://madmapper.com">MadMapper</a> and <a href="https://www.disguise.one/en/">
+    - p: 'There are many strategies for performing camera calibration, but using structured light is a popular one and 
+it is built into both the <a href="https://madmapper.com">MadMapper</a> and <a href="https://www.disguise.one/en/">
 disguise</a> software programs.'
 
   -
@@ -40,9 +40,10 @@ walls meet.'
 
     - raw: '<img src="/assets/media/research/structured-light-calibration/first.jpg" alt="Example room" height="442" width="500">'
 
-    - p: "In the above picture that would be a corner of the room, for instance the corner located at the top of the above image.
-For illustration purposes let's say the image you want to project is this simple checkerboard image with the letter F
-to show distortion:"
+    - p: "In the above picture that would be a corner of the room, for instance the corner located at the top of the above image."
+
+    - p: "For illustration purposes let's say the image you want to project is this simple checkerboard image (using 
+the letter F to show distortion):"
 
     - raw: '<img src="/assets/media/research/structured-light-calibration/second.jpg" alt="Content to project" height="500" width="500">'
 
@@ -65,11 +66,11 @@ At the end of the process this image can look correct."
   
     - raw: '<img src="/assets/media/research/structured-light-calibration/fourth.jpg" alt="Final result" height="360" width="640">'
 
-    - p: "Our research included a Python implementation as well as a projector/camera simulator."
+    - p: "Our research included a Python implementation of structured light calibration as well as a projector/camera 
+simulator."
 
-  -
-    - p: "The algorithm implemented was based on the academic paper:"
-    - ul: 
-      - '<a href="https://ieeexplore.ieee.org/document/1240253">Multi-projectors for Arbitrary Surfaces Without Explicit
-Calibration nor Reconstruction</a> by J. -P Tardif et al.'
+    - figul:
+        - '<a href="https://ieeexplore.ieee.org/document/1240253">Multi-projectors for Arbitrary Surfaces Without Explicit
+          Calibration nor Reconstruction</a> by J. -P Tardif et al.'
+      figcaption: "This project implements the academic papers:"
 ---

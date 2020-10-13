@@ -69,15 +69,23 @@ figcaption {
     font-size: var(--font-size-main-small);
 }
 
+figure.acknowledge > figcaption {
+    font-size: var(--font-size-main-medium);
+}
+
+figure.acknowledge > ul > li {
+    font-size: var(--font-size-main-small)
+}
+
 // Page layout
-html, body {
+html {
     height: 100%;
 }
 
 body {
     width: var(--body-width);
     max-width: var(--max-body-width);
-    margin: 0 auto;
+    margin: auto var(--margin-sides);
     min-height: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -89,8 +97,6 @@ body {
 }
 
 header, main, nav {
-    margin-left: var(--margin-sides);
-    margin-right: var(--margin-sides);
     grid-column: 1 / -1;
 }
 
