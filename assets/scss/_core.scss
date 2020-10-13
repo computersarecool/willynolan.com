@@ -122,11 +122,11 @@ nav {
 }
 
 .callout {
-    font-size: 2rem;
+    font-size: var(--font-size-callout);
 }
 
 .second-callout {
-    font-size: 1.1rem;
+    font-size: var(--font-size-callout-small);
 }
 
 .video-wrapper {
