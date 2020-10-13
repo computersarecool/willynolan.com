@@ -1,0 +1,15 @@
+<body class="{{ page.class }}">
+{% include header.html %}
+{% include nav.html %}
+{%- if page.type == "index" %}
+{% include main-index.html %}
+{% elsif page.type == "about" %}
+{% include main-about.html %}
+{% elsif page.type == "projects" %}
+{% include main-projects.html %}
+{% elsif page.type == "research" %}
+{% include main-projects.html %}
+{% else %}
+{% include main-post.html %}
+{% endif -%}
+</body>
