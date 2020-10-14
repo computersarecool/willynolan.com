@@ -12,11 +12,11 @@ project:
 
 media:
   - type: image
-    url: "/assets/media/research/planning-and-control/first.png"
+    url: "/assets/media/research/planning-and-control/first.jpg"
     alt: "Warehouse representation of map"
 
   - type: image
-    url: "/assets/media/research/planning-and-control/second.png"
+    url: "/assets/media/research/planning-and-control/second.jpg"
     alt: "Warehouse representation of map with motion plan"
 
   - type: video

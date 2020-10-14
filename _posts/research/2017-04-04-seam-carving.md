@@ -12,19 +12,19 @@ project:
 
 media:
   - type: image
-    url: "/assets/media/research/seam-carving/first.png"
+    url: "/assets/media/research/seam-carving/first.jpg"
     alt: "Original image of two airplanes"
 
   - type: image
-    url: "/assets/media/research/seam-carving/second.png"
+    url: "/assets/media/research/seam-carving/second.jpg"
     alt: "Original image of two airplanes with seams marked for removal"
 
   - type: image
-    url: "/assets/media/research/seam-carving/third.png"
+    url: "/assets/media/research/seam-carving/third.jpg"
     alt: "Result image of two airplanes with seams removed"
 
   - type: image
-    url: "/assets/media/research/seam-carving/fourth.png"
+    url: "/assets/media/research/seam-carving/fourth.jpg"
     alt: "Image of motorcycle in all three stages of seam carving"
 
 sections:
@@ -57,9 +57,9 @@ noticed.'
 general.'
 
   -
-    - raw: '<img src="/assets/media/research/seam-carving/fifth.png" alt: "Image of birds">'
-    - raw: '<img src="/assets/media/research/seam-carving/sixth.png" alt: "Image of birds with seams marked for insertion">'
-    - raw: '<img src="/assets/media/research/seam-carving/seventh.png" alt: "Resulting image of birds">'
+    - raw: '<img src="/assets/media/research/seam-carving/fifth.jpg" alt: "Image of birds">'
+    - raw: '<img src="/assets/media/research/seam-carving/sixth.jpg" alt: "Image of birds with seams marked for insertion">'
+    - raw: '<img src="/assets/media/research/seam-carving/seventh.jpg" alt: "Resulting image of birds">'
 
   -
     - p: 'This technique has been implemented in several image editing programs including both

@@ -10,11 +10,11 @@ project:
 
 media:
   - type: image
-    url: "/assets/media/projects/searching-for-cydonia/first.png"
+    url: "/assets/media/projects/searching-for-cydonia/first.jpg"
     alt: "Artist rendering"
 
   - type: image
-    url: "/assets/media/projects/searching-for-cydonia/second.png"
+    url: "/assets/media/projects/searching-for-cydonia/second.jpg"
     alt: "GUI Designs"
 
   - type: video

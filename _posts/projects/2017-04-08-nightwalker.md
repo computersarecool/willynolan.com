@@ -10,11 +10,11 @@ project:
 
 media:
   - type: image
-    url: "/assets/media/projects/nightwalker/first.png"
+    url: "/assets/media/projects/nightwalker/first.jpg"
     alt: "A group shot of NightWalker pants"
 
   - type: image
-    url: "/assets/media/projects/nightwalker/second.png"
+    url: "/assets/media/projects/nightwalker/second.jpg"
     alt: "A group shot of NightWalker pants"
 
   - type: video

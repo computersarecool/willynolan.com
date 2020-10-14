@@ -10,11 +10,11 @@ project:
 
 media:
   - type: image
-    url: "/assets/media/projects/blade-runner/first.png"
+    url: "/assets/media/projects/blade-runner/first.jpg"
     alt: "The Blade Runner controller"
     
   - type: image
-    url: "/assets/media/projects/blade-runner/second.png"
+    url: "/assets/media/projects/blade-runner/second.jpg"
     alt: "One Blade Runner performance controller"
 
   - type: video
@@ -22,22 +22,29 @@ media:
 
 sections:
   -
-    - p: 'The last <a href="https://www.msg.com/obscura-digital" class="nobreak">Obscura Digital</a> holiday party 
-was one of the most visually impressive events I have ever witnessed.'
+    - p: 'The final <a href="https://www.msg.com/obscura-digital" class="nobreak">Obscura Digital</a> holiday party 
+was one of the most visually impressive events I have ever encountered.'
 
-    - p: "The entire company teamed up to cover Obscura's Pier 70 warehouse from floor to ceiling with Blade Runner themed visuals 
-and there were multiple live performances, including this one."
+    - p: "The entire company teamed up to cover Obscura's Pier 70 warehouse from floor to ceiling with Blade Runner 
+themed visuals and there were multiple live performances, including this one."
 
   -
-    - p: 'At the time there was a lot of equipment moving around the warehouse so I convinced management to let me turn
-an old but large touchscreen into an audio/visual/laser controller.'
+    - p: 'At the time there was a lot of equipment moving in and out of storage and I was able to convince management to
+let me turn an old -- but large -- touchscreen into an audio/visual/laser controller.'
 
     - p: 'After that I convinced my colleague <a href="http://www.michaelwalczyk.com/" class="nobreak">Mike Walczyk</a> 
 to help me with the concept and this project was the result.'
 
   -
-    - p: "The futuristic interfaces present in both Blade Runner films are an integral part of their overall style and
-it seemed necessary to reference them in proper cyberpunk form at the party (along with lots and lots of haze)."
+    - p: "To me the futuristic interfaces present in both Blade Runner films are an integral part of their overall style 
+and it seemed necessary to reference them (in proper cyberpunk style) at the party."
 
-    - p: "The featured video is worth watching in its entirety, this project appears at 1:35."
+    - p: "The custom interface controlled music and vocal samples from both Blade Runner films as well as haze machines,
+venue lighting and four different three watt RGB lasers."
+
+    - p: "The featured video is worth watching in its entirety - this project appears at 1:35."
+
+    - figul:
+        - 'Lighting Design: <a href="https://www.cyberpatrolunit.com/">Bryant "CPU" Place</a>'
+      figcaption: "Additional acknowledgements:"
 ---

@@ -10,7 +10,7 @@ project:
 
 media:
   - type: image
-    url: "/assets/media/projects/social-canvas/first.png"
+    url: "/assets/media/projects/social-canvas/first.jpg"
     alt: "Social Canvas Layout"
 
   - type: video

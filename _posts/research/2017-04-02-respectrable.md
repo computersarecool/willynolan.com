@@ -12,11 +12,11 @@ project:
 
 media:
   - type: image
-    url: "/assets/media/research/respectrable/first.png"
+    url: "/assets/media/research/respectrable/first.jpg"
     alt: "The Live Object Model"
 
   - type: image
-    url: "/assets/media/research/respectrable/second.png"
+    url: "/assets/media/research/respectrable/second.jpg"
     alt: "Respectrable"
 
   - type: video

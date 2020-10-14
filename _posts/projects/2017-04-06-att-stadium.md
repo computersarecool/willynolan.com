@@ -14,7 +14,7 @@ media:
     alt: "ATT Stadium UI Mockup"
     
   - type: image
-    url: "/assets/media/projects/att-stadium/second.png"
+    url: "/assets/media/projects/att-stadium/second.jpg"
     alt: "ATT Stadium UI Mockup"
     
   - type: video

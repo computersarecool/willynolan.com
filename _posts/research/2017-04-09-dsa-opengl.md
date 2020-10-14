@@ -12,15 +12,15 @@ project:
 
 media:
   - type: image
-    url: "/assets/media/research/dsa-opengl/first.png"
+    url: "/assets/media/research/dsa-opengl/first.jpg"
     alt: "Example tessellation shader"
 
   - type: image
-    url: "/assets/media/research/dsa-opengl/second.png"
+    url: "/assets/media/research/dsa-opengl/second.jpg"
     alt: "Phong Lighting Model"
 
   - type: image
-    url: "/assets/media/research/dsa-opengl/third.png"
+    url: "/assets/media/research/dsa-opengl/third.jpg"
     alt: "Real time raytracer"
 
 sections:

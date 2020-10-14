@@ -10,7 +10,7 @@ project:
 
 media:
   - type: image
-    url: "/assets/media/projects/perspective-projection/first.png"
+    url: "/assets/media/projects/perspective-projection/first.jpg"
     alt: "Multi-colored cube in 3D environment"
   
   - type: image
@@ -51,7 +51,7 @@ outside it?"
 
     - ul:
          - '<p>Create a 3D scene and render it from the eventual viewer''s perspective 
-            <img src="/assets/media/projects/perspective-projection/third.png" alt="Colored Cube" height="325" width="325" class="margin-center"></p>'
+            <img src="/assets/media/projects/perspective-projection/third.jpg" alt="Colored Cube" height="325" width="325" class="margin-center"></p>'
 
          - '<p>Add a new set of UV coordinates to the the cube <i>from the perspective of the camera that rendered the scene</i>'
 
@@ -62,15 +62,15 @@ the original UV coordinate (i.e. cube map coordinates)'
 
     - p: "For example here is the object with a solid green color and the 3D scene (blue spheres) visible."
 
-    - raw: '<img src="/assets/media/projects/perspective-projection/fifth.png" alt="Colored Cube" height="325" width="325">'
+    - raw: '<img src="/assets/media/projects/perspective-projection/fifth.jpg" alt="Colored Cube" height="325" width="325">'
   
     - p: "And here is the image with the blue spheres removed but the perspective texture map applied."
 
-    - raw: '<img src="/assets/media/projects/perspective-projection/sixth.png" alt="Colored Cube" height="325" width="325">'
+    - raw: '<img src="/assets/media/projects/perspective-projection/sixth.jpg" alt="Colored Cube" height="325" width="325">'
 
   -
     - raw: '<figure>
-<img src="/assets/media/projects/perspective-projection/seventh.png" alt="Colored Cube" height="325" width="325">
+<img src="/assets/media/projects/perspective-projection/seventh.jpg" alt="Colored Cube" height="325" width="325">
 <figcaption>Applying the texture <em>and</em> the original scene can also be helpful in understanding how projection 
 works as one can see which parts of the 3D scene were mapped to the cube.
 </figcaption>'
