@@ -40,7 +40,7 @@ crew of a digital spaceship in search of Cydonia."
 display surface."
 
   -
-    - p: "In an effort to promote interactivity, new crew members (i.e. anyone attending the event) were invited to 
+    - p: "In an effort to promote interactivity, new crew members (i.e. anyone attending the event) were encouraged to 
 adjust the the music, visuals and explore outer space via the tablet interface that was custom made for this project."
 
     - p: "The featured images show concept design as well as some user interface designs and the video shows some 

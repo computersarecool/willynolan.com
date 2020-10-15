@@ -29,9 +29,11 @@ Audio Workstations (DAW) to offer a fully programmatic interface and probably st
 performance abilities of any DAW."
 
   -
-    - p: "Live officially supports programmatic access to every knob, button and and slider through the Live Object 
-Model (LOM). The LOM can be a bit of a maze which is to be expected because of the large number of parameters 
-available in Live."
+    - p: 'Live officially supports programmatic access to every knob, button and and slider through the 
+<a href="https://docs.cycling74.com/max8/vignettes/live_object_model">Live Object 
+Model (LOM)</a>.' 
+    - p: "As is shown in the first featured image, the LOM can be a bit of a maze because of the large number of 
+parameters available in Live."
 
     - p: "There is a learning curve to figuring out how the object hierarchy works but, 
 once figured out, each and every property of a Live set is reachable programmatically."

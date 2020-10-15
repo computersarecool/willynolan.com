@@ -84,7 +84,9 @@ body {
     grid-template-rows: 1fr auto 4fr;
 }
 
-header, main, nav {
+header,
+main,
+nav {
     grid-column: 1 / -1;
 }
 

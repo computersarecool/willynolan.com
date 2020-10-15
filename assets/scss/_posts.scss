@@ -10,43 +10,35 @@ h2.post {
     font-size: var(--font-size-post-headline);
 }
 
-img.post, section.post > img, figure > img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1em;
+section.post p {
+    margin-top: 0;
 }
 
-figure.figimg {
+section.post a {
+    color: var(--color-link-highlight);
+}
+
+// Figures in sections (mainly acknowledge)
+section.post > figure.figimg {
     width: 80%;
     margin: 0 auto;
 }
 
-figure.post > figcaption {
+section.post > figure.post > figcaption {
     font-size: var(--font-size-main-smallest);
+}
+
+figure.acknowledge > ul > li,
+section.post > figure.post.acknowledge > figcaption {
+    font-size: var(--font-size-main-small);
 }
 
 figure.acknowledge {
     margin: 10px;
 }
 
-figure.acknowledge > figcaption {
-    font-size: var(--font-size-main-small);
-}
-
-figure.acknowledge > ul > li {
-    font-size: var(--font-size-main-small)
-}
-
 section.post > img.inpost {
     width: 20%;
-}
-
-section p {
-    margin-top: 0;
-}
-
-section.post a {
-    color: var(--color-link-highlight);
 }
 
 p.post + p.post {
@@ -61,7 +53,74 @@ section ul.post > li {
     margin-bottom: .5em;
 }
 
-// Post specific styles
+// Post media (not in sections)
+img.post,
+figure > img,
+section.post > img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+figure.featured4 {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+}
+
+figure.featured4 img {
+    margin-bottom: 0;
+}
+
+figure.featured4 > img:nth-of-type(4) {
+    grid-column: 1 / -1;
+}
+
+figure.featured4 figcaption {
+    font-size: var(--font-size-main-smallest);
+    grid-column: 1 / -1;
+    text-align: center;
+    font-style: italic;
+}
+
+figure.featured3 {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+figure.featured3 > figure {
+    margin: 0;
+    width: 30%;
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column
+}
+
+figure.featured3 > figure > img {
+    margin: 0;
+}
+
+figure.featured3h figcaption,
+figure.featured3 > figure > figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: var(--font-size-main-smallest);
+}
+
+figure.featured3h {
+    display: grid;
+    margin: 0;
+    justify-items: center;
+}
+
+figure.featured3h > figure {
+    margin: 0;
+    width: 65%;
+}
+
+// Specific post styles
 main.single-col {
     grid-template-columns: 1fr;
 }
@@ -97,16 +156,23 @@ section ul.video-post > li {
         margin-bottom: 0;
     }
 
+    p.post {
+        margin-top: 0;
+    }
+
     figure.figimg {
         max-width: 50%;
     }
 
-    figure.figimg > figcaption {
+    figure.featured4 figcaption,
+    figure.figimg > figcaption,
+    figure.featured3h figcaption,
+    figure.featured3 > figure > figcaption {
         font-size: var(--font-size-main-small);
     }
 
-    p.post {
-        margin-top: 0;
+    section.post > figure.post.acknowledge > figcaption {
+        font-size: var(--font-size-main-medium);
     }
 }
 

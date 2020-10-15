@@ -27,7 +27,12 @@ nav.index, header.index {
     padding-top: 100%;
 }
 
-.blue1-container, .black1-container, .black2-container, .red1-container, .black2-container, .yellow1-container {
+.blue1-container,
+.black1-container,
+.black2-container,
+.red1-container,
+.black2-container,
+.yellow1-container {
     grid-row: 4;
 }
 
@@ -39,7 +44,9 @@ nav.index, header.index {
     grid-row: 5;
 }
 
-.gray1-container, .red1-container, .gray2-container {
+.gray1-container,
+.red1-container,
+.gray2-container {
     grid-column: 5;
 }
 
@@ -65,11 +72,13 @@ nav.index, header.index {
     background: var(--color-blue);
 }
 
-.black1-container > div, .black2-container > div {
+.black1-container > div,
+.black2-container > div {
     background: var(--color-black);
 }
 
-.gray1-container > div, .gray2-container > div {
+.gray1-container > div,
+.gray2-container > div {
     background: var(--color-gray);
 }
 

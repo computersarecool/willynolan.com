@@ -31,7 +31,6 @@ through a warehouse."
 represent packages that need to be retrieved, <code>A</code> represents the starting position, 
 <code>.</code>s represent traversable space and the <code>@</code> symbol represents the drop zone.'
 
-  -
     - p: 'A warehouse layout for the featured images would be defined like so:'
 
     - raw: "
@@ -44,6 +43,7 @@ A...@
 </pre>
 "
 
+  -
     - p: 'The rules are as follows:'
 
     - ul:

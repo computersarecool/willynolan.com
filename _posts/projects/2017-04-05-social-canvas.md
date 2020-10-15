@@ -41,5 +41,5 @@ The featured videos show an overview of the project and a demo of the project in
 
     - figul:
       - "Database programming: Michael Clement"
-      figcaption: "Additional acknowledgements:"
+      figcaption: "Acknowledgements:"
 ---

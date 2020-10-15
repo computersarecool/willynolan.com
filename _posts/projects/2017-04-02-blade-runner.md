@@ -46,5 +46,5 @@ venue lighting and four different three watt RGB lasers."
 
     - figul:
         - 'Lighting Design: <a href="https://www.cyberpatrolunit.com/">Bryant "CPU" Place</a>'
-      figcaption: "Additional acknowledgements:"
+      figcaption: "Acknowledgements:"
 ---

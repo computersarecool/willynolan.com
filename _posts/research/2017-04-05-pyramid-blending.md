@@ -13,17 +13,65 @@ project:
 mathjax: true
 
 media:
-  - type: image
-    url: "/assets/media/research/pyramid-blending/first.png"
-    alt: "Demonstration of pyramid blending on the beach and sky"
+  - type: figure4
+    caption: "The mapping process and eventual result."
+    imgs:
+      -
+        src: "/assets/media/research/pyramid-blending/first1.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Original Image"
+      -
+        src: "/assets/media/research/pyramid-blending/first2.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Mask Image"
+      -
+        src: "/assets/media/research/pyramid-blending/first3.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Result Image"
+      -
+        src: "/assets/media/research/pyramid-blending/first.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Result Image"
 
-  - type: image
-    url: "/assets/media/research/pyramid-blending/second.png"
-    alt: "Demonstration of pyramid blending on the beach and sky"
+  - type: figure4
+    caption: "The mapping process and eventual result."
+    imgs:
+      -
+        src: "/assets/media/research/pyramid-blending/third1.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Original Image"
+      -
+        src: "/assets/media/research/pyramid-blending/third2.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Mask Image"
+      -
+        src: "/assets/media/research/pyramid-blending/third3.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Result Image"
+      -
+        src: "/assets/media/research/pyramid-blending/third.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Result Image"
 
-  - type: image
-    url: "/assets/media/research/pyramid-blending/third.png"
-    alt: "Demonstration of pyramid blending on the beach and sky"
+  - type: figure4
+    caption: "The mapping process and eventual result."
+    imgs:
+      -
+        src: "/assets/media/research/pyramid-blending/third1.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Original Image"
+      -
+        src: "/assets/media/research/pyramid-blending/third2.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Mask Image"
+      -
+        src: "/assets/media/research/pyramid-blending/third3.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Result Image"
+      -
+        src: "/assets/media/research/pyramid-blending/third4.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Result Image"
 
 sections:
   -

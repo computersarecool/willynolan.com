@@ -11,17 +11,53 @@ project:
   preview_backup: "/assets/media/research/inpainting/preview.mp4"
 
 media:
-  - type: image
-    url: "/assets/media/research/inpainting/first.png"
-    alt: "Demonstration of inpainting on litter"
+  - type: figure3
+    caption: "The mapping process and eventual result."
+    imgs:
+      -
+        src: "/assets/media/research/inpainting/first1.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Original Image"
+      -
+        src: "/assets/media/research/inpainting/first2.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Mask Image"
+      -
+        src: "/assets/media/research/inpainting/first3.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Result Image"
 
-  - type: image
-    url: "/assets/media/research/inpainting/second.png"
-    alt: "Demonstration of inpainting on graffiti"
+  - type: figure3
+    caption: "The mapping process and eventual result."
+    imgs:
+      -
+        src: "/assets/media/research/inpainting/second1.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Original Image"
+      -
+        src: "/assets/media/research/inpainting/second2.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Mask Image"
+      -
+        src: "/assets/media/research/inpainting/second3.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Result Image"
 
-  - type: image
-    url: "/assets/media/research/inpainting/third.png"
-    alt: "Demonstration of inpainting on a pattern"
+  - type: figure3
+    caption: "The mapping process and eventual result."
+    imgs:
+      -
+        src: "/assets/media/research/inpainting/third1.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Original Image"
+      -
+        src: "/assets/media/research/inpainting/third2.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Mask Image"
+      -
+        src: "/assets/media/research/inpainting/third3.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Result Image"
 
 sections:
   -

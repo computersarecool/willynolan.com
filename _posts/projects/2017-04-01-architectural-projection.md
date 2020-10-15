@@ -53,5 +53,5 @@ projection map buildings."
     - figul:
         - "Art Direction: Ron Robinson"
         - "Technical Direction: Matty Dowlen, Andrew Plourde, Gaston Albanell"
-      figcaption: "Additional acknowledgements:"
+      figcaption: "Acknowledgements:"
 ---
