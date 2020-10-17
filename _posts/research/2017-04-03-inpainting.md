@@ -11,10 +11,9 @@ project:
   preview_backup: "/assets/media/research/inpainting/preview.mp4"
 
 figures:
-  - type: figure3
-    class: featured3
-    caption: "The mapping process and eventual result."
-    imgs:
+  - type: figure
+    class: figure3
+    content:
       -
         src: "/assets/media/research/inpainting/first1.jpg"
         alt: "Texture Mapping LEDs"
@@ -28,10 +27,9 @@ figures:
         alt: "Texture Mapping LEDs"
         caption: "Result Image"
 
-  - type: figure3
-    class: featured3
-    caption: "The mapping process and eventual result."
-    imgs:
+  - type: figure
+    class: figure3
+    content:
       -
         src: "/assets/media/research/inpainting/second1.jpg"
         alt: "Texture Mapping LEDs"
@@ -45,10 +43,9 @@ figures:
         alt: "Texture Mapping LEDs"
         caption: "Result Image"
 
-  - type: figure3
-    class: featured3
-    caption: "The mapping process and eventual result."
-    imgs:
+  - type: figure
+    class: figure3
+    content:
       -
         src: "/assets/media/research/inpainting/third1.jpg"
         alt: "Texture Mapping LEDs"

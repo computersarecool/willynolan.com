@@ -15,27 +15,24 @@ mathjax: true
 figures:
   - type: figure
     caption: "The mapping process and eventual result."
-    imgs:
+    content:
       -
         src: "/assets/media/research/pyramid-blending/first.jpg"
         alt: "Texture Mapping LEDs"
-        caption: "Original Image"
 
   - type: figure
     caption: "The mapping process and eventual result."
-    imgs:
+    content:
       -
         src: "/assets/media/research/pyramid-blending/second.jpg"
         alt: "Texture Mapping LEDs"
-        caption: "Original Image"
 
   - type: figure
     caption: "The mapping process and eventual result."
-    imgs:
+    content:
       -
         src: "/assets/media/research/pyramid-blending/third.jpg"
         alt: "Texture Mapping LEDs"
-        caption: "Result Image"
 
 sections:
   -
@@ -44,9 +41,8 @@ number of uses in image processing.  The general process is to downsize and blur
 (or pyramid) of images each at a lower resolution.'
 
     - figure:
-        type: multifigure
-        class: "figure4 show3"
-        caption: "Acknowledgements:"
+        type: figure
+        class: figure3
         content:
           -
             src: "/assets/media/research/pyramid-blending/first1.jpg"
@@ -69,9 +65,8 @@ types of compression.'
 pyramid serve as a low-pass filtered version of the image. A stack of these forms a Gaussian pyramid.'
 
     - figure:
-        type: multifigure
-        class: "figure4 show3"
-        caption: "Acknowledgements:"
+        type: figure
+        class: figure3
         content:
           -
             src: "/assets/media/research/pyramid-blending/second1.jpg"
@@ -102,9 +97,8 @@ Expanding and adding images from the Laplacian pyramid can recreate the original
 narrower blend region can be used in high-frequency content such as edges.'
 
     - figure:
-        type: multifigure
-        class: "figure4 show3"
-        caption: "Acknowledgements:"
+        type: figure
+        class: figure3
         content:
           -
             src: "/assets/media/research/pyramid-blending/third1.jpg"
@@ -128,5 +122,5 @@ narrower blend region can be used in high-frequency content such as edges.'
         content:
           - '<a href="https://ieeexplore.ieee.org/document/1095851/authors#authors">The Laplacian Pyramid as a Compact Image Code</a>'
           - '<a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.56.690">A Multiresolution Spline With Application to Image Mosaics</a>'
-          - '<p>Both of which were authored by Peter Burt and Edward Adelson</p>'
+          - 'Both of which were authored by Peter Burt and Edward Adelson'
 ---

@@ -6,63 +6,42 @@
 
     {%- if figelem.type == "video" %}
        <iframe title="Featured Video" class="{{ page.class }}" src="https://player.vimeo.com/video/{{ figelem.id }}" allowfullscreen frameborder="0"></iframe>
-        {%- elsif figelem.type == "ul" %}
-            <figcaption>
-                <p>{{figelem.caption}}</p>
-            </figcaption>
-            <ul class="{{ page.class }}">
-                {%- for li in figelem.content %}
-                <li class="{{ page.class }}">
-                    <p>{{ li }}</p>
-                </li>
-                {%- endfor %}
-            </ul>
 
-        {%- elsif figelem.type == "multifigure" or figelem.type == "single"%}
-            {%- for img in figelem.content %}
-            <img class="{{ page.class }}" src="{{ img.src | prepend: site.baseurl }}" />
-            {%- endfor %}
-            <figcaption>
-                <p>{{ figelem.caption }}</p>
-            </figcaption>
-
-    {%- elsif figelem.type == "figure" %}
-        {%- for img in figelem.content %}
-        <img class="{{ page.class }}" src="{{ img.src | prepend: site.baseurl }}" alt="{{ img.alt }}" />
+    {%- elsif figelem.type == "ul" %}
         {%- if figelem.caption %}
         <figcaption>
             <p>{{ figelem.caption }}</p>
         </figcaption>
         {%- endif %}
+        <ul class="{{ page.class }}">
+            {%- for li in figelem.content %}
+            <li class="{{ page.class }}">
+                <p>{{ li }}</p>
+            </li>
+            {%- endfor %}
+        </ul>
+
+    {%- elsif figelem.type == "figure" %}
+        {%- for img in figelem.content %}
+        {%- if figelem.content.size > 1 %}
+        <figure>
+        {%- endif %}
+            <img class="{{ page.class }}" src="{{ img.src | prepend: site.baseurl }}" alt="{{ img.alt }}" />
+            {%- if img.caption %}
+            <figcaption>
+                <p>{{ img.caption }}</p>
+            </figcaption>
+            {%- endif %}
+
+        {%- if figelem.content.size > 1 %}
+        </figure>
+        {%- endif %}
         {%- endfor %}
 
-        {%- elsif figelem.type == "figure3" %}
-            {%- for img in figelem.imgs %}
-            <figure>
-                <img class="{{ page.class }}" src="{{ img.src | prepend: site.baseurl }}" alt="{{ img.alt }}" />
-                <figcaption>
-                    <p>{{ img.caption }}</p>
-                </figcaption>
-            </figure>
-            {%- endfor %}
-
-        {%- elsif figelem.type == "figure3h" %}
-            {%- for img in element.imgs %}
-            <figure>
-                <img class="{{ page.class }}" src="{{ img.src | prepend: site.baseurl }}" alt="{{ img.alt }}" />
-            </figure>
-            {%- endfor %}
-            <figcaption>
-                <p>{{ element.caption }}</p>
-            </figcaption>
-
-        {%- elsif figelem.type == "figure4" %}
-            {%- for img in element.imgs %}
-            <img class="{{ page.class }}" src="{{ img.src | prepend: site.baseurl }}" />
-            {%- endfor %}
-            <figcaption>
-                <p>{{ element.caption }}</p>
-            </figcaption>
-
+        {%- if figelem.caption %}
+        <figcaption>
+            <p>{{ figelem.caption }}</p>
+        </figcaption>
         {%- endif %}
+    {%- endif %}
     </figure>

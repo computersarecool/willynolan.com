@@ -11,13 +11,17 @@ project:
   preview_backup: "/assets/media/research/planning-and-control/preview.mp4"
 
 figures:
-  - type: image
-    url: "/assets/media/research/planning-and-control/first.jpg"
-    alt: "Warehouse representation of map"
+  - type: figure
+    class: narrow
+    content:
+      - src: "/assets/media/research/planning-and-control/first.jpg"
+        alt: "Warehouse representation of map"
 
-  - type: image
-    url: "/assets/media/research/planning-and-control/second.jpg"
-    alt: "Warehouse representation of map with motion plan"
+  - type: figure
+    class: narrow
+    content:
+      - src: "/assets/media/research/planning-and-control/second.jpg"
+        alt: "Warehouse representation of map with motion plan"
 
   - type: video
     id: "354555624"
@@ -55,13 +59,13 @@ A...@
 
         - 'More efficient routes are preferred'
 
-  -
     - p: 'The challenge is that packages are located in fractional -- not integer -- locations. My research 
 solved this through discretization of the provided warehouse layout file and precise calculation of the robot heading.'
 
+  -
     - p: 'The two featured images show the layout of a simple warehouse with two packages. A brief overview for 
-picking up and delivering one of the packages is shown in the second image. The green arrows show where pick up
-or drop offs took place.'
+picking up and delivering one of the packages is shown in the second image. The green arrows show where the pick up and
+drop off events took place.'
 
     - p: 'The featured video shows the completion of a more complex warehouse layout.'
 ---

@@ -12,7 +12,7 @@ project:
 
 figures:
   - type: figure3
-    class: featured3
+    class: figure3
     caption: "The mapping process and eventual result."
     imgs:
       -

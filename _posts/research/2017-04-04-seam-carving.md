@@ -11,10 +11,9 @@ project:
   preview_backup: "/assets/media/research/seam-carving/preview.mp4"
 
 figures:
-  - type: figure3
-    class: featured3h
-    caption: "The mapping process and eventual result."
-    imgs:
+  - type: figure
+    class: figure3
+    content:
       -
         src: "/assets/media/research/seam-carving/first.jpg"
         alt: "Texture Mapping LEDs"
@@ -28,10 +27,9 @@ figures:
         alt: "Texture Mapping LEDs"
         caption: "Result Image"
 
-  - type: figure3
-    class: featured3
-    caption: "The mapping process and eventual result."
-    imgs:
+  - type: figure
+    class: figure3 baseline
+    content:
       -
         src: "/assets/media/research/seam-carving/fourth1.jpg"
         alt: "Texture Mapping LEDs"
@@ -45,19 +43,21 @@ figures:
         alt: "Texture Mapping LEDs"
         caption: "Result Image"
 
-  - type: figure3
-    class: featured3h
-    caption: "The mapping process and eventual result."
-    imgs:
+  - type: figure
+    class: figure3
+    content:
       -
         src: "/assets/media/research/seam-carving/fifth.jpg"
         alt: "Texture Mapping LEDs"
+        caption: "Mask Image"
       -
         src: "/assets/media/research/seam-carving/sixth.jpg"
         alt: "Texture Mapping LEDs"
+        caption: "Mask Image"
       -
         src: "/assets/media/research/seam-carving/seventh.jpg"
         alt: "Texture Mapping LEDs"
+        caption: "Mask Image"
 
 sections:
   -

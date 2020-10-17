@@ -14,28 +14,29 @@ figures:
   - type: figure
     content:
       - src: "/assets/media/research/respectrable/first.jpg"
-        alt: "The Live Object Model"
+        alt: "Live Object Model Diagram"
+        caption: Live Object Model Diagram
 
   - type: figure
     content:
       - src: "/assets/media/research/respectrable/second.jpg"
-        alt: "Respectrable"
+        alt: "Screenshot of Respectrable being developed"
+        caption: Screenshot of Respectrable being developed
 
   - type: video
     id: "354581391"
 
 sections:
   -
-    - p: "Although most Ableton Live users probably use it only to make music, it was also one of the first Digital 
+    - p: "Although most Ableton Live users probably only use it to make music, it was also one of the first Digital 
 Audio Workstations (DAW) to offer a fully programmatic interface and probably still offers the best live 
 performance abilities of any DAW."
 
   -
     - p: 'Live officially supports programmatic access to every knob, button and and slider through the 
-<a href="https://docs.cycling74.com/max8/vignettes/live_object_model">Live Object 
-Model (LOM)</a>.'
+<a href="https://docs.cycling74.com/max8/vignettes/live_object_model">Live Object Model (LOM)</a>.'
 
-    - p: "As is shown in the first featured image, the LOM can be a bit of a maze because of the large number of 
+    - p: "As is shown in the first figure, the LOM can be a bit of a maze because of the large number of 
 parameters available in Live."
 
     - p: "There is a learning curve to figuring out how the object hierarchy works but, 

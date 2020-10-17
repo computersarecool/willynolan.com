@@ -14,7 +14,7 @@ author: "Willy Nolan"
 title: "Willy Nolan"
 faviconcolor: "#2cdad7"
 
-show_exhibitions: false
+show_exhibitions: true
 
 defaults:
   -
