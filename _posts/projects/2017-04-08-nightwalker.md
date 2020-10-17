@@ -8,7 +8,7 @@ project:
   preview_main: "/assets/media/projects/nightwalker/preview.webm"
   preview_backup: "/assets/media/projects/nightwalker/preview.mp4"
 
-media:
+figures:
   - type: image
     url: "/assets/media/projects/nightwalker/first.jpg"
     alt: "A group shot of NightWalker pants"
@@ -29,6 +29,7 @@ approach to development and clothing production, was eye-catching."
 
   -
     - p: "In 2010, when development started on the flagship NightWalker web app, nothing was hotter than the MEAN stack."
+
     - p: "With little enterprise experience I jumped into MongoDB, Express, Angular and Node.js and got serious exposure to 
 Amazon Web Services."
 
@@ -36,8 +37,8 @@ Amazon Web Services."
 experience gained in creating a truly interactive web app was invaluable."
 
   -
-    - p: 'When mobile visitors reached the site, instead of having to drag or scroll to see all the colors 
-(or "flavors" as they were known) of pants, they could simply rotate their phones to see each option.'
+    - p: 'When mobile visitors reached the site, instead of having to drag or scroll to see all the colors (or "flavors" 
+as they were known) of pants, they could simply rotate their phones to see each option.'
 
     - raw: '<img src="/assets/media/projects/nightwalker/symbol_logo.png" alt="NightWalker logo" height="76" width="200" 
 class="margin-center inpost">'

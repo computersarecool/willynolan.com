@@ -10,14 +10,16 @@ project:
   preview_main: "/assets/media/research/respectrable/preview.webm"
   preview_backup: "/assets/media/research/respectrable/preview.mp4"
 
-media:
-  - type: image
-    url: "/assets/media/research/respectrable/first.jpg"
-    alt: "The Live Object Model"
+figures:
+  - type: figure
+    content:
+      - src: "/assets/media/research/respectrable/first.jpg"
+        alt: "The Live Object Model"
 
-  - type: image
-    url: "/assets/media/research/respectrable/second.jpg"
-    alt: "Respectrable"
+  - type: figure
+    content:
+      - src: "/assets/media/research/respectrable/second.jpg"
+        alt: "Respectrable"
 
   - type: video
     id: "354581391"
@@ -31,7 +33,8 @@ performance abilities of any DAW."
   -
     - p: 'Live officially supports programmatic access to every knob, button and and slider through the 
 <a href="https://docs.cycling74.com/max8/vignettes/live_object_model">Live Object 
-Model (LOM)</a>.' 
+Model (LOM)</a>.'
+
     - p: "As is shown in the first featured image, the LOM can be a bit of a maze because of the large number of 
 parameters available in Live."
 

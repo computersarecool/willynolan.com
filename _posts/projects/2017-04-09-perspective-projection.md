@@ -8,7 +8,7 @@ project:
   preview_main: "/assets/media/projects/perspective-projection/preview.webm"
   preview_backup: "/assets/media/projects/perspective-projection/preview.mp4"
 
-media:
+figures:
   - type: image
     url: "/assets/media/projects/perspective-projection/first.jpg"
     alt: "Multi-colored cube in 3D environment"

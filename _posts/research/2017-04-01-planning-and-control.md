@@ -10,7 +10,7 @@ project:
   preview_main: "/assets/media/research/planning-and-control/preview.webm"
   preview_backup: "/assets/media/research/planning-and-control/preview.mp4"
 
-media:
+figures:
   - type: image
     url: "/assets/media/research/planning-and-control/first.jpg"
     alt: "Warehouse representation of map"

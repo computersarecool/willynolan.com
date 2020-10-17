@@ -10,18 +10,23 @@ project:
   preview_main: "/assets/media/research/dsa-opengl/preview.webm"
   preview_backup: "/assets/media/research/dsa-opengl/preview.mp4"
 
-media:
-  - type: image
-    url: "/assets/media/research/dsa-opengl/first.jpg"
-    alt: "Example tessellation shader"
-
-  - type: image
-    url: "/assets/media/research/dsa-opengl/second.jpg"
-    alt: "Phong Lighting Model"
-
-  - type: image
-    url: "/assets/media/research/dsa-opengl/third.jpg"
-    alt: "Real time raytracer"
+figures:
+  - type: figure3
+    class: featured3
+    caption: "The mapping process and eventual result."
+    imgs:
+      -
+        src: "/assets/media/research/dsa-opengl/first.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Original Image"
+      -
+        src: "/assets/media/research/dsa-opengl/second.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Mask Image"
+      -
+        src: "/assets/media/research/dsa-opengl/third.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Result Image"
 
 sections:
   -
@@ -31,17 +36,15 @@ Direct State Access</a> -> Vulkan.'
 
     - p: 'As the APIs have progressed, progressively more control has been given to the programmer.'
 
-  -
     - p: 'Direct State Access (DSA) provides a nice balance between verbosity and control. In particular, minimizing 
 or eliminating the “state-machine” construct with DSA makes interacting with the GPU feel much more similar to native C++.'
 
-  -
     - p: 'Early OpenGL does not provide enough control to the user, but Vulkan can make getting started with graphics very 
 intimidating and prototyping or experimenting with the GPU challenging.'
 
     - p: 'The research I did resulted in applications that explore many of the ways in which DSA leads to a more elegant 
 programming experience.'
 
-    - p: 'The featured images show just a few examples of applications made easier with DSA.
-These include (in order) tessellation, an example of the Phong Illumination Model and a real time raytracer.'
+    - p: 'The featured images shows just a few examples of graphics techniques made easier with DSA. These include 
+tessellation, an example of the Phong Illumination Model and a real time raytracer.'
 ---

@@ -8,7 +8,7 @@ project:
   preview_main: "/assets/media/projects/searching-for-cydonia/preview.webm"
   preview_backup: "/assets/media/projects/searching-for-cydonia/preview.mp4"
 
-media:
+figures:
   - type: image
     url: "/assets/media/projects/searching-for-cydonia/first.jpg"
     alt: "Artist rendering"
@@ -24,8 +24,8 @@ sections:
   -
     - p: "It is the year 04000 CE."
 
-    - p: "A group of dancing astronauts has been lost in space for the last eight years searching for their
-home planet of Cydonia."
+    - p: "A group of dancing astronauts has been lost in space for the last eight years searching for their home planet 
+of Cydonia."
 
     - p: "With nothing else to do besides explore outer space and listen to the hottest Nu-disco cuts, this team of 
 explorers might just find their long-lost home..."

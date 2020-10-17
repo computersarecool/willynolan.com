@@ -11,81 +11,30 @@
         <p class="{{ page.class }}">{{ element.p }}</p>
 
         {%- elsif element.bq %}
-        <blockquote class="{{ page.class }}"><p>{{ element.bq }}</p></blockquote>
+        <blockquote class="{{ page.class }}">
+            <p>{{ element.bq }}</p>
+        </blockquote>
 
         {%- elsif element.ul %}
         <ul class="{{ page.class }}">
             {%- for li in element.ul %}
-            <li class="{{ page.class }}">{{ li }}</li>
+            <li class="{{ page.class }}">
+                <p>{{ li }}</p>
+            </li>
             {%- endfor %}
         </ul>
 
-        {%- elsif element.figimg %}
-        <figure class="{{ page.class }} figimg margin-center">
-            {{ element.figimg }}
-            <figcaption><p>{{ element.figcaptionp }}</p></figcaption>
-        </figure>
-
-        {%- elsif element.figul %}
-        <figure class="{{ page.class }} acknowledge">
-            <figcaption><p>{{element.figcaption}}</p></figcaption>
-            <ul class="{{ page.class }}">
-                {%- for li in element.figul %}
-                <li class="{{ page.class }}"><p>{{ li }}</p></li>
-                {%- endfor %}
-            </ul>
-        </figure>
+        {%- else %}
+        {%- assign figelem = element.figure %}
+        {%- include post-figure.html %}
 
         {%- endif %}
     {%- endfor %}
     </section>
 {%- endfor %}
 
-{%- for element in page.media %}
-    {%- if element.type == "image" %}
-    <div class="{{ page.class }} featured">
-        <img class="{{ page.class }}" src="{{ element.url | prepend: site.baseurl }}" alt="{{ element.alt }}" />
-    </div>
+{%- for figelem in page.figures %}
+    {%- include post-figure.html %}
 
-    {%- elsif element.type == "video" %}
-    <div class="{{ page.class }} featured video-wrapper">
-        <iframe title="Featured Video" class="{{ page.class }}" src="https://player.vimeo.com/video/{{ element.id }}" allowfullscreen frameborder="0"></iframe>
-    </div>
-
-    {%- elsif element.type == "figure4" %}
-    <div class="{{ page.class }} featured">
-        <figure class="{{ page.class }} featured4">
-            {%- for img in element.imgs %}
-            <img class="{{ page.class }}" src="{{ img.src | prepend: site.baseurl }}" />
-            {%- endfor %}
-            <figcaption><p>{{ element.caption }}</p></figcaption>
-        </figure>
-    </div>
-
-    {%- elsif element.type == "figure3" %}
-    <div class="{{ page.class }} featured">
-        <figure class="{{ page.class }} featured3">
-            {%- for img in element.imgs %}
-            <figure>
-                <img class="{{ page.class }}" src="{{ img.src | prepend: site.baseurl }}" alt="{{ img.alt }}" />
-                <figcaption><p>{{ img.caption }}</p></figcaption>
-            </figure>
-            {%- endfor %}
-        </figure>
-    </div>
-
-    {%- elsif element.type == "figure3h" %}
-    <div class="{{ page.class }} featured">
-        <figure class="{{ page.class }} featured3h">
-            {%- for img in element.imgs %}
-            <figure>
-                <img class="{{ page.class }}" src="{{ img.src | prepend: site.baseurl }}" alt="{{ img.alt }}" />
-            </figure>
-            {%- endfor %}
-            <figcaption><p>{{ element.caption }}</p></figcaption>
-        </figure>
-    </div>
-
-    {%- endif %}
 {%- endfor %}
 </main>

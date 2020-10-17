@@ -10,8 +10,9 @@ project:
   preview_main: "/assets/media/research/inpainting/preview.webm"
   preview_backup: "/assets/media/research/inpainting/preview.mp4"
 
-media:
+figures:
   - type: figure3
+    class: featured3
     caption: "The mapping process and eventual result."
     imgs:
       -
@@ -28,6 +29,7 @@ media:
         caption: "Result Image"
 
   - type: figure3
+    class: featured3
     caption: "The mapping process and eventual result."
     imgs:
       -
@@ -44,6 +46,7 @@ media:
         caption: "Result Image"
 
   - type: figure3
+    class: featured3
     caption: "The mapping process and eventual result."
     imgs:
       -
@@ -77,8 +80,11 @@ in the region."
 that is the best candidate to replace a patch in the selected (target) region of the image."
 
   -
-    - figul:
-        - '<a href="https://ieeexplore.ieee.org/abstract/document/1323101">Region Filling and Object Removal by Exemplar-Based 
-Image Inpainting</a> by Criminisi et al.'
-      figcaption: "This project implements the academic paper:"
+    - figure:
+        type: ul
+        class: "acknowledge"
+        caption: "This project implements the academic paper:"
+        content:
+          - '<a href="https://ieeexplore.ieee.org/abstract/document/1323101">Region Filling and Object Removal by 
+Exemplar-Based Image Inpainting</a> by Criminisi et al.'
 ---

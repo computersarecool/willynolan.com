@@ -8,8 +8,8 @@ project:
   preview_main: "/assets/media/projects/architectural-projection/preview.webm"
   preview_backup: "/assets/media/projects/architectural-projection/preview.mp4"
 
-media:
-  - type: image
+figures:
+  - type: figure
     url: "/assets/media/projects/architectural-projection/first.jpg"
     alt: "Shantou University medical building with projection"
 
@@ -44,14 +44,16 @@ shape was unique enough that it was hard to resist the opportunity."
     - p: "The scheduling constraints meant there was no photographer scheduled to capture the job and it came close to 
 not being documented at all."
 
-    - p: "Luckily some students at the university were taking a drone photography class 
-nearby and captured footage of the event which they were happy to share in exchange for a presentation on how to 
-projection map buildings."
+    - p: "Luckily some students at the university were taking a drone photography class nearby and captured footage of 
+the event which they were happy to share in exchange for a presentation on how to projection map buildings."
 
     - p: "The footage they captured is included in the featured video."
 
-    - figul:
-        - "Art Direction: Ron Robinson"
-        - "Technical Direction: Matty Dowlen, Andrew Plourde, Gaston Albanell"
-      figcaption: "Acknowledgements:"
+    - figure:
+        type: ul
+        class: "acknowledge under"
+        caption: "Acknowledgements:"
+        content:
+          - "Art Direction: Ron Robinson"
+          - "Technical Direction: Matty Dowlen, Andrew Plourde, Gaston Albanell"
 ---

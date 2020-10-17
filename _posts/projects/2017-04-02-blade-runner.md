@@ -8,7 +8,7 @@ project:
   preview_main: "/assets/media/projects/blade-runner/preview.webm"
   preview_backup: "/assets/media/projects/blade-runner/preview.mp4"
 
-media:
+figures:
   - type: image
     url: "/assets/media/projects/blade-runner/first.jpg"
     alt: "The Blade Runner controller"
@@ -43,8 +43,11 @@ and it seemed necessary to reference them (in proper cyberpunk style) at the par
 venue lighting and four different three watt RGB lasers."
 
     - p: "The featured video is worth watching in its entirety - this project appears at 1:35."
-
-    - figul:
-        - 'Lighting Design: <a href="https://www.cyberpatrolunit.com/">Bryant "CPU" Place</a>'
-      figcaption: "Acknowledgements:"
+  
+    - figure:
+        type: ul
+        class: "acknowledge under"
+        caption: "Acknowledgements:"
+        content:
+          - 'Lighting Design: <a href="https://www.cyberpatrolunit.com/">Bryant "CPU" Place</a>'
 ---

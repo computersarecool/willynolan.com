@@ -10,8 +10,9 @@ project:
   preview_main: "/assets/media/research/seam-carving/preview.webm"
   preview_backup: "/assets/media/research/seam-carving/preview.mp4"
 
-media:
-  - type: figure3h
+figures:
+  - type: figure3
+    class: featured3h
     caption: "The mapping process and eventual result."
     imgs:
       -
@@ -28,6 +29,7 @@ media:
         caption: "Result Image"
 
   - type: figure3
+    class: featured3
     caption: "The mapping process and eventual result."
     imgs:
       -
@@ -43,7 +45,8 @@ media:
         alt: "Texture Mapping LEDs"
         caption: "Result Image"
 
-  - type: figure3h
+  - type: figure3
+    class: featured3h
     caption: "The mapping process and eventual result."
     imgs:
       -
@@ -90,8 +93,11 @@ general.'
 <a href="https://helpx.adobe.com/photoshop/using/content-aware-scaling.html">Photoshop</a> and
 <a href="http://liquidrescale.wikidot.com/en:tutorial">Gimp</a>.'
 
-    - figul:
-        - '<a href="http://www.faculty.idc.ac.il/arik/SCWeb/imret/imret.pdf">Region Filling and Object Removal by
-Exemplar-Based Image Inpainting</a> by Shai Avidan and Ariel Shamir.'
-      figcaption: "This project implements the academic paper:"
+    - figure:
+        type: ul
+        class: "acknowledge"
+        caption: "This project implements the academic paper:"
+        content:
+          - '<a href="http://www.faculty.idc.ac.il/arik/SCWeb/imret/imret.pdf">Seam Carving for Content-Aware Image 
+Resizing</a> by Shai Avidan and Ariel Shamir.'
 ---

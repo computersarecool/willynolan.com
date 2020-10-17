@@ -12,14 +12,40 @@ project:
 
 mathjax: true
 
-media:
-  - type: image
-    url: "/assets/media/research/video-textures/first.png"
-    alt: "video-textures image created from a radiance map"
+figures:
+  - type: figure3
+    class: featured3
+    caption: "The mapping process and eventual result."
+    imgs:
+      -
+        src: "/assets/media/research/video-textures/first1.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Original Image"
+      -
+        src: "/assets/media/research/video-textures/first2.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Mask Image"
+      -
+        src: "/assets/media/research/video-textures/first3.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Result Image"
 
-  - type: image
-    url: "/assets/media/research/video-textures/second.png"
-    alt: "Image acquisition pipeline and false color image of radiance map"
+  - type: figure3
+    class: featured3
+    caption: "The mapping process and eventual result."
+    imgs:
+      -
+        src: "/assets/media/research/video-textures/second1.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Original Image"
+      -
+        src: "/assets/media/research/video-textures/second2.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Mask Image"
+      -
+        src: "/assets/media/research/video-textures/second3.jpg"
+        alt: "Texture Mapping LEDs"
+        caption: "Result Image"
 
 sections:
   -
@@ -50,7 +76,10 @@ could be applied."
       in the clip. The featured images show other possible transitions that could be chosen and their associated start and end
       frames."
 
-    - figul:
-        - '<a href="https://dl.acm.org/doi/10.1145/344779.345012">Video Textures</a> by Arno Sch&ouml;dl et al.'
-      figcaption: "The original publication on which my research is based is:"
+    - figure:
+        type: ul
+        class: "acknowledge"
+        caption: "The original publication on which my research is based is:"
+        content:
+          - '<a href="https://dl.acm.org/doi/10.1145/344779.345012">Video Textures</a> by Arno Sch&ouml;dl et al.'
 ---

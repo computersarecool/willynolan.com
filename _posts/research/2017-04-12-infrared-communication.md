@@ -49,10 +49,15 @@ NEC Infrared Transmission Protocol</a>.'
 
       - An end burst
 
-    - figimg:
-        - '<img alt="NEC IR frame" src="https://www.sbprojects.net/knowledge/ir/nectrain.png">'
-      figcaptionp: 'This image shows the command <code>16</code> sent to the address <code>59</code> (both in hex).
+    - figure:
+        type: single
+        class: "figureimg margin-center"
+        caption: 'This image shows the command <code>16</code> sent to the address <code>59</code> (both in hex).
 Mapping the bits to the actual command can be tricky as they are sent in binary, with the least significant bit first.'
+        content:
+          -
+            src: https://www.sbprojects.net/knowledge/ir/nectrain.png
+            alt: NEC IR frame
 
   -
     - p: 'The logical inverse of the address and command is sent with each frame for error correction purposes.'
@@ -65,10 +70,15 @@ Mapping the bits to the actual command can be tricky as they are sent in binary,
     - p: 'IR communication uses 38khz modulation and the duration of a burst determines which binary digit is being
 sent.'
 
-    - figimg:
-        - '<img alt="IR modulation" src="https://www.sbprojects.net/knowledge/ir/necmodulation.png">'
-      figcaptionp: 'This image visualizes the modulation. The longer spaces between pulses indicate a 1, the shorter spaces 
+    - figure:
+        type: single
+        class: "figureimg margin-center"
+        caption: 'This image visualizes the modulation. The longer spaces between pulses indicate a 1, the shorter spaces 
 indicate a 0.'
+        content:
+          -
+            src: https://www.sbprojects.net/knowledge/ir/necmodulation.png
+            alt: IR modulation
 
     - p: 'Since the command and address inverses are sent with each frame, each message takes the same amount of time to transmit.'
 

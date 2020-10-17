@@ -8,7 +8,7 @@ project:
   preview_main: "/assets/media/projects/att-stadium/preview.webm"
   preview_backup: "/assets/media/projects/att-stadium/preview.mp4"
 
-media:
+figures:
   - type: image
     url: "/assets/media/projects/att-stadium/first.png"
     alt: "ATT Stadium UI Mockup"
@@ -26,22 +26,24 @@ sections:
 bowl, the "Diamond Vision" in the center of the field (💎) and the "AT&T LiveFX" board.'
 
     - p: 'Usually different content plays on all the various screens but, during certain "takeover" moments, immersive 
-content plays across all stadium screens.'
+content plays across each of these screens.'
 
   -
     - p: "From a design perspective, this project's main challenge was to create a user interface familiar enough to
-stadium personnel that they would feel comfortable enough to takeover all the screens in the stadium with the 
-press of a button."
+stadium personnel that they would feel comfortable enough to takeover all the screens in the stadium with the press of 
+a button."
 
   -
     - p: 'In addition to writing the show control software, I got the great opportunity to evaluate my programming 
 <i>in situ</i> while serving as its operator on a several occasions.'
 
     - p: 'During the takeover moments the director would call out which video to play with an emphatic countdown. 
-My narration in the featured video is a much slower (and less enthusiastic) interpretation
-of his quite epic commands.'
+My narration in the featured video is a much slower (and less enthusiastic) interpretation of his quite epic commands.'
 
-    - figul:
-      - 'Additional Design: <a href="http://hexagons.net/">Anton Heestand</a>'
-      figcaption: "Acknowledgements:"
+    - figure:
+        type: ul
+        class: "acknowledge under"
+        caption: "Acknowledgements:"
+        content:
+          - 'Additional Design: <a href="http://hexagons.net/">Anton Heestand</a>'
 ---
