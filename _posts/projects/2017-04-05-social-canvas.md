@@ -4,14 +4,14 @@ meta:
 
 project:
   title: "Social Canvas"
-  preview: "video"
   preview_main: "/assets/media/projects/social-canvas/preview.webm"
   preview_backup: "/assets/media/projects/social-canvas/preview.mp4"
 
 figures:
-  - type: image
-    url: "/assets/media/projects/social-canvas/first.jpg"
-    alt: "Social Canvas Layout"
+  - type: figure
+    content:
+      - src: "/assets/media/projects/social-canvas/first.jpg"
+        alt: "Social Canvas Layout"
 
   - type: video
     id: "354169578"

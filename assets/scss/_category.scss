@@ -1,4 +1,4 @@
-ul.list {
+ul.projects-list {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(var(--projects-grid-min-small), 1fr));
@@ -51,7 +51,7 @@ video.preview {
 }
 
 @media only screen and (min-width: $second-bp) {
-    ul.list {
+    ul.projects-list {
         grid-template-columns: repeat(auto-fit, minmax(var(--projects-grid-min-big), 1fr));
     }
 

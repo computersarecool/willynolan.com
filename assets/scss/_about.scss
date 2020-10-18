@@ -2,8 +2,15 @@ section.exhibitions {
     margin-top: 2em;
 }
 
-.callout.exhibitions {
+
+section.exhibitions > h2 {
+    font-size: var(--font-size-callout-small);
     text-transform: lowercase;
+}
+
+ul.exhibitions > li {
+    font-size: var(--font-size-main-small);
+    margin-bottom: .35em;
 }
 
 section.exhibitions > p {

@@ -4,18 +4,19 @@ meta:
 
 project:
   title: "AT&T Stadium"
-  preview: "video"
   preview_main: "/assets/media/projects/att-stadium/preview.webm"
   preview_backup: "/assets/media/projects/att-stadium/preview.mp4"
 
 figures:
-  - type: image
-    url: "/assets/media/projects/att-stadium/first.png"
-    alt: "ATT Stadium UI Mockup"
+  - type: figure
+    content:
+      - src: "/assets/media/projects/att-stadium/first.png"
+        alt: "ATT Stadium UI Mockup"
     
-  - type: image
-    url: "/assets/media/projects/att-stadium/second.jpg"
-    alt: "ATT Stadium UI Mockup"
+  - type: figure
+    content:
+      - src: "/assets/media/projects/att-stadium/second.jpg"
+        alt: "ATT Stadium UI Mockup"
     
   - type: video
     id: "354158136"

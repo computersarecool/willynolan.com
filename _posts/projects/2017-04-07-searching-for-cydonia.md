@@ -4,18 +4,19 @@ meta:
 
 project:
   title: "Searching for Cydonia"
-  preview: "video"
   preview_main: "/assets/media/projects/searching-for-cydonia/preview.webm"
   preview_backup: "/assets/media/projects/searching-for-cydonia/preview.mp4"
 
 figures:
-  - type: image
-    url: "/assets/media/projects/searching-for-cydonia/first.jpg"
-    alt: "Artist rendering"
+  - type: figure
+    content:
+      - src: "/assets/media/projects/searching-for-cydonia/first.jpg"
+        alt: "Artist rendering"
 
-  - type: image
-    url: "/assets/media/projects/searching-for-cydonia/second.jpg"
-    alt: "GUI Designs"
+  - type: figure
+    content:
+      - src: "/assets/media/projects/searching-for-cydonia/second.jpg"
+        alt: "GUI Designs"
 
   - type: video
     id: "349255380"

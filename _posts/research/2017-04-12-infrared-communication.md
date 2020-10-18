@@ -7,7 +7,6 @@ meta:
 
 project:
   title: "Infrared Communication"
-  preview: "video"
   preview_main: "/assets/media/research/infrared-communication/preview.webm"
   preview_backup: "/assets/media/research/infrared-communication/preview.mp4"
 
@@ -17,22 +16,23 @@ sections:
 Additionally, a Raspberry Pi is one of the cheapest ways to explore electronics.'
 
     - p: 'The Raspberry Pi microcomputer has built-in support for IR communication in the form of 
-<a href="https://learn.adafruit.com/using-an-ir-remote-with-a-raspberry-pi-media-center/lirc"> LIRC</a> which 
+<a href="https://learn.adafruit.com/using-an-ir-remote-with-a-raspberry-pi-media-center/lirc"><abbr>LIRC</abbr></a> which 
 stands for Linux Infrared Remote Control.'
 
-    - p: 'However, for anybody that wants to interact with infrared communication directly (e.g. in a Python program),
+    - p: 'However, for anybody that wants to interact with infrared communication directly (e.g. by using a Python program),
 there are not many options.'
 
-  -
-    - p: 'For instance, if someone wanted to use a vintage remote control to control a webserver, LIRC would be less than ideal.'
+    - p: 'LIRC has a specific, targeted focus and is not ideal for general IR control of electronics.'
 
+    - p: 'This research set out to make direct IR communication using a Raspberry Pi and Python easier.'
+
+  -
     - p: 'There are a variety of infrared protocols in existence.  A commonly used one is the <a href="https://techdocs.altium.com/display/FPGA/NEC+Infrared+Transmission+Protocol">
 NEC Infrared Transmission Protocol</a>.'
 
-  -
     - p: 'This protocol is robust and a good place to start for anybody interested in learning how IR communication works.'
 
-    - p: 'The complete message (which is sent when a button is pressed) consists of the following (in order):'
+    - p: 'A complete message (sent when a button is pressed) in the NEC protocol consists of the following (in order):'
 
     - ul:
       - A leading pulse
@@ -50,29 +50,28 @@ NEC Infrared Transmission Protocol</a>.'
       - An end burst
 
     - figure:
-        type: single
-        class: "figureimg margin-center"
-        caption: 'This image shows the command <code>16</code> sent to the address <code>59</code> (both in hex).
-Mapping the bits to the actual command can be tricky as they are sent in binary, with the least significant bit first.'
+        type: figure
+        caption: 'This image shows the command <code>16</code> sent to the address <code>59</code> (both in hex). The 
+message is sent in binary with the least significant bit first.'
         content:
           -
             src: https://www.sbprojects.net/knowledge/ir/nectrain.png
             alt: NEC IR frame
 
-  -
     - p: 'The logical inverse of the address and command is sent with each frame for error correction purposes.'
 
-    - p: 'There are also other messages that can be transmitted for repeat buttons or if the controller is operating with the
+    - p: 'There are also other messages that are transmitted for repeat presses or if the controller is operating with the
 "extended" NEC protocol (which doesn''t use the logical inverse of the address).'
 
-    - p: 'As an IR remote only flashes light, a logical question would be, how are the flashes interpreted as numbers?'
+  -
+    - p: 'As an IR remote only flashes light, a logical question would be: "how are the flashes of light interpreted 
+as numbers?"'
 
     - p: 'IR communication uses 38khz modulation and the duration of a burst determines which binary digit is being
 sent.'
 
     - figure:
-        type: single
-        class: "figureimg margin-center"
+        type: figure
         caption: 'This image visualizes the modulation. The longer spaces between pulses indicate a 1, the shorter spaces 
 indicate a 0.'
         content:
@@ -82,12 +81,15 @@ indicate a 0.'
 
     - p: 'Since the command and address inverses are sent with each frame, each message takes the same amount of time to transmit.'
 
-    - p: 'The protocol itself is very straightforward.  The most challenging aspect was dealing with the timing tolerances
-      from both the remotes and and from the Raspberry pi.'
+    - p: 'The protocol itself is very straightforward.  The most challenging aspect in this project was dealing with 
+the timing tolerances from both the remotes and and from the Raspberry Pi.'
 
-    - p: 'During research the following equipment was used:'
+    - p: 'My research explored creating an easy way to use IR communication directly from Python on a Raspberry Pi, 
+specifically so old remotes could control new electronics.'
+    
+    - p: 'During development the following equipment was used:'
+
     - ul:
-
       - Raspberry Pi
 
       - <a href="https://www.vishay.com/docs/82491/tsop382.pdf">TSOP 382 IR Receiver</a>
@@ -98,10 +100,13 @@ indicate a 0.'
     - p: 'The end result of this exploration was the <a href="https://pypi.org/project/irreceiver/">irreceiver</a> Python
 library which is available on PyPi.'
 
-    - p: 'It is fully tested and well commented and a good place for someone interested in
-using IR communication with a Raspberry Pi or just interested in exploring the protocol more.'
+    - p: "It is fully tested and well commented and a good place to start for someone interested in using IR 
+communication with a Raspberry Pi or just interested in exploring IR in general."
 
-    - raw: '<small><p>All images and video in this post are courtesy of 
-<a href="https://www.sbprojects.net/knowledge/ir/index.php">SB-Projects</a> (great resource for this topic)</p><small>'
-
+    - figure:
+        type: ul
+        class: acknowledge
+        caption: "All images and video in this post are courtesy of:"
+        content:
+          - <a href="https://www.sbprojects.net/knowledge/ir/index.php">SB-Projects</a> (great resource for this topic)
 ---

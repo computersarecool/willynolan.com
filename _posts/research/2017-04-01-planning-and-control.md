@@ -6,7 +6,6 @@ meta:
 
 project:
   title: "Planning and Control"
-  preview: "video"
   preview_main: "/assets/media/research/planning-and-control/preview.webm"
   preview_backup: "/assets/media/research/planning-and-control/preview.mp4"
 
@@ -16,12 +15,14 @@ figures:
     content:
       - src: "/assets/media/research/planning-and-control/first.jpg"
         alt: "Warehouse representation of map"
+        caption: Screenshot of Respectrable being developed
 
   - type: figure
     class: narrow
     content:
       - src: "/assets/media/research/planning-and-control/second.jpg"
         alt: "Warehouse representation of map with motion plan"
+        caption: Screenshot of Respectrable being developed
 
   - type: video
     id: "354555624"

@@ -6,7 +6,6 @@ meta:
 
 project:
   title: "Respectrable"
-  preview: "video"
   preview_main: "/assets/media/research/respectrable/preview.webm"
   preview_backup: "/assets/media/research/respectrable/preview.mp4"
 

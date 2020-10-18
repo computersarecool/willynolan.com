@@ -4,18 +4,19 @@ meta:
 
 project:
   title: "Architectural Projection"
-  preview: "video"
   preview_main: "/assets/media/projects/architectural-projection/preview.webm"
   preview_backup: "/assets/media/projects/architectural-projection/preview.mp4"
 
 figures:
   - type: figure
-    url: "/assets/media/projects/architectural-projection/first.jpg"
-    alt: "Shantou University medical building with projection"
+    content:
+      - src: "/assets/media/projects/architectural-projection/first.jpg"
+        alt: "Shantou University medical building with projection"
 
-  - type: image
-    url: "/assets/media/projects/architectural-projection/second.jpg"
-    alt: "Shantou University medical building without projection"
+  - type: figure
+    content:
+      - src: "/assets/media/projects/architectural-projection/second.jpg"
+        alt: "Shantou University medical building without projection"
 
   - type: video
     id: "354445100"

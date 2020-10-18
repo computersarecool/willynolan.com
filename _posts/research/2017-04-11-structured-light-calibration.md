@@ -21,28 +21,26 @@ geometric</em> and <em>radiometric / photometric</em> calibration.'
     - p: 'Projectors can essentially be thought of the inverse of a camera.  Instead of projecting a scene onto an 
 image plane, they project an image plane onto an environment.'
 
-    - p: 'Due to this similarity, projector calibration is also a topic of interest in the interactive computer 
+    - p: 'Due to this similarity, projector calibration is a topic of interest in the interactive computer 
 graphics field.'
 
     - p: 'In a projection mapping context, usually what is meant by "projector calibration" is "putting content where it
-is supposed to go in a real, 3D environment".'
+is supposed to go in a physical environment".'
 
   -
     - p: 'There are many strategies for performing camera calibration, but using structured light is a popular one and 
-it is built into both the <a href="https://madmapper.com">MadMapper</a> and <a href="https://www.disguise.one/en/">
-disguise</a> software programs.'
+it is built into several applications such as <a href="https://madmapper.com">MadMapper</a> and 
+<a href="https://www.disguise.one/en/">disguise</a>.'
 
   -
     - p: 'In this research, <a href="http://www.michaelwalczyk.com/">Mike Walczyk</a> and I explored the structured light 
-process based on its original academic paper.'
+process based on the original academic paper to describe the technique.'
 
-    - p: 'To explain this process imagine there is a room and for some reason you want to project an image directly where two 
+    - p: 'To explain a structured light process imagine there is a room and for some reason you want to project an image directly where two 
 walls meet.'
 
     - figure:
-        type: multifigure
-        class: "figure4 show3"
-        caption: "Acknowledgements:"
+        type: figure
         content:
           -
             src: "/assets/media/research/structured-light-calibration/first.jpg"
@@ -56,9 +54,7 @@ above image."
 the letter F to show distortion):"
 
     - figure:
-        type: multifigure
-        class: "figure4 show3"
-        caption: "Acknowledgements:"
+        type: figure
         content:
           -
             src: "/assets/media/research/structured-light-calibration/second.jpg"
@@ -69,9 +65,7 @@ the letter F to show distortion):"
     - p: "If you project that image directly onto the corner, the image will show obvious distortion."
 
     - figure:
-        type: multifigure
-        class: "figure4 show3"
-        caption: "Acknowledgements:"
+        type: figure
         content:
           -
             src: "/assets/media/research/structured-light-calibration/third.jpg"
@@ -82,9 +76,7 @@ the letter F to show distortion):"
 and white images, this problem can be fixed. Example structured light patterns are below."
 
     - figure:
-        type: multifigure
-        class: "figure4 show3"
-        caption: "Acknowledgements:"
+        type: figure
         content:
           -
             src: "/assets/media/research/structured-light-calibration/fifth.jpg"
@@ -96,12 +88,10 @@ and white images, this problem can be fixed. Example structured light patterns a
 as $R$) from the camera pixels to the projector pixels."
   
     - p: "This can be used to project content without distortion from the position of the viewer.
-At the end of the process this image can look correct."
+At the end of the process the image can be projected with corrected perspective."
 
     - figure:
-        type: multifigure
-        class: "figure4 show3"
-        caption: "Acknowledgements:"
+        type: figure
         content:
           -
             src: "/assets/media/research/structured-light-calibration/fourth.jpg"
@@ -117,5 +107,5 @@ simulator."
         caption: "This project implemented the academic paper:"
         content:
           - '<a href="https://ieeexplore.ieee.org/document/1240253">Multi-projectors for Arbitrary Surfaces Without Explicit
-          Calibration nor Reconstruction</a> by J. -P Tardif et al.'
+          Calibration nor Reconstruction</a> by J.-P. Tardif et al.'
 ---

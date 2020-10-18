@@ -6,17 +6,15 @@ meta:
 
 project:
   title: "Video Textures"
-  preview: "video"
   preview_main: "/assets/media/research/video-textures/preview.webm"
   preview_backup: "/assets/media/research/video-textures/preview.mp4"
 
 mathjax: true
 
 figures:
-  - type: figure3
+  - type: figure
     class: figure3
-    caption: "The mapping process and eventual result."
-    imgs:
+    content:
       -
         src: "/assets/media/research/video-textures/first1.jpg"
         alt: "Texture Mapping LEDs"
@@ -30,10 +28,9 @@ figures:
         alt: "Texture Mapping LEDs"
         caption: "Result Image"
 
-  - type: figure3
+  - type: figure
     class: figure3
-    caption: "The mapping process and eventual result."
-    imgs:
+    content:
       -
         src: "/assets/media/research/video-textures/second1.jpg"
         alt: "Texture Mapping LEDs"
@@ -53,7 +50,7 @@ sections:
 infinitely long video from a fixed-length input video, saving data the process."
 
     - p: "The concept is similar to a seamlessly looping video except, in the case of video textures, playback jumps 
-between multiple similar frames providing infinite iterations."
+between multiple similar frames providing potentially infinite different iterations of the source video."
 
     - p: "The process of creating a video texture starts with a video volume which is essentially a stack of input video 
 frames. The root mean square deviation between every frame against every other frame is computed and stored in
@@ -72,9 +69,8 @@ could be applied."
 
     - p: "The program I made finds the longest, smoothest loop and extracts those frames to be made into a video loop."
 
-    - p: "The thumbnail video shows the entire original source video next to a transition matrix proceeding with no random seeking
-      in the clip. The featured images show other possible transitions that could be chosen and their associated start and end
-      frames."
+    - p: "The featured images show other possible transitions that could be chosen and their associated start and end
+frames."
 
     - figure:
         type: ul

@@ -6,7 +6,6 @@ meta:
 
 project:
   title: "Inpainting"
-  preview: "video"
   preview_main: "/assets/media/research/inpainting/preview.webm"
   preview_backup: "/assets/media/research/inpainting/preview.mp4"
 
@@ -70,8 +69,8 @@ litter?"
      - p: "This concern led me to explore inpainting - the process of reconstructing regions of an image." 
 
   -
-    - p: "The tool I made allows for a user to indicate the region of a photograph to be replaced and then uses exemplar-based texture synthesis to fill 
-in the region."
+    - p: "The tool I made allows for a user to indicate the region of a photograph to be replaced and then uses 
+exemplar-based texture synthesis to replace the region."
 
     - p: "At a high level, exemplar-based texture synthesis looks at the input photo and finds a region (the source) 
 that is the best candidate to replace a patch in the selected (target) region of the image."

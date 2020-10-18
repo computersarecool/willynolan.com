@@ -4,18 +4,19 @@ meta:
 
 project:
   title: "NightWalker"
-  preview: "video"
   preview_main: "/assets/media/projects/nightwalker/preview.webm"
   preview_backup: "/assets/media/projects/nightwalker/preview.mp4"
 
 figures:
-  - type: image
-    url: "/assets/media/projects/nightwalker/first.jpg"
-    alt: "A group shot of NightWalker pants"
+  - type: figure
+    content:
+      - src: "/assets/media/projects/nightwalker/first.jpg"
+        alt: "A group shot of NightWalker pants"
 
-  - type: image
-    url: "/assets/media/projects/nightwalker/second.jpg"
-    alt: "A group shot of NightWalker pants"
+  - type: figure
+    content:
+      - src: "/assets/media/projects/nightwalker/second.jpg"
+        alt: "A group shot of NightWalker pants"
 
   - type: video
     id: "415369005"

@@ -25,19 +25,22 @@ since <a href="https://en.wikipedia.org/wiki/Berkeley_sockets"> Berkeley Sockets
 Even today modern operating systems implement some version of the Berkeley socket interface.'
 
   -
-    - p: 'To explore sockets further I created an application in C++ that allows a user to interactively:'
+    - p: "To explore sockets further I created an application in C++ that allows a user to interactively:"
 
     - ul:
-      - <p>Create a TCP or UDP
+      - Create a TCP or UDP
 
-      - <p>Client or Server
+      - Client or Server
 
-      - <p>Specify the port to send data to or to listen on
+      - Specify the port to send data to or to listen on
 
     - p: 'The result was a greater appreciation for sockets and for the libraries and programs that make them easier to use.'
 
-    - figul:
-        - '<a href="https://beej.us/guide/bgnet/"> Beej''s Guide to Network Programming: Using Internet Sockets Video Textures
-          </a> by Brian "Beej Jorgensen" Hall'
-      figcaption: "Much of the code used was adapted from:"
+    - figure:
+        type: ul
+        class: "acknowledge"
+        caption: "Much of the code used was adapted from:"
+        content:
+          - '<a href="https://beej.us/guide/bgnet/">Beej''s Guide to Network Programming: Using Internet Sockets</a> by 
+Brian Beej Jorgensen Hall'
 ---

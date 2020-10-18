@@ -11,10 +11,9 @@ project:
   preview_backup: "/assets/media/research/dsa-opengl/preview.mp4"
 
 figures:
-  - type: figure3
+  - type: figure
     class: figure3
-    caption: "The mapping process and eventual result."
-    imgs:
+    content:
       -
         src: "/assets/media/research/dsa-opengl/first.jpg"
         alt: "Texture Mapping LEDs"

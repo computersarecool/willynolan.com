@@ -4,18 +4,19 @@ meta:
 
 project:
   title: "Power Glove"
-  preview: "video"
   preview_main: "/assets/media/projects/power-glove/preview.webm"
   preview_backup: "/assets/media/projects/power-glove/preview.mp4"
 
 figures:
-  - type: image
-    url: "/assets/media/projects/power-glove/first.png"
-    alt: "The Power Glove hardware"
+  - type: figure
+    content:
+      - src: "/assets/media/projects/power-glove/first.png"
+        alt: "The Power Glove hardware"
 
-  - type: image
-    url: "/assets/media/projects/power-glove/second.png"
-    alt: "The Power Glove PCB and circuit layout"
+  - type: figure
+    content:
+      - src: "/assets/media/projects/power-glove/second.png"
+        alt: "The Power Glove PCB and circuit layout"
 
   - type: video
     id: "350044732"
@@ -23,6 +24,7 @@ figures:
 sections:
   -
     - p: 'In the summer of 2011 I was getting into DJing and was having a hard time breaking free from my computer.'
+
     - p: 'I wanted to be able to move and control the music at the same time. All the MIDI controllers I found required a USB 
 cable to be connected to the computer.  Clearly this was an untenable situation!'
 

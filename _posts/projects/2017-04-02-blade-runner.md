@@ -4,18 +4,19 @@ meta:
 
 project:
   title: "Blade Runner Controller"
-  preview: "video"
   preview_main: "/assets/media/projects/blade-runner/preview.webm"
   preview_backup: "/assets/media/projects/blade-runner/preview.mp4"
 
 figures:
-  - type: image
-    url: "/assets/media/projects/blade-runner/first.jpg"
-    alt: "The Blade Runner controller"
+  - type: figure
+    content:
+      - src: "/assets/media/projects/blade-runner/first.jpg"
+        alt: "The Blade Runner controller"
     
-  - type: image
-    url: "/assets/media/projects/blade-runner/second.jpg"
-    alt: "One Blade Runner performance controller"
+  - type: figure
+    content:
+      - src: "/assets/media/projects/blade-runner/second.jpg"
+        alt: "One Blade Runner performance controller"
 
   - type: video
     id: "258138643"

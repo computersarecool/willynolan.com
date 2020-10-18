@@ -4,8 +4,8 @@ main.post {
 
 h2.post {
     border-bottom: 1px solid black;
-    text-align: right;
     margin-top: 1.5em;
+    text-align: right;
     text-transform: lowercase;
     font-size: var(--font-size-post-headline);
 }
@@ -18,23 +18,12 @@ section.post p {
     margin-top: 0;
 }
 
-section.post > p + section.post p {
-    margin-top: 1em;
-}
-
-section.post > ul {
-    list-style-type: disc;
-}
-
 section.post > ul > li {
-    margin: .5em auto;
+    list-style-type: disc;
+    margin: .75em auto;
 }
 
 // Specific post styles
-main.single-col {
-    grid-template-columns: 1fr;
-}
-
 main.video-post > figure:nth-of-type(1) {
     grid-row: 2;
 }
@@ -44,43 +33,52 @@ main.video-post > figure:nth-of-type(2) {
 }
 
 main.video-post > figure:nth-of-type(3) {
-    grid-row: 7;
+    grid-row: 6;
 }
 
-// Post figures not contained in sections
+// Post figures
 figure {
-    margin: 0 0 1em;
+    margin: 0 auto 1em auto;
+    text-align: center;
+}
+
+figure.acknowledge {
+    text-align: initial;
+}
+
+figure.narrow {
+    width: 70%;
 }
 
 figure > figure {
     margin: 0;
 }
 
-figure img {
+figure > img {
     width: 100%;
     height: auto;
-    margin: 0;
 }
 
-figure.narrow {
-    margin: 0 auto 1em auto;
-    width: 70%;
-}
-
-figure figcaption {
+figure > figcaption,
+figure.acknowledge li {
     font-size: var(--font-size-main-smallest);
-    grid-column: 1 / -1;
-    text-align: center;
     font-style: italic;
     margin-bottom: 0;
+}
+
+figure.acknowledge li {
+    margin-bottom: .35em;
 }
 
 figure.under > figcaption {
     text-decoration: underline;
 }
 
-figure.acknowledge li {
-    margin-bottom: .35em;
+// Three images with space between
+figure.figure3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .5em;
 }
 
 // Multiple images with no space between
@@ -90,15 +88,11 @@ figure.figure4 {
     grid-auto-rows: auto;
 }
 
-figure.figure4 > img:nth-of-type(4) {
+figure.figure4 > figcaption,
+figure.figure3 > figcaption,
+figure.figure3 > figure:nth-of-type(4),
+figure.figure4 > figure:nth-of-type(4) {
     grid-column: 1 / -1;
-}
-
-// Three images with space between
-figure.figure3 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: .5em;
 }
 
 figure.figure2 {
@@ -125,16 +119,21 @@ figure.onecol {
         margin-top: 0;
     }
 
-    main figcaption {
+    figure > figcaption,
+    figure.acknowledge li {
         font-size: var(--font-size-main-small);
-    }
-
-    figure.acknowledge > figcaption {
-        font-size: var(--font-size-main-medium);
     }
 
     figure.figure3.baseline {
         align-items: baseline;
+    }
+
+    figure.single-col {
+        max-width: 45%;
+    }
+
+    figure.single-col.acknowledge {
+        max-width: initial;
     }
 }
 

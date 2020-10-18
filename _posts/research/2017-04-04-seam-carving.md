@@ -6,7 +6,6 @@ meta:
 
 project:
   title: "Seam Carving"
-  preview: "video"
   preview_main: "/assets/media/research/seam-carving/preview.webm"
   preview_backup: "/assets/media/research/seam-carving/preview.mp4"
 
