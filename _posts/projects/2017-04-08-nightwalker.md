@@ -1,9 +1,10 @@
 ---
 meta:
-  keywords: "NightWalker, Clothing, nightwalker.clothing"
+  keywords: NightWalker, Clothing, nightwalker.clothing
+  description: NightWalker.clothing project overview
 
 project:
-  title: "NightWalker"
+  title: NightWalker
   preview_main: "/assets/media/projects/nightwalker/preview.webm"
   preview_backup: "/assets/media/projects/nightwalker/preview.mp4"
 
@@ -12,11 +13,15 @@ figures:
     content:
       - src: "/assets/media/projects/nightwalker/first.jpg"
         alt: "A group shot of NightWalker pants"
+        width: 484
+        height: 294
 
   - type: figure
     content:
       - src: "/assets/media/projects/nightwalker/second.jpg"
         alt: "A group shot of NightWalker pants"
+        width: 932
+        height: 563
 
   - type: video
     id: "415369005"
@@ -42,5 +47,5 @@ experience gained in creating a truly interactive web app was invaluable."
 as they were known) of pants, they could simply rotate their phones to see each option.'
 
     - raw: '<img src="/assets/media/projects/nightwalker/symbol_logo.png" alt="NightWalker logo" height="76" width="200" 
-class="margin-center inpost">'
+class="margin-center">'
 ---

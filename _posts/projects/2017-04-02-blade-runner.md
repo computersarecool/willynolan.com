@@ -1,9 +1,10 @@
 ---
 meta:
-  keywords: "Blade Runner, Project, GUI, Software"
+  keywords: Blade Runner, Project, GUI, Software, Obscura Digital
+  description: Blade runner project at Obscura Digital party
 
 project:
-  title: "Blade Runner Controller"
+  title: Blade Runner Controller
   preview_main: "/assets/media/projects/blade-runner/preview.webm"
   preview_backup: "/assets/media/projects/blade-runner/preview.mp4"
 
@@ -11,12 +12,16 @@ figures:
   - type: figure
     content:
       - src: "/assets/media/projects/blade-runner/first.jpg"
-        alt: "The Blade Runner controller"
-    
+        alt: "The Blade Runner controller in use"
+        width: 1200
+        height: 750
+
   - type: figure
     content:
       - src: "/assets/media/projects/blade-runner/second.jpg"
-        alt: "One Blade Runner performance controller"
+        alt: "The Blade Runner controller in use"
+        width: 1200
+        height: 750
 
   - type: video
     id: "258138643"

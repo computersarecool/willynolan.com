@@ -1,9 +1,10 @@
 ---
 meta:
-  keywords: "ATT Stadium, Dallas Cowboys, Project, GUI, Software"
+  keywords: AT&T Stadium, Dallas Cowboys, Project, GUI, Software
+  description: AT&T Stadium control system project overview
 
 project:
-  title: "AT&T Stadium"
+  title: AT&T Stadium
   preview_main: "/assets/media/projects/att-stadium/preview.webm"
   preview_backup: "/assets/media/projects/att-stadium/preview.mp4"
 
@@ -12,12 +13,16 @@ figures:
     content:
       - src: "/assets/media/projects/att-stadium/first.png"
         alt: "ATT Stadium UI Mockup"
-    
+        width: 827
+        height: 665
+
   - type: figure
     content:
       - src: "/assets/media/projects/att-stadium/second.jpg"
-        alt: "ATT Stadium UI Mockup"
-    
+        alt: "ATT Stadium and control system"
+        width: 900
+        height: 502
+
   - type: video
     id: "354158136"
 

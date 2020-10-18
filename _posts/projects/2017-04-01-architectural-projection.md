@@ -1,9 +1,10 @@
 ---
 meta:
-  keywords: "Projection Mapping, Architectural Projection, Project, Software, China"
+  keywords: Projection mapping, Architectural projection, Project, Software, China, Shantou, Shantou University
+  description: Projection mapping project at Shantou University
 
 project:
-  title: "Architectural Projection"
+  title: Architectural Projection
   preview_main: "/assets/media/projects/architectural-projection/preview.webm"
   preview_backup: "/assets/media/projects/architectural-projection/preview.mp4"
 
@@ -11,15 +12,19 @@ figures:
   - type: figure
     content:
       - src: "/assets/media/projects/architectural-projection/first.jpg"
-        alt: "Shantou University medical building with projection"
+        alt: Shantou University medical building with projection
+        width: 1080
+        height: 1080
 
   - type: figure
     content:
       - src: "/assets/media/projects/architectural-projection/second.jpg"
-        alt: "Shantou University medical building without projection"
+        alt: Shantou University medical building without projection
+        width: 1080
+        height: 1080
 
   - type: video
-    id: "354445100"
+    id: 354445100
 
 sections:
   -

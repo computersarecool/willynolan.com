@@ -1,9 +1,10 @@
 ---
 meta:
-  keywords: "MGM Cotai Stadium, Emoji, Social Canvas, WeChat, Project, Software"
+  keywords: MGM Cotai Stadium, Emoji, Social Canvas, WeChat, Project, Software
+  description: Social Canvas project overview
 
 project:
-  title: "Social Canvas"
+  title: Social Canvas
   preview_main: "/assets/media/projects/social-canvas/preview.webm"
   preview_backup: "/assets/media/projects/social-canvas/preview.mp4"
 
@@ -12,6 +13,8 @@ figures:
     content:
       - src: "/assets/media/projects/social-canvas/first.jpg"
         alt: "Social Canvas Layout"
+        width: 1024
+        height: 640
 
   - type: video
     id: "354169578"

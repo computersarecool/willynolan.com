@@ -1,9 +1,10 @@
 ---
 meta:
-  keywords: "Power Glove, Project, Hardware"
+  keywords: Power Glove, Project, Hardware
+  description: Power Glove hardware remix project overview
 
 project:
-  title: "Power Glove"
+  title: Power Glove
   preview_main: "/assets/media/projects/power-glove/preview.webm"
   preview_backup: "/assets/media/projects/power-glove/preview.mp4"
 
@@ -11,12 +12,16 @@ figures:
   - type: figure
     content:
       - src: "/assets/media/projects/power-glove/first.png"
-        alt: "The Power Glove hardware"
+        alt: "The original Power Glove"
+        width: 1123
+        height: 493
 
   - type: figure
     content:
       - src: "/assets/media/projects/power-glove/second.png"
         alt: "The Power Glove PCB and circuit layout"
+        width: 936
+        height: 340
 
   - type: video
     id: "350044732"

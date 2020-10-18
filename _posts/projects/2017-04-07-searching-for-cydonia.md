@@ -1,9 +1,10 @@
 ---
 meta:
-  keywords: "Cydonia, DJ, Video, Audio-visual, audiovisual"
+  keywords: Cydonia, DJ, Video, Audio-visual, audiovisual
+  description: Searching for Cydonia project overview
 
 project:
-  title: "Searching for Cydonia"
+  title: Searching for Cydonia
   preview_main: "/assets/media/projects/searching-for-cydonia/preview.webm"
   preview_backup: "/assets/media/projects/searching-for-cydonia/preview.mp4"
 
@@ -11,12 +12,16 @@ figures:
   - type: figure
     content:
       - src: "/assets/media/projects/searching-for-cydonia/first.jpg"
-        alt: "Artist rendering"
+        alt: "Searching for Cydonia artist rendering"
+        width: 936
+        height: 570
 
   - type: figure
     content:
       - src: "/assets/media/projects/searching-for-cydonia/second.jpg"
-        alt: "GUI Designs"
+        alt: "Searching for Cydonia GUI Designs"
+        width: 1280
+        height: 530
 
   - type: video
     id: "349255380"

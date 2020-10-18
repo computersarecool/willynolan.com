@@ -2,10 +2,11 @@
 class: "post single-col"
 
 meta:
-  keywords: "Perspective Projection, UV Mapping, Computer Graphics"
+  keywords: Perspective Projection, UV Mapping, Computer Graphics
+  description: Perspective projection project overview
 
 project:
-  title: "Perspective Projection"
+  title: Perspective Projection
   preview_main: "/assets/media/projects/perspective-projection/preview.webm"
   preview_backup: "/assets/media/projects/perspective-projection/preview.mp4"
 
@@ -28,8 +29,8 @@ addressed.'
           -
             src: "/assets/media/projects/perspective-projection/first.jpg"
             alt: Multi-colored cube in 3D environment
-            caption: 'This image shows the command <code>16</code> sent to the address <code>59</code> (both in hex). The 
-message is sent in binary with the least significant bit first.'
+            width: 325
+            height: 325
 
   -
     - p: "The resulting UV map for a cube typically looks like a cross because that is what you would get if you cut
@@ -40,9 +41,9 @@ the seams of a box and unwrapped the object."
         content:
           -
             src: "/assets/media/projects/perspective-projection/second.png"
-            alt: Cube map cross
-            caption: 'This image shows the command <code>16</code> sent to the address <code>59</code> (both in hex). The 
-message is sent in binary with the least significant bit first.'
+            alt: Multi-colored cube cube map
+            width: 325
+            height: 325
 
     - p: "This map alone is enough to create some content but it would be quite challenging to create any 
 movement. If, for example, text were supposed to scroll from the yellow square to the magenta square (which 
@@ -60,17 +61,8 @@ outside it?"
           -
             src: "/assets/media/projects/perspective-projection/third.jpg"
             alt: Multi-colored cube in 3D environment
-            caption: 'This image shows the command <code>16</code> sent to the address <code>59</code> (both in hex). The 
-message is sent in binary with the least significant bit first.'
-
-    - figure:
-        type: figure
-        content:
-          -
-            src: "/assets/media/projects/perspective-projection/seventh.jpg"
-            alt: Multi-colored cube in 3D environment
-            caption: 'Applying the texture <em>and</em> the original scene can also be helpful in understanding how 
-projection works as one can see which parts of the 3D scene were mapped to the cube.'
+            width: 325
+            height: 325
 
     - p: "For that we would need to create a perspective projection."
 
@@ -93,9 +85,9 @@ perspective-correct.'
         content:
           -
             src: "/assets/media/projects/perspective-projection/fourth.png"
-            alt: Multi-colored cube in 3D environment
-            caption: 'This image shows the command <code>16</code> sent to the address <code>59</code> (both in hex). The 
-message is sent in binary with the least significant bit first.'
+            alt: Perspective cube map
+            width: 325
+            height: 325
 
     - p: "For example here is the object with a solid green color and the 3D scene (blue spheres) visible."
 
@@ -104,10 +96,10 @@ message is sent in binary with the least significant bit first.'
         content:
           -
             src: "/assets/media/projects/perspective-projection/fifth.jpg"
-            alt: Multi-colored cube in 3D environment
-            caption: 'This image shows the command <code>16</code> sent to the address <code>59</code> (both in hex). The 
-message is sent in binary with the least significant bit first.'
-  
+            alt: 3D scene and cube without the cube map applied
+            width: 577
+            height: 325
+
     - p: "And here is the image with the blue spheres removed but the perspective texture map applied."
 
     - figure:
@@ -115,10 +107,15 @@ message is sent in binary with the least significant bit first.'
         content:
           -
             src: "/assets/media/projects/perspective-projection/sixth.jpg"
-            alt: Multi-colored cube in 3D environment
-            caption: 'This image shows the command <code>16</code> sent to the address <code>59</code> (both in hex). The 
-message is sent in binary with the least significant bit first.'
+            alt: 3D scene and cube with the cube map applied
 
-    - p: 'This process can be difficult to figure out and tedious to do repeatedly. The project I made explored 
-automated ways to texture bake perspective-correct projections in modeling software.'
+    - figure:
+        type: figure
+        content:
+          -
+            src: "/assets/media/projects/perspective-projection/seventh.jpg"
+            alt: 3D scene and cube with the cube map applied
+
+    - p: 'This process can be difficult to figure out and tedious to do repeatedly.'
+    - p: The project I made explored automated ways to texture bake perspective-correct projections in modeling software.
 ---

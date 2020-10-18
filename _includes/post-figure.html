@@ -26,7 +26,7 @@
         {%- if figelem.content.size > 1 %}
         <figure>
         {%- endif %}
-            <img class="{{ page.class }}" src="{{ img.src | prepend: site.baseurl }}" alt="{{ img.alt }}" />
+            <img class="{{ page.class }}" src="{{ img.src | prepend: site.baseurl }}" alt="{{ img.alt }}" width="{{ img.width}}" height="{{ img.height}}"/>
             {%- if img.caption %}
             <figcaption>
                 <p>{{ img.caption }}</p>
