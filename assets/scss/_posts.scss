@@ -42,6 +42,10 @@ figure {
     text-align: center;
 }
 
+main > figure {
+    width: 100%;
+}
+
 figure.acknowledge {
     text-align: initial;
 }

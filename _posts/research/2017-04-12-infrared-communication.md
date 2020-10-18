@@ -3,10 +3,11 @@ category: research
 class: "post single-col"
 
 meta:
-  keywords: "Structured Light, Geometric Camera Calibration, Projector Calibration, Projection Mapping"
+  keywords: Infrared communication, IR communication, Python, Raspberry Pi
+  description: Infrared communication project overview
 
 project:
-  title: "Infrared Communication"
+  title: Infrared Communication
   preview_main: "/assets/media/research/infrared-communication/preview.webm"
   preview_backup: "/assets/media/research/infrared-communication/preview.mp4"
 
@@ -51,12 +52,14 @@ NEC Infrared Transmission Protocol</a>.'
 
     - figure:
         type: figure
-        caption: 'This image shows the command <code>16</code> sent to the address <code>59</code> (both in hex). The 
-message is sent in binary with the least significant bit first.'
         content:
           -
+            caption: 'This image shows the command <code>16</code> sent to the address <code>59</code> (both in hex). The 
+message is sent in binary with the least significant bit first.'
             src: https://www.sbprojects.net/knowledge/ir/nectrain.png
             alt: NEC IR frame
+            width: 550
+            height: 110
 
     - p: 'The logical inverse of the address and command is sent with each frame for error correction purposes.'
 
@@ -72,12 +75,14 @@ sent.'
 
     - figure:
         type: figure
-        caption: 'This image visualizes the modulation. The longer spaces between pulses indicate a 1, the shorter spaces 
-indicate a 0.'
         content:
           -
+            caption: 'This image visualizes the modulation. The longer spaces between pulses indicate a 1, the shorter spaces 
+indicate a 0.'
             src: https://www.sbprojects.net/knowledge/ir/necmodulation.png
             alt: IR modulation
+            width: 425
+            height: 125
 
     - p: 'Since the command and address inverses are sent with each frame, each message takes the same amount of time to transmit.'
 

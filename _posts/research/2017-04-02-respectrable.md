@@ -2,10 +2,11 @@
 category: research
 
 meta:
-  keywords: "Respectrable, Ableton, Max, Max for Live"
+  keywords: Respectrable, Ableton, Max, Max for Live
+  description: Respectrable project overview
 
 project:
-  title: "Respectrable"
+  title: Respectrable
   preview_main: "/assets/media/research/respectrable/preview.webm"
   preview_backup: "/assets/media/research/respectrable/preview.mp4"
 
@@ -15,12 +16,16 @@ figures:
       - src: "/assets/media/research/respectrable/first.jpg"
         alt: "Live Object Model Diagram"
         caption: Live Object Model Diagram
+        width: 1280
+        height: 750
 
   - type: figure
     content:
       - src: "/assets/media/research/respectrable/second.jpg"
         alt: "Screenshot of Respectrable being developed"
         caption: Screenshot of Respectrable being developed
+        width: 1280
+        height: 750
 
   - type: video
     id: "354581391"

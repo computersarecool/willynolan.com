@@ -2,11 +2,11 @@
 category: research
 
 meta:
-  keywords: "OpenGL, DSA, Direct State Access, Computer Graphics"
+  keywords: OpenGL, DSA, Direct State Access, Computer Graphics
+  description: DSA OpenGL project overview
 
 project:
-  title: "DSA OpenGL"
-  preview: "video"
+  title: DSA OpenGL
   preview_main: "/assets/media/research/dsa-opengl/preview.webm"
   preview_backup: "/assets/media/research/dsa-opengl/preview.mp4"
 
@@ -16,16 +16,24 @@ figures:
     content:
       -
         src: "/assets/media/research/dsa-opengl/first.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Original Image"
+        alt: Tessellation example
+        caption: Tessellation example
+        width: 598
+        height: 600
+
       -
         src: "/assets/media/research/dsa-opengl/second.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Mask Image"
+        alt: Phong illumination example
+        caption: Phong illumination example
+        width: 292
+        height: 292
+
       -
         src: "/assets/media/research/dsa-opengl/third.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Result Image"
+        alt: Raytracer example
+        caption: Raytracer example
+        width: 292
+        height: 292
 
 sections:
   -

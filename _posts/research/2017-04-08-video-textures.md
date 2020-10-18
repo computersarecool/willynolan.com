@@ -2,10 +2,11 @@
 category: research
 
 meta:
-  keywords: "Video, Video textures, Photography, Image Processing, Research, Computational Photography"
+  keywords: Video, Video textures, Photography, Image Processing, Research, Computational Photography
+  description: Video textures project overview
 
 project:
-  title: "Video Textures"
+  title: Video Textures
   preview_main: "/assets/media/research/video-textures/preview.webm"
   preview_backup: "/assets/media/research/video-textures/preview.mp4"
 
@@ -17,32 +18,48 @@ figures:
     content:
       -
         src: "/assets/media/research/video-textures/first1.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Original Image"
+        alt: Transition 1
+        caption: Transition 1
+        width: 100
+        height: 100
+
       -
         src: "/assets/media/research/video-textures/first2.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Mask Image"
+        alt: Transition 2
+        caption: Transition 2
+        width: 100
+        height: 100
+
       -
         src: "/assets/media/research/video-textures/first3.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Result Image"
+        alt: Transition 3
+        caption: Transition 3
+        width: 100
+        height: 100
 
   - type: figure
     class: figure3
     content:
       -
         src: "/assets/media/research/video-textures/second1.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Original Image"
+        alt: Resulting image pair 1
+        caption: Resulting image pair 1
+        width: 100
+        height: 100
+
       -
         src: "/assets/media/research/video-textures/second2.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Mask Image"
+        alt: Resulting image pair 2
+        caption: Resulting image pair 2
+        width: 100
+        height: 100
+
       -
         src: "/assets/media/research/video-textures/second3.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Result Image"
+        alt: Resulting image pair 3
+        caption: Resulting image pair 3
+        width: 100
+        height: 100
 
 sections:
   -

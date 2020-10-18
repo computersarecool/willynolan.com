@@ -2,10 +2,11 @@
 category: research
 
 meta:
-  keywords: "Image Manipulation, Image Processing, Research, Image Blending, Blending"
+  keywords: Image Manipulation, Image Processing, Research, Image Blending, Blending
+  description: Pyramid blending project overview
 
 project:
-  title: "Pyramid Blending"
+  title: Pyramid Blending
   preview_main: "/assets/media/research/pyramid-blending/preview.webm"
   preview_backup: "/assets/media/research/pyramid-blending/preview.mp4"
 
@@ -13,25 +14,31 @@ mathjax: true
 
 figures:
   - type: figure
-    caption: "The mapping process and eventual result."
     content:
       -
         src: "/assets/media/research/pyramid-blending/first.jpg"
-        alt: "Texture Mapping LEDs"
+        alt: Blended image of a Quagga
+        caption: 'Blended image of a <a class="link-highlight" href="https://en.wikipedia.org/wiki/Quagga">Quagga</a>'
+        width: 434
+        height: 290
 
   - type: figure
-    caption: "The mapping process and eventual result."
     content:
       -
         src: "/assets/media/research/pyramid-blending/second.jpg"
-        alt: "Texture Mapping LEDs"
+        alt: Result blended image
+        caption: Result blended image
+        width: 434
+        height: 292
 
   - type: figure
-    caption: "The mapping process and eventual result."
     content:
       -
         src: "/assets/media/research/pyramid-blending/third.jpg"
-        alt: "Texture Mapping LEDs"
+        alt: Result blended image
+        caption: Result blended image
+        width: 435
+        height: 291
 
 sections:
   -
@@ -45,16 +52,24 @@ number of uses in image processing.  The general process is to downsize and blur
         content:
           -
             src: "/assets/media/research/pyramid-blending/first1.jpg"
-            alt: "Texture Mapping LEDs"
-            caption: "Mask Image"
+            alt: White input image pyramids
+            caption: White input image pyramids
+            width: 200
+            height: 400
+
           -
             src: "/assets/media/research/pyramid-blending/first2.jpg"
-            alt: "Texture Mapping LEDs"
-            caption: "Result Image"
+            alt: Mask image pyramids
+            caption: Mask image pyramids
+            width: 200
+            height: 400
+
           -
             src: "/assets/media/research/pyramid-blending/first3.jpg"
-            alt: "Texture Mapping LEDs"
-            caption: "Result Image"
+            alt: Black input image pyramids
+            caption: Black input image pyramids
+            width: 200
+            height: 400
 
     - p: 'The resulting pyramid can be used for things such as object recognition at different scales and certain 
 types of compression.'
@@ -69,16 +84,24 @@ pyramid serve as a low-pass filtered version of the image. A stack of these form
         content:
           -
             src: "/assets/media/research/pyramid-blending/second1.jpg"
-            alt: "Texture Mapping LEDs"
-            caption: "Mask Image"
+            alt: White input image pyramids
+            caption: White input image pyramids
+            width: 208
+            height: 417
+
           -
             src: "/assets/media/research/pyramid-blending/second2.jpg"
-            alt: "Texture Mapping LEDs"
-            caption: "Result Image"
+            alt: Mask image pyramids
+            caption: Mask image pyramids
+            width: 208
+            height: 417
+
           -
             src: "/assets/media/research/pyramid-blending/second3.jpg"
-            alt: "Texture Mapping LEDs"
-            caption: "Result Image"
+            alt: Black input image pyramids
+            caption: Black input image pyramids
+            width: 208
+            height: 417
 
     - p : 'The Gaussian pyramid can be used to create a high-pass filtered version of the image called a Laplacian pyramid.
 The formula for a Laplacian pyramid at a level $i$ is given as:'
@@ -101,16 +124,24 @@ narrower blend region can be used in high-frequency content such as edges.'
         content:
           -
             src: "/assets/media/research/pyramid-blending/third1.jpg"
-            alt: "Texture Mapping LEDs"
-            caption: "Mask Image"
+            alt: White input image pyramids
+            caption: White input image pyramids
+            width: 207
+            height: 424
+
           -
             src: "/assets/media/research/pyramid-blending/third2.jpg"
-            alt: "Texture Mapping LEDs"
-            caption: "Result Image"
+            alt: Mask image pyramids
+            caption: Mask image pyramids
+            width: 207
+            height: 425
+
           -
             src: "/assets/media/research/pyramid-blending/third3.jpg"
-            alt: "Texture Mapping LEDs"
-            caption: "Result Image"
+            alt: Black input image
+            caption: Black input image
+            width: 207
+            height: 424
 
     - p: 'This technique can be used to avoid a halo effect in images which make blend regions more noticeable.'
 

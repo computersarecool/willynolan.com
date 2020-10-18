@@ -2,10 +2,11 @@
 category: research
 
 meta:
-  keywords: "Inpainting, Image Manipulation, Image Processing, Research"
+  keywords: Inpainting, Image Manipulation, Image Processing, Research
+  description: Inpainting project overview
 
 project:
-  title: "Inpainting"
+  title: Inpainting
   preview_main: "/assets/media/research/inpainting/preview.webm"
   preview_backup: "/assets/media/research/inpainting/preview.mp4"
 
@@ -15,48 +16,72 @@ figures:
     content:
       -
         src: "/assets/media/research/inpainting/first1.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Original Image"
+        alt: Original image
+        caption: Original image
+        width: 351
+        height: 468
+
       -
         src: "/assets/media/research/inpainting/first2.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Mask Image"
+        alt: Mask image
+        caption: Mask image
+        width: 351
+        height: 468
+
       -
         src: "/assets/media/research/inpainting/first3.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Result Image"
+        alt: Result image
+        caption: Result image
+        width: 351
+        height: 468
 
   - type: figure
     class: figure3
     content:
       -
         src: "/assets/media/research/inpainting/second1.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Original Image"
+        alt: Original image
+        caption: Original image
+        width: 351
+        height: 468
+
       -
         src: "/assets/media/research/inpainting/second2.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Mask Image"
+        alt: Mask image
+        caption: Mask image
+        width: 351
+        height: 468
+
       -
         src: "/assets/media/research/inpainting/second3.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Result Image"
+        alt: Result image
+        caption: Result image
+        width: 351
+        height: 468
 
   - type: figure
     class: figure3
     content:
       -
         src: "/assets/media/research/inpainting/third1.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Original Image"
+        alt: Original image
+        caption: Original image
+        width: 351
+        height: 468
+
       -
         src: "/assets/media/research/inpainting/third2.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Mask Image"
+        alt: Mask image
+        caption: Mask image
+        width: 351
+        height: 468
+
       -
         src: "/assets/media/research/inpainting/third3.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Result Image"
+        alt: Result image
+        caption: Result image
+        width: 351
+        height: 468"
 
 sections:
   -

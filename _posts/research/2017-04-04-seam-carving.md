@@ -2,10 +2,11 @@
 category: research
 
 meta:
-  keywords: "Seam Carving, Liquid Resizing, Liquid Rescaling, Image Manipulation, Research"
+  keywords: Seam Carving, Liquid Resizing, Liquid Rescaling, Image Manipulation, Research
+  description: Seam carving project overview
 
 project:
-  title: "Seam Carving"
+  title: Seam Carving
   preview_main: "/assets/media/research/seam-carving/preview.webm"
   preview_backup: "/assets/media/research/seam-carving/preview.mp4"
 
@@ -15,48 +16,72 @@ figures:
     content:
       -
         src: "/assets/media/research/seam-carving/first.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Original Image"
+        alt: Original image
+        caption: Original image
+        width: 1278
+        height: 566
+
       -
         src: "/assets/media/research/seam-carving/second.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Mask Image"
+        alt: Image with seams marked
+        caption: Image with seams marked
+        width: 1280
+        height: 570
+
       -
         src: "/assets/media/research/seam-carving/third.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Result Image"
+        alt: Result image
+        caption: Result image
+        width: 852
+        height: 570
 
   - type: figure
     class: figure3 baseline
     content:
       -
         src: "/assets/media/research/seam-carving/fourth1.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Original Image"
+        alt: Original image
+        caption: Original image
+        width: 274
+        height: 564
+
       -
         src: "/assets/media/research/seam-carving/fourth2.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Mask Image"
+        alt: Image with seams marked
+        caption: Image with seams marked
+        width: 274
+        height: 564
+
       -
         src: "/assets/media/research/seam-carving/fourth3.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Result Image"
+        alt: Result image
+        caption: Result image
+        width: 412
+        height: 562
 
   - type: figure
     class: figure3
     content:
       -
         src: "/assets/media/research/seam-carving/fifth.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Mask Image"
+        alt: Original image
+        caption: Original image
+        width: 752
+        height: 570
+
       -
         src: "/assets/media/research/seam-carving/sixth.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Mask Image"
+        alt: Image with seams marked
+        caption: Image with seams marked
+        width: 1131
+        height: 570
+
       -
         src: "/assets/media/research/seam-carving/seventh.jpg"
-        alt: "Texture Mapping LEDs"
-        caption: "Mask Image"
+        alt: Result image
+        caption: Result image
+        width: 1129
+        height: 570
 
 sections:
   -

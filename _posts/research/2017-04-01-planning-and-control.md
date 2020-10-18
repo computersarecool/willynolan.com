@@ -2,10 +2,11 @@
 category: research
 
 meta:
-  keywords: "Planning and Control, Robotics, Research, Software"
+  keywords: Planning and Control, Robotics, Research, Software
+  description: Planning and control project overview
 
 project:
-  title: "Planning and Control"
+  title: Planning and Control
   preview_main: "/assets/media/research/planning-and-control/preview.webm"
   preview_backup: "/assets/media/research/planning-and-control/preview.mp4"
 
@@ -14,15 +15,19 @@ figures:
     class: narrow
     content:
       - src: "/assets/media/research/planning-and-control/first.jpg"
-        alt: "Warehouse representation of map"
-        caption: Screenshot of Respectrable being developed
+        alt: Graphic representation of a warehouse
+        caption: Graphic representation of a warehouse
+        width: 651
+        height: 747
 
   - type: figure
     class: narrow
     content:
       - src: "/assets/media/research/planning-and-control/second.jpg"
-        alt: "Warehouse representation of map with motion plan"
-        caption: Screenshot of Respectrable being developed
+        alt: Graphic representation of a warehouse with motion plan
+        caption: Graphic representation of a warehouse with motion plan
+        width: 653
+        height: 750
 
   - type: video
     id: "354555624"

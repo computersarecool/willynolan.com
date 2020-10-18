@@ -3,11 +3,11 @@ category: research
 class: "post single-col"
 
 meta:
-  keywords: "Structured Light, Geometric Camera Calibration, Projector Calibration, Projection Mapping"
+  keywords: Structured Light, Geometric Camera Calibration, Projector Calibration, Projection Mapping
+  description: Structured light project overview
 
 project:
-  title: "Structured Light Calibration"
-  preview: "video"
+  title: Structured Light Calibration
   preview_main: "/assets/media/research/structured-light-calibration/preview.webm"
   preview_backup: "/assets/media/research/structured-light-calibration/preview.mp4"
 
@@ -44,8 +44,10 @@ walls meet.'
         content:
           -
             src: "/assets/media/research/structured-light-calibration/first.jpg"
-            alt: "Texture Mapping LEDs"
-            caption: "Example room"
+            alt: Example room
+            caption: Example room
+            width: 500
+            height: 442
 
     - p: "In the above picture that would be a corner of the room, for instance the corner located at the top of the 
 above image."
@@ -58,8 +60,10 @@ the letter F to show distortion):"
         content:
           -
             src: "/assets/media/research/structured-light-calibration/second.jpg"
-            alt: "Texture Mapping LEDs"
-            caption: "Example room"
+            alt: Pattern to project
+            caption: Pattern to project
+            width: 500
+            height: 500
 
   -
     - p: "If you project that image directly onto the corner, the image will show obvious distortion."
@@ -69,8 +73,10 @@ the letter F to show distortion):"
         content:
           -
             src: "/assets/media/research/structured-light-calibration/third.jpg"
-            alt: "Texture Mapping LEDs"
-            caption: "Example room"
+            alt: Pattern projected with distortion
+            caption: Pattern projected with distortion
+            width: 640
+            height: 360
 
     - p: "Using structured light, which is essentially the simultaneous projection and photographing of different black 
 and white images, this problem can be fixed. Example structured light patterns are below."
@@ -80,8 +86,10 @@ and white images, this problem can be fixed. Example structured light patterns a
         content:
           -
             src: "/assets/media/research/structured-light-calibration/fifth.jpg"
-            alt: "Texture Mapping LEDs"
-            caption: "Example room"
+            alt: Structured light patterns
+            caption: Structured light patterns
+            width: 215
+            height: 144
 
   -
     - p: "A structured light process allows for the acquisition of a complete mapping (which the source paper refers to 
@@ -95,8 +103,10 @@ At the end of the process the image can be projected with corrected perspective.
         content:
           -
             src: "/assets/media/research/structured-light-calibration/fourth.jpg"
-            alt: "Texture Mapping LEDs"
-            caption: "Example room"
+            alt: Perspective corrected image projected
+            caption: Perspective corrected image projected
+            width: 640
+            height: 360
 
     - p: "Our research included a Python implementation of structured light calibration as well as a projector/camera 
 simulator."

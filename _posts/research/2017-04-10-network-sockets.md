@@ -3,11 +3,11 @@ category: research
 class: "post single-col"
 
 meta:
-  keywords: "Sockets, Networking, Berkeley Sockets"
+  keywords: Sockets, Network sockets, Networking, Berkeley Sockets
+  description: Network sockets research project overview
 
 project:
-  title: "Sockets"
-  preview: "video"
+  title: Sockets
   preview_main: "/assets/media/research/sockets/preview.webm"
   preview_backup: "/assets/media/research/sockets/preview.mp4"
 
