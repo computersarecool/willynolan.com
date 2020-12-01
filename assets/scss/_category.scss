@@ -9,12 +9,12 @@ ul.projects-list {
 li.preview {
     position: relative;
     padding-top: 100%;
-    border: 2px solid;
 }
 
 a.preview {
     display: flex;
     position: absolute;
+    border: 2px solid;
     top: 0;
     left: 0;
     width: 100%;
