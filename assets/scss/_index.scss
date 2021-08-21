@@ -2,6 +2,11 @@ body.index {
     width: 100%;
 }
 
+header.index, nav.index
+{
+    margin: 0 var(--auto-side-margin);
+}
+
 // Index page graphic
 .content-graphic {
     margin: 0 auto;
