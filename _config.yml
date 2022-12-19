@@ -17,12 +17,19 @@ faviconcolor: "#2cdad7"
 show_exhibitions: false
 
 defaults:
-  -
-    scope:
-      path: ""
+  - scope:
+      path: "_posts/projects"
       type: "posts"
     values:
-      permalink: /:title/
+      permalink: projects/:title
+      category: projects
+      layout: default
+      class: "post video-post"
+  - scope:
+      path: "_posts/research"
+      type: "posts"
+    values:
+      permalink: research/:title
       category: projects
       layout: default
       class: "post video-post"
