@@ -88,7 +88,7 @@ sections:
     - p: 'Cropping an image is typically limited to selecting rectangular portions of an image and removing them.
 Enlarging an image typically means stretching an image which can result in pixelation.'
 
-    - p: '<a href="https://en.wikipedia.org/wiki/Seam_carving">Seam Carving</a>, also known as Liquid Resizing is a 
+    - p: '<a href="https://en.wikipedia.org/wiki/Seam_carving">Seam carving</a>, also known as "Liquid Resizing" is a 
 technique that removes both of these limitations.'
     - p: 'Seam carving works by finding the low-energy seams of the image and then removing vertical or horizontal
 (but not necessarily straight) seams from the image.'
@@ -102,8 +102,8 @@ input image. These seams are marked with red in the featured images accompanying
 
     - p: 'The technique can also be used to increase image size, essentially by working in reverse.'
 
-    - p: 'The idea is to identify seams that would have been removed and then insert seams in those locations as, these 
-seems are again unlikely to be noticed.'
+    - p: 'The idea is to identify seams that would have been removed and then insert seams in those locations as again these 
+seams are (as with seam removal) unlikely to be noticed.'
 
   -
     - p: 'In the last series of featured images newly added seams are marked in green. The color of the added seams in the final

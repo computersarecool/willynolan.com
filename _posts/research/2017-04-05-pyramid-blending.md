@@ -75,8 +75,8 @@ number of uses in image processing.  The general process is to downsize and blur
 types of compression.'
 
   -
-    - p: 'In this application the image pyramid is used to create a blended image.  The smaller and more blurry images in the 
-pyramid serve as a low-pass filtered version of the image. A stack of these forms a Gaussian pyramid.'
+    - p: 'In this application an image pyramid is used to create a blended image.  The smaller and more blurry images in the 
+pyramid serve as a low-pass filtered version of the image. A stack of these images form what is known as a "Gaussian pyramid".'
 
     - figure:
         type: figure
@@ -103,7 +103,7 @@ pyramid serve as a low-pass filtered version of the image. A stack of these form
             width: 208
             height: 417
 
-    - p : 'The Gaussian pyramid can be used to create a high-pass filtered version of the image called a Laplacian pyramid.
+    - p : 'The Gaussian pyramid can be used to create a high-pass filtered version of the image known as a "Laplacian pyramid".
 The formula for a Laplacian pyramid at a level $i$ is given as:'
 
     - p: '$$ \begin{aligned}

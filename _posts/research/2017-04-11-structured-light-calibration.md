@@ -18,26 +18,26 @@ sections:
     - p: 'There is a rich body of research surrounding camera calibration.  The process is usually broken up into <em>
 geometric</em> and <em>radiometric / photometric</em> calibration.'
 
-    - p: 'Projectors can essentially be thought of the inverse of a camera.  Instead of projecting a scene onto an 
-image plane, they project an image plane onto an environment.'
+    - p: 'Projectors can essentially be thought of the inverse of a camera.  Instead caputuring a scene projected onto an 
+image plane as a camera does, projectors project an image plane onto an environment.'
 
     - p: 'Due to this similarity, projector calibration is a topic of interest in the interactive computer 
 graphics field.'
 
-    - p: 'In a projection mapping context, usually what is meant by "projector calibration" is "putting content where it
+    - p: 'In a projection mapping context, usually what is meant by "projector calibration" is "placing video content where it
 is supposed to go in a physical environment".'
 
   -
-    - p: 'There are many strategies for performing camera calibration, but using structured light is a popular one and 
-it is built into several applications such as <a href="https://madmapper.com">MadMapper</a> and 
+    - p: 'There are many strategies for performing camera calibration, with structured light being a popular one which is implemented 
+in several applications such as <a href="https://madmapper.com">MadMapper</a> and 
 <a href="https://www.disguise.one/en/">disguise</a>.'
 
   -
     - p: 'In this research, <a href="http://www.michaelwalczyk.com/">Mike Walczyk</a> and I explored the structured light 
-process based on the original academic paper to describe the technique.'
+"projector calibration" process based on the academic paper which first described the technique.'
 
-    - p: 'To explain a structured light process imagine there is a room and for some reason you want to project an image directly where two 
-walls meet.'
+    - p: 'To explain the structured light process it helps to imagine there is a room (like in the figure below) and for 
+some reason you want to project an image where two walls meet.'
 
     - figure:
         type: figure
@@ -52,7 +52,7 @@ walls meet.'
     - p: "In the above picture that would be a corner of the room, for instance the corner located at the top of the 
 above image."
 
-    - p: "For illustration purposes let's say the image you want to project is this simple checkerboard image (using 
+    - p: "For illustration purposes let's say the image you want to project is this simple checkerboard image (which is overlaid with
 the letter F to show distortion):"
 
     - figure:
@@ -78,16 +78,16 @@ the letter F to show distortion):"
             width: 640
             height: 360
 
-    - p: "Using structured light, which is essentially the simultaneous projection and photographing of different black 
-and white images, this problem can be fixed. Example structured light patterns are below."
+    - p: "Using structured light (in this case that means the simultaneous projection and photographing of different black 
+and white images) the distortion can be fixed."
 
     - figure:
         type: figure
         content:
           -
             src: "/assets/media/research/structured-light-calibration/fifth.jpg"
-            alt: Structured light patterns
-            caption: Structured light patterns
+            alt: Example structured light patterns
+            caption: Example structured light patterns
             width: 215
             height: 144
 
@@ -109,7 +109,7 @@ At the end of the process the image can be projected with corrected perspective.
             height: 360
 
     - p: "Our research included a Python implementation of structured light calibration as well as a projector/camera 
-simulator."
+simulator which was used to create the images in this post."
 
     - figure:
         type: ul
