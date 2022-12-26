@@ -41,7 +41,7 @@ through a warehouse."
 represent packages that need to be retrieved, <code>A</code> represents the starting position, 
 <code>.</code>s represent traversable space and the <code>@</code> symbol represents the drop zone.'
 
-    - p: 'A warehouse layout for the featured images would be defined like so:'
+    - p: 'For example, the warehouse layout for the images in this post would be given as:'
 
     - raw: "
 <pre class='code-diagram margin-center'>
@@ -54,19 +54,21 @@ A...@
 "
 
   -
-    - p: 'The rules are as follows:'
+    - p: 'The general restrictions for movement are as follows:'
 
     - ul:
         - 'Packages must be picked up and dropped off in order'
 
-        - 'The robot cannot come within a certain distance of the walls or the drop off location'
+        - 'The robot cannot come within a certain distance of the walls or the drop-off location'
 
         - 'There are limits on the amount the robot can rotate in each time step'
 
         - 'More efficient routes are preferred'
 
-    - p: 'The challenge is that packages are located in fractional -- not integer -- locations. My research 
-solved this through discretization of the provided warehouse layout file and precise calculation of the robot heading.'
+    - p: 'The challenge is that packages are located in fractional -- not integer -- locations.'
+
+    - p: 'My research into planning and control solved this through discretization of the provided warehouse layout 
+file and precise calculation of the robot heading.'
 
   -
     - p: 'The two featured images show the layout of a simple warehouse with two packages. A brief overview for 
