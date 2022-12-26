@@ -48,4 +48,5 @@ The featured videos show an overview of the project and a demo of the project in
         caption: "Acknowledgements:"
         content:
           - "Database programming: Michael Clement"
+          - "Show System: Matt Ragan"
 ---
