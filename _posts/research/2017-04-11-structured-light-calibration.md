@@ -29,8 +29,7 @@ is supposed to go in a physical environment".'
 
   -
     - p: 'There are many strategies for performing camera calibration, with structured light being a popular one which is implemented 
-in several applications such as <a href="https://madmapper.com">MadMapper</a> and 
-<a href="https://www.disguise.one/en/">disguise</a>.'
+in several applications such as <a href="https://madmapper.com">MadMapper</a> and <a href="https://www.disguise.one/en/">disguise</a>.'
 
   -
     - p: 'In this research, <a href="http://www.michaelwalczyk.com/">Mike Walczyk</a> and I explored the structured light 

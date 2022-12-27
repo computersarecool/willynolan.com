@@ -41,13 +41,13 @@ stands for Linux Infrared Remote Control.'
     - p: 'However, for anybody that wants to interact with infrared communication directly (e.g. by using a computer program),
 there are not many options. LIRC has a specific, targeted focus and is not ideal for general IR control of electronics.'
 
-    - p: 'This research set out to make direct IR communication using a Raspberry Pi and Python easier.'
+    - p: This research set out to make direct IR communication using a Raspberry Pi and Python easier.
 
   -
     - p: 'There are a variety of infrared protocols in existence.  A commonly used one is the <a href="https://techdocs.altium.com/display/FPGA/NEC+Infrared+Transmission+Protocol">
 NEC Infrared Transmission Protocol</a>.'
 
-    - p: 'This protocol is robust and a good place to start for anybody interested in learning how IR communication works.'
+    - p: This protocol is robust and a good place to start for anybody interested in learning how IR communication works.
 
     - p: 'A complete message (sent when a button is pressed) in the NEC protocol consists of the following (in order):'
 
@@ -103,7 +103,7 @@ indicate a 0.'
     - p: 'Since the command and address inverses are sent with each frame, each message takes the same amount of time to transmit.'
 
     - p: 'The protocol itself is very straightforward.  The most challenging aspect in this project was dealing with 
-the timing tolerances from both the remotes and and from the Raspberry Pi.'
+the timing tolerances from both the remotes and the Raspberry Pi.'
 
     - p: 'My research explored creating an easy way to use IR communication directly from Python on a Raspberry Pi, 
 specifically so old remotes could control new electronics.'

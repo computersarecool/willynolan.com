@@ -24,7 +24,7 @@ devices to enterprise servers.'
     - p: 'Furthermore, the basic API for sockets is actually not that complicated, with most of the semantics not changing much 
 since <a href="https://en.wikipedia.org/wiki/Berkeley_sockets"> Berkeley Sockets</a>.'
 
-    - p: 'Today, modern operating systems still implement some version of the Berkeley socket interface.'
+    - p: Today, modern operating systems still implement some version of the Berkeley socket interface.
 
   -
     - p: "To explore sockets further I created an application in C++ that allows a user to interactively:"
@@ -36,7 +36,7 @@ since <a href="https://en.wikipedia.org/wiki/Berkeley_sockets"> Berkeley Sockets
 
       - Specify the port to send data to or to listen on
 
-    - p: 'The result was a greater appreciation for sockets and for the libraries and programs that make them easier to use.'
+    - p: The result was a greater appreciation for sockets and for the libraries and programs that make them easier to use.
 
     - figure:
         type: ul

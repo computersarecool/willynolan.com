@@ -28,7 +28,7 @@ figures:
 
 sections:
   -
-    - p: 'In the summer of 2011 I was getting into DJing and was having a hard time breaking free from my computer.'
+    - p: In the summer of 2011 I was getting into DJing and was having a hard time breaking free from my computer.
 
     - p: 'I wanted to be able to move and control the music at the same time. All the MIDI controllers I found required a USB 
 cable to be connected to the computer.  Clearly this was an untenable situation!'
@@ -50,9 +50,9 @@ was that the positional data would not work and Power Glove still had to be teth
     - p: 'In order to combine the strengths of each version of these modified gloves it was clear I would need to 
 fabricate my own printed circuit board (PCB) with the same form factor as the original Power Glove circuit board.'
 
-    - p: 'The finished circuit diagram and final board design are shown in the second featured image. Once the PCB 
+    - p: "The finished circuit diagram and final board design are shown in the second featured image. Once the PCB 
 had been designed and manufactured, adding a bluetooth module, accelerometer (for positional data) and accessing the 
-Power Glove’s built-in bend sensors was a straightforward process.'
+Power Glove's built-in bend sensors was a straightforward process."
 
     - p: 'The featured video shows an early proof of concept. Eventually I used this as a DJ controller and after a 
 few shows was interviewed for the documentary <a href="https://thepowerofglove.com/" class="nobreak">The Power of Glove</a>.'

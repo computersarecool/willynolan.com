@@ -44,21 +44,21 @@ figures:
         src: "/assets/media/research/video-textures/second1.jpg"
         alt: Resulting image pair 1
         caption: Resulting image pair 1
-        width: 100
+        width: 200
         height: 100
 
       -
         src: "/assets/media/research/video-textures/second2.jpg"
         alt: Resulting image pair 2
         caption: Resulting image pair 2
-        width: 100
+        width: 200
         height: 100
 
       -
         src: "/assets/media/research/video-textures/second3.jpg"
         alt: Resulting image pair 3
         caption: Resulting image pair 3
-        width: 100
+        width: 200
         height: 100
 
 sections:
@@ -81,6 +81,7 @@ matrix $B$ is a binomial filter, $S$ is the similarity matrix and $i$ and $j$ ar
   -
     - p: "In practice these matrices could be used to infinitely loop the input video without ever repeating the same 
 transition."
+
     - p: "To make the effect even more convincing, techniques such as alignment, blending and brightness correction 
 could be applied."
 

@@ -37,7 +37,7 @@ indoor LED screens that makes up their lobby and casino entrance.'
 
   -
     - p: 'In addition to the scale of this installation it is also unique in that it is truly interactive. Guests are 
-allowed to directly participate in the game, creating an shared experience for all.' 
+allowed to directly participate in the game, creating a shared experience for all.' 
 
     - p: 'MGM''s write up is <a href="https://www.mgm.mo/en/cotai/art/art-tour/collaboration/social-canvas">here</a>. 
 The featured videos show an overview of the project and a demo of the project in action.'

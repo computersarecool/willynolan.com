@@ -57,7 +57,7 @@ figures:
         alt: Result image
         caption: Result image
         width: 412
-        height: 562
+        height: 564
 
   - type: figure
     class: figure3
@@ -90,6 +90,7 @@ Enlarging an image typically means stretching an image which can result in pixel
 
     - p: '<a href="https://en.wikipedia.org/wiki/Seam_carving">Seam carving</a>, also known as "Liquid Resizing" is a 
 technique that removes both of these limitations.'
+
     - p: 'Seam carving works by finding the low-energy seams of the image and then removing vertical or horizontal
 (but not necessarily straight) seams from the image.'
 
@@ -109,8 +110,7 @@ seams are (as with seam removal) unlikely to be noticed.'
     - p: 'In the last series of featured images newly added seams are marked in green. The color of the added seams in the final
 image is calculated by averaging the color of pixels on either side of the image.' 
 
-    - p: 'This is known as 
-"seam insertion" and its usefulness is one reason "liquid resizing" could be a better name for this algorithm in 
+    - p: 'This is known as "seam insertion" and its usefulness is one reason "liquid resizing" could be a better name for this algorithm in 
 general.'
 
     - p: 'This technique has been implemented in several image editing programs including both

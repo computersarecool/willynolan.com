@@ -42,13 +42,13 @@ let me turn an old -- but large -- touchscreen into an audio/visual/laser contro
 to help me with the concept and this project was the result.'
 
   -
-    - p: "To me the futuristic interfaces present in both Blade Runner films are an integral part of their overall style 
-and it seemed necessary to reference them (in proper cyberpunk style) at the party."
+    - p: 'To me the futuristic interfaces present in both Blade Runner films are an integral part of their overall style 
+and it seemed necessary to reference them (in proper cyberpunk style) at the party.'
 
-    - p: "The custom interface controlled music and vocal samples from both Blade Runner films as well as haze machines,
-venue lighting and four different three watt RGB lasers."
+    - p: 'The custom interface controlled music and vocal samples from both Blade Runner films as well as haze machines,
+venue lighting and four different three-watt RGB lasers.'
 
-    - p: "The featured video is worth watching in its entirety - this project appears at 1:35."
+    - p: 'The featured video is worth watching in its entirety - this project appears at 1:35.'
   
     - figure:
         type: ul

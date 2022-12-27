@@ -19,7 +19,7 @@ figures:
         src: "/assets/media/research/pyramid-blending/first.jpg"
         alt: Blended image of a Quagga
         caption: 'Blended image of a <a class="link-highlight" href="https://en.wikipedia.org/wiki/Quagga">Quagga</a>'
-        width: 434
+        width: 435
         height: 290
 
   - type: figure
@@ -28,7 +28,7 @@ figures:
         src: "/assets/media/research/pyramid-blending/second.jpg"
         alt: Result blended image
         caption: Result blended image
-        width: 434
+        width: 435
         height: 292
 
   - type: figure
@@ -143,7 +143,7 @@ narrower blend region can be used in high-frequency content such as edges.'
             width: 207
             height: 424
 
-    - p: 'This technique can be used to avoid a halo effect in images which make blend regions more noticeable.'
+    - p: This technique can be used to avoid a halo effect in images which make blend regions more noticeable.
 
     - figure:
         type: ul

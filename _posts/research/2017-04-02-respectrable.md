@@ -40,20 +40,16 @@ performance abilities of any DAW."
     - p: 'Live officially supports programmatic access to every one of its features through the 
 <a href="https://docs.cycling74.com/max8/vignettes/live_object_model">Live Object Model (LOM)</a>.'
 
-    - p: "As is shown in the first figure, the LOM can be a bit of a maze because of the large number of 
-parameters available in Live."
+    - p: As is shown in the first figure, the LOM can be a bit of a maze because of the large number of parameters available in Live.
 
-    - p: "There is a learning curve to figuring out how the object hierarchy works but, 
-once figured out, each and every property of a Live set is programmable."
+    - p: There is a learning curve to figuring out how the object hierarchy works but, once figured out, each and every property of a Live set is programmable.
 
     - p: 'The repeated necessity of a scriptable, real-time audio engine, and specifically one that could be used 
 wirelessly through <a href="http://opensoundcontrol.org/introduction-osc"> Open Sound Control</a> (OSC) resulted in
 the creation of <a href="https://github.com/computersarecool/respectrable">Respectrable</a>.'
 
   -
-    - p: "Respectrable is a Max for Live device that facilitates easily accessing the Live Object Model through 
-Javascript or Max objects."
+    - p: Respectrable is a Max for Live device that facilitates easily accessing the Live Object Model through Javascript or Max objects.
 
-    - p: "The featured video shows a very simple example of bidirectional control between Live and a graphical 
-application."
+    - p: The video in this post shows a very simple example of bidirectional control between Live and a graphical application.
 ---

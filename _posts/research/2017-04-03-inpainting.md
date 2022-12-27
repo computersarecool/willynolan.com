@@ -81,17 +81,15 @@ figures:
         alt: Result image
         caption: Result image
         width: 351
-        height: 468"
+        height: 468
 
 sections:
   -
-     - p: "While living in the Mission district I frequently saw a lot of tourists, a lot of graffiti and a lot of 
-litter." 
+     - p: While living in the Mission district I frequently saw a lot of tourists, a lot of graffiti and a lot of litter. 
 
-     - p: "One day this finally made me very concerned! What if all of the pictures the tourists take accidentally contained graffiti or 
-litter?"
+     - p: One day this finally made me very concerned! What if all of the pictures the tourists take accidentally contained graffiti or litter?
 
-     - p: "This concern led me to explore inpainting - the process of reconstructing regions of an image." 
+     - p: This concern led me to explore inpainting - the process of reconstructing regions of an image. 
 
   -
     - p: "The tool I made allows for a user to indicate the region of a photograph to be replaced and then uses 

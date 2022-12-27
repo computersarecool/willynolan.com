@@ -4,6 +4,7 @@
     {%- for item in site.categories.projects reversed %}
         {% include post-preview.html %}
     {%- endfor %}
+
 {%- elsif page.type == "research" %}
     {%- for item in site.categories.research reversed %}
         {% include post-preview.html %}
