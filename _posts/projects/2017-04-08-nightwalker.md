@@ -28,7 +28,7 @@ figures:
 
 sections:
   -
-    - bq: 'NightWalker is a colorful clothing line that explores the future while paying homage to the past'
+    - bq: NightWalker is a colorful clothing line that explores the future while paying homage to the past
 
     - p: 'During the search for an early development job the above slogan, along with the promise of a cutting edge
 approach to development and clothing production was eye-catching.'

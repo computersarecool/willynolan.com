@@ -11,28 +11,28 @@ project:
 figures:
   - type: figure
     content:
-      - src: "/assets/media/projects/video-wall/wall1.jpg"
+      - src: "/assets/media/projects/social-media-wall/wall1.jpg"
         alt: Social Media Wall Installed at Art Basil
         width: 1200
         height: 900
 
   - type: figure
     content:
-      - src: "/assets/media/projects/video-wall/wall2.jpg"
+      - src: "/assets/media/projects/social-media-wall/wall2.jpg"
         alt: Social Media Wall Installed at Art Basil
         width: 740
         height: 493
 
   - type: figure
     content:
-      - src: "/assets/media/projects/video-wall/wall3.jpg"
+      - src: "/assets/media/projects/social-media-wall/wall3.jpg"
         alt: Social Media Wall Installed at Art Basil
         width: 1000
         height: 667
 
   - type: figure
     content:
-      - src: "/assets/media/projects/video-wall/wall4.jpg"
+      - src: "/assets/media/projects/social-media-wall/wall4.jpg"
         alt: Social Media Wall Installed at Art Basil
         width: 838
         height: 540 
