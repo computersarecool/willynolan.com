@@ -5,8 +5,8 @@ meta:
 
 project:
   title: Social Media Video Wall
-  preview_main: "/assets/media/projects/architectural-projection/preview.webm"
-  preview_backup: "/assets/media/projects/architectural-projection/preview.mp4"
+  preview_main: "/assets/media/projects/social-media-wall/preview.webm"
+  preview_backup: "/assets/media/projects/social-media-wall/preview.mp4"
 
 figures:
   - type: figure
@@ -32,31 +32,27 @@ figures:
 
 sections:
   -
-    - p: 'It was nearly impossible to work at <a href="https://www.msg.com/obscura-digital" class="nobreak">Obscura 
-Digital</a> and not work on architectural projection mapping at some point.'
+    - p: 'Although relatively commonplace now, in 2014 Social Media Walls were much less common.'
 
-    - p: 'Out of all the great projection projects I worked on there, this spur of the moment event at <a href="http://english.stu.edu.cn/index.php" class="nobreak">Shantou 
-University</a> in Shantou, Guangdong, China was particularly memorable because of the unique building facade and the 
-compressed production timeline.'
-
-  -
-    - p: 'While visiting the university to work on a different, 
-<a href="https://www.behance.net/gallery/30113999/Shantou-University-Graduation">unrelated projection mapping project</a>, 
-we were asked to do an architectural projection show on the newly completed campus medical building.'
-
-    - p: "The initial request came approximately 24 hours before the show was supposed to happen (at least that was 
-when I first heard of it)."
-
-    - p: "There was only one day to prepare content, set up the projectors and create the show but the building's
-unique shape made the proposal hard to resist."
+    - p: 'Facebook, having purchased Instagram in 2012, was the first large company I saw encourage interaction with its 
+platform through a social media wall.'
+      
+    - p: 'Facebook approached my teammembers and I looking for a large multi-display social media display wall which was
+meant to travel to several events Facebook was sponsoring, specifically Art Basel.'
 
   -
-    - p: "The scheduling constraints meant there was no photographer scheduled to capture the job was almost not documented at all."
+    - p: 'At various events around the world, visitors were encouraged to interact with a very large video display through
+hashtags and @ mentions of other users.'
 
-    - p: "Luckily some students at the university were taking a drone photography class nearby and captured footage of 
-the event which they were happy to share in exchange for a presentation on how to projection map buildings."
+    - p: "Event organizes had access to a private API and curation tool to select content and display photos and videos 
+they wanted to showcase at their event."
 
-    - p: "The footage they captured is included in the video in this post."
+  -
+    - p: "Althuogh the initial target was Art Basel in Switzerland, the project was popular enough that it traveled worldwide and 
+was installed in Hong Kong, San Francisco and elsewhere in the world."
+
+    - p: "The project was eventually ported to the web as well as a native app and was able to work with most social media platforms including 
+Twitter, Instagram, Facebook and Tumblr."
 
     - figure:
         type: ul
