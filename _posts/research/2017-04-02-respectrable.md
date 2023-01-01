@@ -14,7 +14,7 @@ figures:
   - type: figure
     content:
       - src: "/assets/media/research/respectrable/first.jpg"
-        alt: "Live Object Model Diagram"
+        alt: Live Object Model Diagram
         caption: Live Object Model Diagram
         width: 1280
         height: 750
@@ -22,8 +22,8 @@ figures:
   - type: figure
     content:
       - src: "/assets/media/research/respectrable/second.jpg"
-        alt: "Screenshot of Respectrable during development"
-        caption: Screenshot of Respectrable during development
+        alt: Screenshot of Respectrable during development
+        caption: Screenshot of Respectrable development
         width: 1280
         height: 750
 

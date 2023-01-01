@@ -12,14 +12,14 @@ figures:
   - type: figure
     content:
       - src: "/assets/media/projects/att-stadium/first.png"
-        alt: "ATT Stadium UI Mockup"
+        alt: "AT&T Stadium UI Mockup"
         width: 827
         height: 665
 
   - type: figure
     content:
       - src: "/assets/media/projects/att-stadium/second.jpg"
-        alt: "ATT Stadium and control system"
+        alt: "AT&T Stadium and control system"
         width: 900
         height: 502
 

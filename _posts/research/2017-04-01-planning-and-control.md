@@ -15,8 +15,8 @@ figures:
     class: narrow
     content:
       - src: "/assets/media/research/planning-and-control/first.jpg"
-        alt: Graphic representation of a warehouse
-        caption: Graphic representation of a warehouse
+        alt: Visual representation of a warehouse layout file
+        caption: Visual representation of a warehouse layout file
         width: 651
         height: 747
 
@@ -24,8 +24,8 @@ figures:
     class: narrow
     content:
       - src: "/assets/media/research/planning-and-control/second.jpg"
-        alt: Graphic representation of a warehouse with motion plan
-        caption: Graphic representation of a warehouse with motion plan
+        alt: Visual representation of a warehouse layout file with motion plan
+        caption: Visual representation of a warehouse layout file with motion plan
         width: 653
         height: 750
 

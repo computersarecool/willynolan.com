@@ -12,14 +12,14 @@ figures:
   - type: figure
     content:
       - src: "/assets/media/projects/blade-runner/first.jpg"
-        alt: "The Blade Runner controller in use"
+        alt: The Blade Runner controller in use
         width: 1200
         height: 750
 
   - type: figure
     content:
       - src: "/assets/media/projects/blade-runner/second.jpg"
-        alt: "The Blade Runner controller in use"
+        alt: The Blade Runner controller in use
         width: 1200
         height: 750
 

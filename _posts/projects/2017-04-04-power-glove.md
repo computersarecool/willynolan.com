@@ -12,14 +12,14 @@ figures:
   - type: figure
     content:
       - src: "/assets/media/projects/power-glove/first.png"
-        alt: "The original Power Glove"
+        alt: The original Power Glove
         width: 1123
         height: 493
 
   - type: figure
     content:
       - src: "/assets/media/projects/power-glove/second.png"
-        alt: "The Power Glove PCB and circuit layout"
+        alt: The Power Glove PCB and circuit layout
         width: 936
         height: 340
 

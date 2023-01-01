@@ -12,14 +12,14 @@ figures:
   - type: figure
     content:
       - src: "/assets/media/projects/searching-for-cydonia/first.jpg"
-        alt: "Searching for Cydonia artist rendering"
+        alt: Searching for Cydonia artist rendering
         width: 936
         height: 570
 
   - type: figure
     content:
       - src: "/assets/media/projects/searching-for-cydonia/second.jpg"
-        alt: "Searching for Cydonia GUI Designs"
+        alt: Searching for Cydonia GUI Designs
         width: 1280
         height: 530
 

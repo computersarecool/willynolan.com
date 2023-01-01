@@ -1,6 +1,6 @@
 ---
 meta:
-  keywords: Instagram, Art Basil, Video Wall, Social Media
+  keywords: Instagram, Art Basel, Video Wall, Social Media
   description: Social Media Video Wall
 
 project:
@@ -12,21 +12,21 @@ figures:
   - type: figure
     content:
       - src: "/assets/media/projects/social-media-wall/wall1.jpg"
-        alt: Social Media Wall Installed at Art Basil
+        alt: Social Media Wall Installed at Art Basel
         width: 1200
         height: 900
 
   - type: figure
     content:
       - src: "/assets/media/projects/social-media-wall/wall2.jpg"
-        alt: Social Media Wall Installed at Art Basil
+        alt: Social Media Wall Installed at Art Basel
         width: 740
         height: 493
 
   - type: figure
     content:
       - src: "/assets/media/projects/social-media-wall/wall3.jpg"
-        alt: Social Media Wall Installed at Art Basil
+        alt: Social Media Wall Installed at Art Basel
         width: 1000
         height: 667
 

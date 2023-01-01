@@ -27,9 +27,9 @@ wondering if one day I would be able to use it for something else.'
         type: figure
         content:
           -
-            caption: "Yamaha MRX-70 Remote Control"
+            caption: Yamaha MRX-70 Remote Control
             src: /assets/media/research/infrared-communication/remote.jpg
-            alt: "Yamaha MRX-70 Remote Control"
+            alt: Yamaha MRX-70 Remote Control
         width: 1280
         height: 719
 

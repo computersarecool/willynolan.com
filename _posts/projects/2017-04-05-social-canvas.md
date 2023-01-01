@@ -12,7 +12,7 @@ figures:
   - type: figure
     content:
       - src: "/assets/media/projects/social-canvas/first.jpg"
-        alt: "Social Canvas Layout"
+        alt: Social Canvas Layout
         width: 1024
         height: 640
 

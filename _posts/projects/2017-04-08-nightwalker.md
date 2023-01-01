@@ -19,7 +19,7 @@ figures:
   - type: figure
     content:
       - src: "/assets/media/projects/nightwalker/second.jpg"
-        alt: Several pairs of NightWalker pants
+        alt: Group of people wearing NightWalker pants
         width: 932
         height: 563
 
