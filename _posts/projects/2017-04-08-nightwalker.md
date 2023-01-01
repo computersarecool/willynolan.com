@@ -12,35 +12,33 @@ figures:
   - type: figure
     content:
       - src: "/assets/media/projects/nightwalker/first.jpg"
-        alt: "A group shot of NightWalker pants"
+        alt: Several pairs of NightWalker pants
         width: 484
-        height: 294
+        height: 295
 
   - type: figure
     content:
       - src: "/assets/media/projects/nightwalker/second.jpg"
-        alt: "A group shot of NightWalker pants"
+        alt: Group of people wearing NightWalker pants
         width: 932
         height: 563
 
   - type: video
-    id: "415369005"
+    id: 415369005
 
 sections:
   -
-    - bq: '<p>NightWalker is a colorful clothing line that explores the future while paying homage to the past</p>'
+    - bq: NightWalker is a colorful clothing line that explores the future while paying homage to the past
 
-    - p: "During the search for an early development job the above slogan, along with the promise of a cutting edge
-approach to development and clothing production, was eye-catching."
+    - p: 'During the search for an early development job the above slogan, along with the promise of a cutting edge
+approach to development and clothing production was eye-catching.'
 
   -
-    - p: "In 2010, when development started on the flagship NightWalker web app, nothing was hotter than the MEAN stack."
+    - p: In 2010, when development started on the flagship NightWalker web app, nothing was hotter than the MEAN stack.
 
-    - p: "With little enterprise experience I jumped into MongoDB, Express, Angular and Node.js and got serious exposure to 
-Amazon Web Services."
+    - p: With only a little enterprise experience I jumped into MongoDB, Express, Angular and Node.js and got serious exposure to Amazon Web Services.
 
-    - p: "Although the clothing line quickly transitioned to using existing online marketplace solutions, the 
-experience gained in creating a truly interactive web app was invaluable."
+    - p: Although the clothing line quickly transitioned to using existing online marketplace solutions, the experience gained in creating a truly interactive web app was invaluable.
 
   -
     - p: 'When mobile visitors reached the site, instead of having to drag or scroll to see all the colors (or "flavors" 

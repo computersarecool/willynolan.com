@@ -1,3 +1,4 @@
+#file: noinspection YAMLSchemaValidation,YAMLSchemaValidation
 # Site config
 baseurl: ""
 highlighter: rouge

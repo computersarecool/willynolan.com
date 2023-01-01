@@ -19,7 +19,7 @@ figures:
         src: "/assets/media/research/pyramid-blending/first.jpg"
         alt: Blended image of a Quagga
         caption: 'Blended image of a <a class="link-highlight" href="https://en.wikipedia.org/wiki/Quagga">Quagga</a>'
-        width: 434
+        width: 435
         height: 290
 
   - type: figure
@@ -28,7 +28,7 @@ figures:
         src: "/assets/media/research/pyramid-blending/second.jpg"
         alt: Result blended image
         caption: Result blended image
-        width: 434
+        width: 435
         height: 292
 
   - type: figure
@@ -75,8 +75,8 @@ number of uses in image processing.  The general process is to downsize and blur
 types of compression.'
 
   -
-    - p: 'In this application the image pyramid is used to create a blended image.  The smaller and more blurry images in the 
-pyramid serve as a low-pass filtered version of the image. A stack of these forms a Gaussian pyramid.'
+    - p: 'In this application an image pyramid is used to create a blended image.  The smaller and more blurry images in the 
+pyramid serve as a low-pass filtered version of the image. A stack of these images form what is known as a "Gaussian pyramid".'
 
     - figure:
         type: figure
@@ -103,7 +103,7 @@ pyramid serve as a low-pass filtered version of the image. A stack of these form
             width: 208
             height: 417
 
-    - p : 'The Gaussian pyramid can be used to create a high-pass filtered version of the image called a Laplacian pyramid.
+    - p : 'The Gaussian pyramid can be used to create a high-pass filtered version of the image known as a "Laplacian pyramid".
 The formula for a Laplacian pyramid at a level $i$ is given as:'
 
     - p: '$$ \begin{aligned}
@@ -143,7 +143,7 @@ narrower blend region can be used in high-frequency content such as edges.'
             width: 207
             height: 424
 
-    - p: 'This technique can be used to avoid a halo effect in images which make blend regions more noticeable.'
+    - p: This technique can be used to avoid a halo effect in images which make blend regions more noticeable.
 
     - figure:
         type: ul

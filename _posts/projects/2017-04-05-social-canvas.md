@@ -12,7 +12,7 @@ figures:
   - type: figure
     content:
       - src: "/assets/media/projects/social-canvas/first.jpg"
-        alt: "Social Canvas Layout"
+        alt: Social Canvas Layout
         width: 1024
         height: 640
 
@@ -37,7 +37,7 @@ indoor LED screens that makes up their lobby and casino entrance.'
 
   -
     - p: 'In addition to the scale of this installation it is also unique in that it is truly interactive. Guests are 
-allowed to directly participate in the game, creating an shared experience for all.' 
+allowed to directly participate in the game, creating a shared experience for all.' 
 
     - p: 'MGM''s write up is <a href="https://www.mgm.mo/en/cotai/art/art-tour/collaboration/social-canvas">here</a>. 
 The featured videos show an overview of the project and a demo of the project in action.'
@@ -48,4 +48,5 @@ The featured videos show an overview of the project and a demo of the project in
         caption: "Acknowledgements:"
         content:
           - "Database programming: Michael Clement"
+          - "Show System: Matt Ragan"
 ---

@@ -43,14 +43,14 @@ Direct State Access</a> -> Vulkan.'
 
     - p: 'As the APIs have progressed, progressively more control has been given to the programmer.'
 
+  -
     - p: 'Direct State Access (DSA) provides a nice balance between verbosity and control. In particular, minimizing 
 or eliminating the “state-machine” construct with DSA makes interacting with the GPU feel much more similar to native C++.'
 
-    - p: 'Early OpenGL does not provide enough control to the user, but Vulkan can make getting started with graphics very 
-intimidating and prototyping or experimenting with the GPU challenging.'
+    - p: 'Early versions of OpenGL are limited in terms of the control the user has, but much new graphics APIs sucha as 
+Vulkan can make getting started with graphics very intimidating and prototyping or experimenting with the GPU challenging.'
 
-    - p: 'The research I did resulted in applications that explore many of the ways in which DSA leads to a more elegant 
-programming experience.'
+    - p: The research I did resulted in applications that explore many of the ways in which DSA leads to a more elegant programming experience.
 
     - p: 'The featured images shows just a few examples of graphics techniques made easier with DSA. These include 
 tessellation, an example of the Phong Illumination Model and a real time raytracer.'

@@ -41,7 +41,7 @@ the seams of a box and unwrapped the object."
         content:
           -
             src: "/assets/media/projects/perspective-projection/second.png"
-            alt: Multi-colored cube cube map
+            alt: Multi-colored cube map
             width: 325
             height: 325
 
@@ -49,9 +49,9 @@ the seams of a box and unwrapped the object."
 movement. If, for example, text were supposed to scroll from the yellow square to the magenta square (which 
 would make sense from the camera's viewpoint) it would have to make an illogical jump on the cube map."
 
-    - p: "The key is to think and work in 3D."
+    - p: The key is to think and work in 3D.
 
-    - p: "What if we wanted to created a 3D scene where the box is actually a see through container with things 
+    - p: "What if we wanted to create a 3D scene where the box is actually a see through container with things 
 floating inside it? Or what if we wanted the box to appear as a solid, reflective object with something floating 
 outside it?"
 
@@ -72,13 +72,12 @@ outside it?"
     - ul:
          - 'Create a 3D scene and render it from the eventual viewer''s perspective'
 
-         - 'Add a new set of UV coordinates to the the cube <i>from the perspective of the camera that rendered the scene</i>'
+         - 'Add a new set of UV coordinates to the cube <i>from the perspective of the camera that rendered the scene</i>'
 
          - 'Apply the rendered image as a texture to the model and bake the texture to a new material on the same mesh with 
 the original UV coordinate (i.e. cube map coordinates)'
 
-    - p: 'The resulting cube map will look strange on its own, but when reapplied to the object it wall look 
-perspective-correct.'
+    - p: The resulting cube map will look strange on its own, but when reapplied to the object it will look perspective-correct.
       
     - figure:
         type: figure
@@ -89,7 +88,7 @@ perspective-correct.'
             width: 325
             height: 325
 
-    - p: "For example here is the object with a solid green color and the 3D scene (blue spheres) visible."
+    - p: For example here is the object with a solid green color and the 3D scene (blue spheres) visible.
 
     - figure:
         type: figure
@@ -100,7 +99,7 @@ perspective-correct.'
             width: 577
             height: 325
 
-    - p: "And here is the image with the blue spheres removed but the perspective texture map applied."
+    - p: And here is the image with the blue spheres removed but the perspective texture map applied.
 
     - figure:
         type: figure
@@ -116,6 +115,7 @@ perspective-correct.'
             src: "/assets/media/projects/perspective-projection/seventh.jpg"
             alt: 3D scene and cube with the cube map applied
 
-    - p: 'This process can be difficult to figure out and tedious to do repeatedly.'
+    - p: This process can be difficult to figure out and tedious to do repeatedly.
+
     - p: The project I made explored automated ways to texture bake perspective-correct projections in modeling software.
 ---

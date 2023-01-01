@@ -12,14 +12,14 @@ figures:
   - type: figure
     content:
       - src: "/assets/media/projects/att-stadium/first.png"
-        alt: "ATT Stadium UI Mockup"
+        alt: "AT&T Stadium UI Mockup"
         width: 827
         height: 665
 
   - type: figure
     content:
       - src: "/assets/media/projects/att-stadium/second.jpg"
-        alt: "ATT Stadium and control system"
+        alt: "AT&T Stadium and control system"
         width: 900
         height: 502
 
@@ -43,8 +43,9 @@ a button."
     - p: 'In addition to writing the show control software, I got the great opportunity to evaluate my programming 
 <i>in situ</i> while serving as its operator on a several occasions.'
 
-    - p: 'During the takeover moments the director would call out which video to play with an emphatic countdown. 
-My narration in the featured video is a much slower (and less enthusiastic) interpretation of his quite epic commands.'
+    - p: During the takeover moments the director would call out which video to play with an emphatic countdown.
+
+    - p: My narration in the video at the end of this post is a much slower (and less enthusiastic) interpretation of his very epic announcing style.
 
     - figure:
         type: ul

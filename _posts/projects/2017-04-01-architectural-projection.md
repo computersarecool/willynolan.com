@@ -31,7 +31,7 @@ sections:
     - p: 'It was nearly impossible to work at <a href="https://www.msg.com/obscura-digital" class="nobreak">Obscura 
 Digital</a> and not work on architectural projection mapping at some point.'
 
-    - p: 'This spur of the moment event at <a href="http://english.stu.edu.cn/index.php" class="nobreak">Shantou 
+    - p: 'Out of all the great projection projects I worked on there, this spur of the moment event at <a href="http://english.stu.edu.cn/index.php" class="nobreak">Shantou 
 University</a> in Shantou, Guangdong, China was particularly memorable because of the unique building facade and the 
 compressed production timeline.'
 
@@ -40,25 +40,24 @@ compressed production timeline.'
 <a href="https://www.behance.net/gallery/30113999/Shantou-University-Graduation">unrelated projection mapping project</a>, 
 we were asked to do an architectural projection show on the newly completed campus medical building.'
 
-    - p: "The initial request came approximately 24 hours before the show was supposed to happen (at least that was 
-when I first heard of it)."
+    - p: 'The initial request came approximately 24 hours before the show was supposed to happen (at least that was 
+when I first heard about it).'
 
     - p: "There was only one day to prepare content, set up the projectors and create the show but the building's
-shape was unique enough that it was hard to resist the opportunity."
+unique shape made the proposal hard to resist."
 
   -
-    - p: "The scheduling constraints meant there was no photographer scheduled to capture the job and it came close to 
-not being documented at all."
+    - p: The scheduling constraints meant there was no photographer scheduled to capture the job was almost not documented at all.
 
-    - p: "Luckily some students at the university were taking a drone photography class nearby and captured footage of 
-the event which they were happy to share in exchange for a presentation on how to projection map buildings."
+    - p: 'Luckily some students at the university were taking a drone photography class nearby and captured footage of 
+the event which they were happy to share in exchange for a presentation on how to projection map buildings.'
 
-    - p: "The footage they captured is included in the featured video."
+    - p: The video in this post is mostly made from footage students at Shantou University filmed.
 
     - figure:
         type: ul
         class: "acknowledge under"
-        caption: "Acknowledgements:"
+        caption: "Additional Help:"
         content:
           - "Art Direction: Ron Robinson"
           - "Technical Direction: Matty Dowlen, Andrew Plourde, Gaston Albanell"
