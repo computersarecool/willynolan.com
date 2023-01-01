@@ -30,13 +30,6 @@ figures:
         width: 1000
         height: 667
 
-  - type: figure
-    content:
-      - src: "/assets/media/projects/social-media-wall/wall4.jpg"
-        alt: Social Media Wall Installed at Art Basil
-        width: 838
-        height: 540 
-
 sections:
   -
     - p: 'It was nearly impossible to work at <a href="https://www.msg.com/obscura-digital" class="nobreak">Obscura 
@@ -70,6 +63,6 @@ the event which they were happy to share in exchange for a presentation on how t
         class: "acknowledge under"
         caption: "Additional Help:"
         content:
-          - "Art Direction: Ron Robinson"
-          - "Technical Direction: Matty Dowlen, Andrew Plourde, Gaston Albanell"
+          - Anton Heestand (Design and engineering)
+          - Pavel Necas (Hardware)
 ---

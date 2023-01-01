@@ -1,14 +1,11 @@
     {%- if figelem.type == "video" %}
-    <!--suppress SyntaxError -->
     <figure class="{{ page.class }} {{ figelem.class }} video-wrapper">
+        <iframe title="Featured Video" class="{{ page.class }}" src="https://player.vimeo.com/video/{{ figelem.id }}" allowfullscreen></iframe>
     {%- else %}
     <figure class="{{ page.class }} {{ figelem.class }}">
     {%- endif -%}
 
-    {%- if figelem.type == "video" %}
-       <iframe title="Featured Video" class="{{ page.class }}" src="https://player.vimeo.com/video/{{ figelem.id }}" allowfullscreen></iframe>
-
-    {%- elsif figelem.type == "ul" %}
+    {%- if figelem.type == "ul" %}
         {%- if figelem.caption %}
         <figcaption>
             <p>{{ figelem.caption }}</p>
@@ -45,4 +42,9 @@
         </figcaption>
         {%- endif %}
     {%- endif %}
+
+    {%- if figelem.type == "video" %}
     </figure>
+    {%- else %}
+    </figure>
+    {%- endif -%}
