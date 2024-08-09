@@ -6,11 +6,10 @@ sass:
   sass_dir: assets/scss
   style: compressed
 
-# Development
+# Development settings
 host: 0.0.0.0
 port: 9000
 
-# Settings
 author: "Willy Nolan"
 title: "Willy Nolan"
 faviconcolor: "#2cdad7"
@@ -38,10 +37,20 @@ defaults:
 keywords: "Willy Nolan, Software Engineering, Interactive Engineering"
 
 about:
-  - "I am a software engineer focused on improving how people interact with and experience technology. This site contains some of the projects I have created while pursuing that goal."
-  - "I studied Communication at Portland State University, Journalism at The University of Southern California and Computer Science at Georgia Tech."
-  - "During my career I have been fortunate enough to work with companies such as Obscura Digital, TAIT, AT&T, The Madison Square Garden Company, Instagram and Snapchat on projects all over the world."
-  - 'If you want to get in touch please email me: <a class="contact-link" title="willy@willynolan.com" href="mailto:willy@willynolan.com">willy@willynolan.com</a>'
+  - > 
+    I am a software engineer focused on improving how people interact with and experience technology. 
+    This site contains some of the projects I have created while pursuing that goal.
+  - >
+    I studied communication at
+    <a class="about-link" href="https://www.pdx.edu/">Portland State University</a>, journalism at
+    <a class="about-link" href="https://www.usc.edu/">The University of Southern California</a> and computer science at
+    <a class="about-link" href="https://www.gatech.edu/">Georgia Tech</a>.
+  - >
+    During my career I have been fortunate enough to work with companies such as Obscura Digital, TAIT, AT&T, 
+    The Madison Square Garden Company, Instagram and Snapchat on projects all over the world.
+  - > 
+   If you want to get in touch please email me: 
+   <a class="about-link" href="mailto:willy@willynolan.com">willy@willynolan.com</a>
 
 exhibitions:
   - "Art Basil (Hong Kong)"
