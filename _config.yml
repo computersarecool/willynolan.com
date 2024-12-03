@@ -1,9 +1,10 @@
 #file: noinspection YAMLSchemaValidation,YAMLSchemaValidation
+
 # Site config
 baseurl: ""
 highlighter: rouge
 sass:
-  sass_dir: assets/scss
+  sass_dir: assets/css
   style: compressed
 
 # Development settings
@@ -18,39 +19,28 @@ show_exhibitions: false
 
 defaults:
   - scope:
-      path: "_posts/projects"
+      path: "_posts/_projects"
       type: "posts"
     values:
-      permalink: projects/:title
-      category: projects
+      permalink: _projects/:title
+      category: _projects
       layout: default
       class: "post video-post"
   - scope:
-      path: "_posts/research"
+      path: "_posts/_research"
       type: "posts"
     values:
-      permalink: research/:title
-      category: projects
+      permalink: _research/:title
+      category: _projects
       layout: default
       class: "post video-post"
 
 keywords: "Willy Nolan, Software Engineering, Interactive Engineering"
 
-about:
-  - > 
-    I am a software engineer focused on improving how people interact with and experience technology. 
-    This site contains some of the projects I have created while pursuing that goal.
-  - >
-    I studied communication at
-    <a class="about-link" href="https://www.pdx.edu/">Portland State University</a>, journalism at
-    <a class="about-link" href="https://www.usc.edu/">The University of Southern California</a> and computer science at
-    <a class="about-link" href="https://www.gatech.edu/">Georgia Tech</a>.
-  - >
-    During my career I have been fortunate enough to work with companies such as Obscura Digital, TAIT, AT&T, 
-    The Madison Square Garden Company, Instagram and Snapchat on projects all over the world.
-  - > 
-   If you want to get in touch please email me: 
-   <a class="about-link" href="mailto:willy@willynolan.com">willy@willynolan.com</a>
+instagram: "https://www.instagram.com/computersarecool/"
+email: "willy@willynolan.com"
+github: "https://github.com/computersarecool"
+linkedin: "https://www.linkedin.com/in/willynolan/"
 
 exhibitions:
   - "Art Basil (Hong Kong)"
@@ -67,7 +57,8 @@ exhibitions:
   - "Madison Square Garden Science Fair (Las Vegas, USA)"
   - "Madison Square Garden Science Fair (Los Angeles, USA)"
 
-email: "willy@willynolan.com"
-github: "https://github.com/computersarecool"
-linkedin: "https://www.linkedin.com/in/willynolan/"
-instagram: "https://www.instagram.com/computersarecool/"
+collections:
+  projects:
+    output: true
+  research:
+    output: true

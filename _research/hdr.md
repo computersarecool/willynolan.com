@@ -1,5 +1,5 @@
 ---
-category: research
+category: _research
 
 meta:
   keywords: HDR, Photography, Camera Response Function, Image Processing, Research, Computational Photography

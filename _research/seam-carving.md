@@ -1,5 +1,5 @@
 ---
-category: research
+category: _research
 
 meta:
   keywords: Seam Carving, Liquid Resizing, Liquid Rescaling, Image Manipulation, Research

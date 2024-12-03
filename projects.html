@@ -9,7 +9,7 @@ meta:
 ---
 <main class="{{ page.class }}">
     <ul class="projects-list">
-    {%- for item in site.categories.projects reversed %}
+    {%- for item in site.projects reversed %}
         {% include post-preview.html %}
     {%- endfor %}
     </ul>

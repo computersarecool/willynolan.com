@@ -1,5 +1,5 @@
 ---
-category: research
+category: _research
 
 meta:
   keywords: Inpainting, Image Manipulation, Image Processing, Research

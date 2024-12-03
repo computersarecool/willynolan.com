@@ -1,5 +1,5 @@
 ---
-category: research
+category: _research
 
 meta:
   keywords: Video, Video textures, Photography, Image Processing, Research, Computational Photography
@@ -93,7 +93,7 @@ frames."
     - figure:
         type: ul
         class: "acknowledge"
-        caption: "The original publication on which my research is based is:"
+        caption: "The original publication on which my _research is based is:"
         content:
           - '<a href="https://dl.acm.org/doi/10.1145/344779.345012">Video Textures</a> by Arno Sch&ouml;dl et al.'
 ---

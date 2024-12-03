@@ -1,5 +1,5 @@
 ---
-category: research
+category: _research
 class: "post single-col"
 
 meta:
@@ -15,7 +15,7 @@ mathjax: true
 
 sections:
   -
-    - p: 'There is a rich body of research surrounding camera calibration.  The process is usually broken up into <em>
+    - p: 'There is a rich body of _research surrounding camera calibration.  The process is usually broken up into <em>
 geometric</em> and <em>radiometric / photometric</em> calibration.'
 
     - p: 'Projectors can essentially be thought of the inverse of a camera.  Instead caputuring a scene projected onto an 
@@ -32,7 +32,7 @@ is supposed to go in a physical environment".'
 in several applications such as <a href="https://madmapper.com">MadMapper</a> and <a href="https://www.disguise.one/en/">disguise</a>.'
 
   -
-    - p: 'In this research, <a href="http://www.michaelwalczyk.com/">Mike Walczyk</a> and I explored the structured light 
+    - p: 'In this _research, <a href="http://www.michaelwalczyk.com/">Mike Walczyk</a> and I explored the structured light 
 "projector calibration" process based on the academic paper which first described the technique.'
 
     - p: 'To explain the structured light process it helps to imagine there is a room (like in the figure below) and for 
@@ -107,7 +107,7 @@ At the end of the process the image can be projected with corrected perspective.
             width: 640
             height: 360
 
-    - p: "Our research included a Python implementation of structured light calibration as well as a projector/camera 
+    - p: "Our _research included a Python implementation of structured light calibration as well as a projector/camera 
 simulator which was used to create the images in this post."
 
     - figure:

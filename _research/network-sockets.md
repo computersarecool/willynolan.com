@@ -1,10 +1,10 @@
 ---
-category: research
+category: _research
 class: "post single-col"
 
 meta:
   keywords: Sockets, Network sockets, Networking, Berkeley Sockets
-  description: Network sockets research project overview
+  description: Network sockets _research project overview
 
 project:
   title: Sockets

@@ -16,7 +16,7 @@ sections:
 once the technological and physical challenges of projecting an image onto a surface are handled (rigging and 
 blending projectors, supplying power, tuning the playback system etc.) it really comes down to content."
 
-    - p: 'Unfortunately most "projection mapping" projects turn into what are essentially slide shows on buildings.'
+    - p: 'Unfortunately most "projection mapping" _projects turn into what are essentially slide shows on buildings.'
 
     - p: 'In order to make a significantly interesting projection project, the concept of <i>perspective</i> must be 
 addressed.'

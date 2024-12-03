@@ -8,8 +8,9 @@ meta:
     description: Willy Nolan's research projects
 ---
 <main class="{{ page.class }}">
-    <h2 class="{{ page.class }}">{{ page.project.title }}</h2>
-    {%- for item in site.categories.research reversed %}
+    <ul class="projects-list">
+    {%- for item in site.research reversed %}
         {% include post-preview.html %}
-     {%- endfor %}
+    {%- endfor %}
+    </ul>
 </main>

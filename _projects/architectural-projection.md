@@ -31,7 +31,7 @@ sections:
     - p: 'It was nearly impossible to work at <a href="https://www.msg.com/obscura-digital" class="nobreak">Obscura 
 Digital</a> and not work on architectural projection mapping at some point.'
 
-    - p: 'Out of all the great projection projects I worked on there, this spur of the moment event at <a href="http://english.stu.edu.cn/index.php" class="nobreak">Shantou 
+    - p: 'Out of all the great projection _projects I worked on there, this spur of the moment event at <a href="http://english.stu.edu.cn/index.php" class="nobreak">Shantou 
 University</a> in Shantou, Guangdong, China was particularly memorable because of the unique building facade and the 
 compressed production timeline.'
 

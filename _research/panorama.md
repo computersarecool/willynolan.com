@@ -1,5 +1,5 @@
 ---
-category: research
+category: _research
 
 meta:
   keywords: Panorama, Photography, Image Processing, Research, Computational Photography
@@ -65,7 +65,7 @@ sections:
 
     - p: There are many tools that create very nice panoramas but looking at the process at each step can be quite illuminating.
 
-    - p: 'This research resulted in a program that makes panoramas by finding a homography between the input images, warping
+    - p: 'This _research resulted in a program that makes panoramas by finding a homography between the input images, warping
 them into alignment, performing a multi-frequency blend and then an automated cropping.'
 
   -

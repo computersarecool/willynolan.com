@@ -5,12 +5,12 @@
 @charset "UTF-8";
 
 // Basic CSS
-@use "../scss/variables";
-@use "../scss/normalize";
-@use "../scss/core";
+@use "variables";
+@use "normalize";
+@use "core";
 
 // Page specific CSS
-@use "../scss/index";
-@use "../scss/category";
-@use "../scss/about";
-@use "../scss/posts";
+@use "index";
+@use "category";
+@use "about";
+@use "posts";

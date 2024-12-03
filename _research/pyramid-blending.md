@@ -1,5 +1,5 @@
 ---
-category: research
+category: _research
 
 meta:
   keywords: Image Manipulation, Image Processing, Research, Image Blending, Blending
