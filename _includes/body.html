@@ -1,20 +1,20 @@
 <body class="{{ page.class }}">
-{% include header.html %}
-{% include nav.html %}
+    <header class="{{ page.class }}">
+      <h1 class="callout">
+          <a href="/">{{ site.author }}</a>
+      </h1>
+    </header>
 
-{%- if page.type == "index" %}
-{% include main-index.html %}
-
-{% elsif page.type == "about" %}
-{% include main-about.html %}
-
-{% elsif page.type == "projects" %}
-{% include main-projects.html %}
-
-{% elsif page.type == "research" %}
-{% include main-projects.html %}
-
-{% else %}
-{% include main-post.html %}
-{% endif -%}
-</body>
+    <nav class="{{ page.class }}">
+        <ul class="site-links">
+            <li><a class="callout" href="{{ site.baseurl | append: '/projects' }}">Projects</a></li>
+            <li><a class="callout" href="{{ site.baseurl | append: '/research' }}">Research</a></li>
+            <li><a class="callout" href="{{ site.baseurl | append: '/about' }}">About</a></li>
+        </ul>
+        <ul class="contact-links">
+            <li><a class="second-callout" title="email" href="mailto:{{ site.email }}">Email</a></li>
+            <li><a class="second-callout" title="Github" href="{{ site.github }}">GitHub</a></li>
+            <li><a class="second-callout" title="LinkedIn" href="{{ site.linkedin }}">LinkedIn</a></li>
+            <li><a class="second-callout" title="Instagram" href="{{ site.instagram }}">Instagram</a></li>
+        </ul>
+    </nav>

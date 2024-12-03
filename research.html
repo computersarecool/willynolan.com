@@ -7,3 +7,9 @@ meta:
     keywords: Willy Nolan, computer graphics, projects, research
     description: Willy Nolan's research projects
 ---
+<main class="{{ page.class }}">
+    <h2 class="{{ page.class }}">{{ page.project.title }}</h2>
+    {%- for item in site.categories.research reversed %}
+        {% include post-preview.html %}
+     {%- endfor %}
+</main>

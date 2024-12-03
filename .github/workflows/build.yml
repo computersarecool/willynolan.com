@@ -1,16 +1,16 @@
-name: CI
-
-on:
-  push:
-    branches:
-      - master
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Build
-        uses: jerryjvl/jekyll-build-action@v1
+#name: Build
+#
+#on:
+#  pull_request:
+#    types:
+#      - closed
+#    branches:
+#      - staging
+#
+#jobs:
+#  if_merged:
+#    if: github.event.pull_request.merged == true
+#    runs-on: ubuntu-latest
+#    steps:
+#    - run: |
+#        echo The PR was merged

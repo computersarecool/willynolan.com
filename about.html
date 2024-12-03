@@ -7,3 +7,22 @@ meta:
     keywords: Willy Nolan, computer graphics, interactivity, computer programming
     description: About Willy Nolan
 ---
+<main class="{{ page.class }}">
+    <section class="{{ page.class }}">
+        {%- for item in site.about %}
+        <p>{{ item }}</p>
+        {%- endfor %}
+    </section>
+    {%- if site.show_exhibitions %}
+    <section class="exhibitions">
+        <h2 class="callout-small">Exhibitions & Installations</h2>
+        <ul class="exhibitions">
+            {%- for item in site.exhibitions %}
+            <li>
+                <p>{{ item }}</p>
+            </li>
+            {%- endfor %}
+        </ul>
+    </section>
+    {%- endif %}
+</main>
