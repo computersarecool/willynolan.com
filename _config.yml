@@ -15,26 +15,6 @@ author: "Willy Nolan"
 title: "Willy Nolan"
 faviconcolor: "#2cdad7"
 
-show_exhibitions: false
-
-defaults:
-  - scope:
-      path: "_posts/_projects"
-      type: "posts"
-    values:
-      permalink: _projects/:title
-      category: _projects
-      layout: default
-      class: "post video-post"
-  - scope:
-      path: "_posts/_research"
-      type: "posts"
-    values:
-      permalink: _research/:title
-      category: _projects
-      layout: default
-      class: "post video-post"
-
 keywords: "Willy Nolan, Software Engineering, Interactive Engineering"
 
 instagram: "https://www.instagram.com/computersarecool/"
@@ -42,6 +22,7 @@ email: "willy@willynolan.com"
 github: "https://github.com/computersarecool"
 linkedin: "https://www.linkedin.com/in/willynolan/"
 
+show_exhibitions: false
 exhibitions:
   - "Art Basil (Hong Kong)"
   - "Art Basil (Basil, Switzerland)"
@@ -62,3 +43,32 @@ collections:
     output: true
   research:
     output: true
+
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      type: post
+  - scope:
+      path: ""
+      type: research
+    values:
+      type: post
+#  - scope:
+#      path: "_projects"
+#      type: "posts"
+#    values:
+#      permalink: _projects/:title
+#      category: _projects
+#      layout: project
+#      class: "post video-post"
+#  - scope:
+#      path: "_posts/_research"
+#      type: "posts"
+#    values:
+#      permalink: _research/:title
+#      category: _projects
+#      layout: default
+#      class: "post video-post"

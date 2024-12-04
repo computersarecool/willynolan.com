@@ -1,4 +1,5 @@
 ---
+layout: default
 meta:
   keywords: MGM Cotai Stadium, Emoji, Social Canvas, WeChat, Project, Software
   description: Social Canvas project overview
@@ -50,3 +51,43 @@ The featured videos show an overview of the project and a demo of the project in
           - "Database programming: Michael Clement"
           - "Show System: Matt Ragan"
 ---
+
+<main class="{{ page.class }}">
+    <h2 class="{{ page.class }}">{{ page.project.title }}</h2>
+
+{%- for section in page.sections %}
+    <section class="{{ page.class }}">
+    {%- for element in section %}
+        {%- if element.raw %}
+        {{ element.raw }}
+
+        {%- elsif element.p %}
+        <p class="{{ page.class }}">{{ element.p }}</p>
+
+        {%- elsif element.bq %}
+        <blockquote class="{{ page.class }}">
+            <p>{{ element.bq }}</p>
+        </blockquote>
+
+        {%- elsif element.ul %}
+        <ul class="{{ page.class }}">
+            {%- for li in element.ul %}
+            <li class="{{ page.class }}">
+                <p>{{ li }}</p>
+            </li>
+            {%- endfor %}
+        </ul>
+
+        {%- else %}
+        {%- assign figelem = element.figure %}
+        {%- include post-figure.html %}
+
+        {%- endif %}
+    {%- endfor %}
+    </section>
+{%- endfor %}
+
+{%- for figelem in page.figures %}
+    {%- include post-figure.html %}
+{%- endfor %}
+</main>

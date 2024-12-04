@@ -1,4 +1,6 @@
 ---
+layout: default
+type: post
 meta:
   keywords: Instagram, Art Basel, Video Wall, Social Media
   description: Social Media Video Wall
@@ -37,7 +39,7 @@ sections:
     - p: 'Facebook, having purchased Instagram in 2012, was the first large company I saw encourage interaction with its 
 platform through a social media wall.'
       
-    - p: 'Facebook approached my teammembers and I looking for a large multi-display social media display wall which was
+    - p: 'Facebook approached my team members and I looking for a large multi-display social media display wall which was
 meant to travel to several events Facebook was sponsoring, specifically Art Basel.'
 
   -
@@ -48,7 +50,7 @@ hashtags and @ mentions of other users.'
 they wanted to showcase at their event."
 
   -
-    - p: "Althuogh the initial target was Art Basel in Switzerland, the project was popular enough that it traveled worldwide and 
+    - p: "Although the initial target was Art Basel in Switzerland, the project was popular enough that it traveled worldwide and 
 was installed in Hong Kong, San Francisco and elsewhere in the world."
 
     - p: "The project was eventually ported to the web as well as a native app and was able to work with most social media platforms including 

@@ -1,7 +1,6 @@
-<!doctype html>
-<html lang="en-US">
-{% include head.html %}
-{% include body.html %}
+{% include start.html %}
+{%- if page.type == "post" %}
+  {% include post.html %}
+{%- else %}
 {{ content }}
-  </body>
-</html>
+{%- endif %}

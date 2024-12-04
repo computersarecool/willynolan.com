@@ -1,6 +1,5 @@
 <li class="preview">
-
-            <a href="{{ item.url | prepend: site.baseurl }}" class="preview">
+            <a href="{{ item.url }}" class="preview">
                 <video loop muted autoplay playsinline disableRemotePlayback title="{{ item.project.title }}" class="preview">
                     <source src="{{ item.project.preview_main | prepend: site.baseurl }}" type="video/webm">
                     <source src="{{ item.project.preview_backup | prepend: site.baseurl }}" type="video/mp4">
