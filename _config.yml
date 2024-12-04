@@ -4,7 +4,7 @@
 baseurl: ""
 highlighter: rouge
 sass:
-  sass_dir: assets/css
+  sass_dir: assets/scss
   style: compressed
 
 # Development settings
