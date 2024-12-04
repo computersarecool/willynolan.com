@@ -1,17 +1,14 @@
-name: Deploy
+name: Build
 
 on:
-  pull_request:
-    types: [opened, reopened]
+  push:
     branches:
-      - staging
+      - master
 
 jobs:
-  build:
+  if_merged:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Build
-        uses: jerryjvl/jekyll-build-action@v1
+    - run: |
+        echo The PR was merged
