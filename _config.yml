@@ -14,7 +14,6 @@ port: 9000
 author: "Willy Nolan"
 title: "Willy Nolan"
 faviconcolor: "#2cdad7"
-
 keywords: "Willy Nolan, Software Engineering, Interactive Engineering"
 
 instagram: "https://www.instagram.com/computersarecool/"
@@ -38,37 +37,25 @@ exhibitions:
   - "Madison Square Garden Science Fair (Las Vegas, USA)"
   - "Madison Square Garden Science Fair (Los Angeles, USA)"
 
+# Jekyll Collections
 collections:
   projects:
     output: true
   research:
     output: true
 
-
 defaults:
   - scope:
       path: ""
       type: projects
     values:
+      layout: default
       type: post
+      class: "post video-post"
   - scope:
       path: ""
       type: research
     values:
+      layout: default
       type: post
-#  - scope:
-#      path: "_projects"
-#      type: "posts"
-#    values:
-#      permalink: _projects/:title
-#      category: _projects
-#      layout: project
-#      class: "post video-post"
-#  - scope:
-#      path: "_posts/_research"
-#      type: "posts"
-#    values:
-#      permalink: _research/:title
-#      category: _projects
-#      layout: default
-#      class: "post video-post"
+      class: "post video-post"
