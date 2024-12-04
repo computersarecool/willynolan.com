@@ -1,6 +1,7 @@
 {% include start.html %}
 {%- if page.type == "post" %}
-  {% include post.html %}
+{% include post.html %}
 {%- else %}
 {{ content }}
 {%- endif %}
+{% include end.html %}
