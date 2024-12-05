@@ -1,0 +1,91 @@
+body.index {
+    width: 100%;
+}
+
+header.index, nav.index
+{
+    margin: 0 var(--auto-side-margin);
+}
+
+// Index page graphic
+.content-graphic {
+    margin: 0 auto;
+    max-width: var(--max-graphic-width);
+    display: grid;
+    grid-template-columns: repeat(9, .6fr);
+    grid-template-rows: 0 repeat(4, 1fr) 0 0;
+}
+
+.square-container {
+    width: 100%;
+}
+
+.square-container-inside {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    padding-top: 100%;
+}
+
+.blue1-container,
+.black1-container,
+.black2-container,
+.red1-container,
+.black2-container,
+.yellow1-container {
+    grid-row: 4;
+}
+
+.gray1-container {
+    grid-row: 2;
+}
+
+.gray2-container {
+    grid-row: 5;
+}
+
+.gray1-container,
+.red1-container,
+.gray2-container {
+    grid-column: 5;
+}
+
+.blue1-container {
+    justify-self: end;
+    grid-column: 2;
+}
+
+.black1-container {
+    grid-column: 3;
+}
+
+.black2-container {
+    grid-column: 7;
+}
+
+.yellow1-container {
+    justify-self: end;
+    grid-column: 9;
+}
+
+.blue1-container > div {
+    background: var(--color-blue);
+}
+
+.black1-container > div,
+.black2-container > div {
+    background: var(--color-black);
+}
+
+.gray1-container > div,
+.gray2-container > div {
+    background: var(--color-gray);
+}
+
+.red1-container > div {
+    background: var(--color-red);
+}
+
+.yellow1-container > div {
+    background: var(--color-yellow);
+}
