@@ -1,5 +1,5 @@
 ---
-type: research
+type: projects
 class: projects
 layout: default
 title: "Willy Nolan - Research"
@@ -7,3 +7,10 @@ meta:
     keywords: Willy Nolan, computer graphics, projects, research
     description: Willy Nolan's research projects
 ---
+<main class="{{ page.class }}">
+    <ul class="projects-list">
+    {%- for item in site.research reversed %}
+        {% include post-preview.html %}
+    {%- endfor %}
+    </ul>
+</main>

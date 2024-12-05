@@ -57,7 +57,7 @@ needed to control nine HD projectors as well as the club lighting system.'
 
   -
     - p: 'Mapping LEDs is a commonly requested task. Typically people create a structure, cover it with strips of
-LEDs and then want to be able to apply a video or image to that structure. This last step is usually where projects get 
+LEDs and then want to be able to apply a video or image to that structure. This last step is usually where _projects get 
 interesting.' 
 
     - p: 'The mapping approach used at Halcyon was very similar to how texture mapping works in 3D animation and parts

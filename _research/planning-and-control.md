@@ -1,5 +1,5 @@
 ---
-category: research
+category: _research
 
 meta:
   keywords: Planning and Control, Robotics, Research, Software
@@ -66,7 +66,7 @@ A...@
 
     - p: The challenge is that packages are located in fractional -- not integer -- locations.
 
-    - p: My research into planning and control solved this through discretization of the provided warehouse layout file and precise calculation of the robot heading.
+    - p: My _research into planning and control solved this through discretization of the provided warehouse layout file and precise calculation of the robot heading.
 
   -
     - p: 'The two featured images show the layout of a simple warehouse with two packages. A brief overview for 

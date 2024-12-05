@@ -9,6 +9,6 @@ It is built to run on [Jekyll](https://jekyllrb.com/) and to be hosted on GitHub
 - This project uses the same directory structure as most Jekyll projects
 
 ### License
-:copyright: Willy Nolan 2019d
+:copyright: Willy Nolan 2024
 
 [MIT License](LICENSE.txt)

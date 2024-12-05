@@ -1,5 +1,5 @@
 ---
-category: research
+category: _research
 
 meta:
   keywords: Respectrable, Ableton, Max, Max for Live
