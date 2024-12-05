@@ -4,12 +4,12 @@
 //noinspection CssInvalidCharsetRule
 @charset "UTF-8";
 
-@use "variables" as *;
-@use "normalize";
-@use "core";
+@import "variables";
+@import "normalize";
+@import "core";
 
 // Page specific CSS
-@use "index";
-@use "category";
-@use "about";
-@use "posts";
+@import "index";
+@import "category";
+@import "about";
+@import "posts";
