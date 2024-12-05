@@ -1,4 +1,6 @@
 ---
+order_number: 40
+
 meta:
   keywords: Power Glove, Project, Hardware
   description: Power Glove hardware remix project overview

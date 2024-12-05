@@ -9,8 +9,9 @@ meta:
 ---
 <main class="{{ page.class }}">
     <ul class="projects-list">
-    {%- for item in site.projects reversed %}
-        {% include post-preview.html %}
-    {%- endfor %}
+    {% assign ordered_pages = site.projects | sort:"order_number" %}
+    {% for item in ordered_pages %}
+    {% include post-preview.html %}
+    {% endfor %}
     </ul>
 </main>

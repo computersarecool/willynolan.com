@@ -1,4 +1,6 @@
 ---
+order_number: 30
+
 meta:
   keywords: Halcyon, Nightclub, Project, GUI, Software
   description: Halcyon nightclub lighting control

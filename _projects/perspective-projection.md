@@ -1,4 +1,6 @@
 ---
+order_number: 80
+
 class: "post single-col"
 
 meta:
