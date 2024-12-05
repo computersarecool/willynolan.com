@@ -17,7 +17,7 @@ jobs:
 
     - name: Move Files
       run: |
-        mv _rootfiles/* .
+        mv _rootfiles/* ${{ github.workspace }}
 
     - name: Commit files
       run: |
