@@ -5,12 +5,11 @@
 @charset "UTF-8";
 
 @import "variables";
-//@import "normalize";
-//@import "core";
-//
-//// Page specific CSS
-//@import "index";
-//@import "category";
-//@import "about";
-//@import "posts";
-//
+@import "normalize";
+@import "core";
+
+// Page specific CSS
+@import "index";
+@import "category";
+@import "about";
+@import "posts";
